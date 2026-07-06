@@ -1,11 +1,339 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafes UY</title>
+    <title>cafes.uy | Descubrí los mejores cafés de Uruguay</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #FAF7F5;
+            --bg-card: #FFFFFF;
+            --text-primary: #1A1A1A;
+            --text-secondary: #6B6B6B;
+            --accent: #C4A484;
+            --accent-dark: #8B7355;
+            --accent-light: #E8DDD4;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            padding: 1rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--accent-light);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: var(--text-primary);
+        }
+
+        .logo span {
+            color: var(--accent-dark);
+        }
+
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-left: 1.5rem;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--accent-dark);
+        }
+
+        /* Hero */
+        .hero {
+            padding: 4rem 1.5rem;
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .hero-emoji {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.875rem 1.75rem;
+            border-radius: 50px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--text-primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #333;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text-primary);
+            border: 1.5px solid var(--accent);
+        }
+
+        .btn-secondary:hover {
+            background: var(--accent-light);
+        }
+
+        /* Coming Soon Section */
+        .coming-soon {
+            padding: 3rem 1.5rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .coming-soon h2 {
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 2rem;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .feature-card {
+            background: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: 16px;
+            border: 1px solid var(--accent-light);
+            transition: all 0.2s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--accent-light);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .feature-card p {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .feature-badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent-dark);
+            background: var(--accent-light);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            margin-top: 0.75rem;
+        }
+
+        /* Instagram CTA */
+        .instagram-cta {
+            text-align: center;
+            padding: 4rem 1.5rem;
+            background: var(--bg-card);
+            margin-top: 2rem;
+        }
+
+        .instagram-cta p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .instagram-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.2s;
+        }
+
+        .instagram-link:hover {
+            color: var(--accent-dark);
+        }
+
+        .instagram-link i {
+            font-size: 1.5rem;
+        }
+
+        .followers {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-top: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        /* Mobile */
+        @media (max-width: 640px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            nav {
+                display: none;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>WELCOME</h1>
+    <header>
+        <div class="logo">cafes<span>.uy</span></div>
+        <nav>
+            <a href="#">Cafeterías</a>
+            <a href="#">Mapa</a>
+            <a href="#">Ranking</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-emoji">☕️🍰🥰</div>
+            <h1>Descubrí los mejores cafés de Uruguay</h1>
+            <p>Tu guía para encontrar cafeterías con el mejor café, ambiente y medialunas del paisito.</p>
+            <div class="hero-buttons">
+                <a href="https://instagram.com/cafes.uy" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-instagram"></i> Seguinos en Instagram
+                </a>
+                <a href="#coming-soon" class="btn btn-secondary">Ver qué viene</a>
+            </div>
+        </section>
+
+        <section class="coming-soon" id="coming-soon">
+            <h2>Próximamente</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📍</div>
+                    <h3>Mapa interactivo</h3>
+                    <p>Encontrá cafeterías cerca tuyo con filtros por zona, horario y especialidad.</p>
+                    <span class="feature-badge">En desarrollo</span>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⭐</div>
+                    <h3>Reseñas reales</h3>
+                    <p>Opiniones de la comunidad sobre café, ambiente, precios y atención.</p>
+                    <span class="feature-badge">Próximo</span>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Ranking</h3>
+                    <p>Los mejores cafés de cada departamento, votados por ustedes.</p>
+                    <span class="feature-badge">Próximo</span>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Filtros</h3>
+                    <p>Pet friendly, wifi, enchufes, brunch, specialty coffee y más.</p>
+                    <span class="feature-badge">Próximo</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="instagram-cta">
+            <p>Mientras tanto, seguí nuestras recomendaciones en</p>
+            <a href="https://instagram.com/cafes.uy" target="_blank" class="instagram-link">
+                <i class="fab fa-instagram"></i> @cafes.uy
+            </a>
+            <p class="followers">+29K seguidores</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hecho con ☕ en Uruguay</p>
+    </footer>
 </body>
 </html>
