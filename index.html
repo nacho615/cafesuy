@@ -203,6 +203,17 @@
             margin-top: 0.75rem;
         }
 
+        .feature-card-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .feature-card-link:hover .feature-badge {
+            background: var(--accent-dark);
+            color: white;
+        }
+
         /* Instagram CTA */
         .instagram-cta {
             text-align: center;
@@ -284,36 +295,34 @@
         <section class="hero">
             <div class="hero-emoji">☕️🍰🥰</div>
             <h1>Descubrí los mejores cafés de Uruguay</h1>
-            <p>Tu guía para encontrar cafeterías con el mejor café, ambiente y medialunas del paisito.</p>
+            <p>Tu guía para encontrar cafeterías con el mejor café, ambiente y cosas ricas en Uruguay.</p>
             <div class="hero-buttons">
                 <a href="https://instagram.com/cafes.uy" target="_blank" class="btn btn-primary">
                     <i class="fab fa-instagram"></i> Seguinos en Instagram
                 </a>
-                <a href="#coming-soon" class="btn btn-secondary">Ver qué viene</a>
             </div>
         </section>
 
         <section class="coming-soon" id="coming-soon">
-            <h2>Próximamente</h2>
             <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">📍</div>
-                    <h3>Mapa interactivo</h3>
-                    <p>Encontrá cafeterías cerca tuyo con filtros por zona, horario y especialidad.</p>
-                    <span class="feature-badge">En desarrollo</span>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">⭐</div>
-                    <h3>Reseñas reales</h3>
-                    <p>Opiniones de la comunidad sobre café, ambiente, precios y atención.</p>
-                    <span class="feature-badge">Próximo</span>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🏆</div>
-                    <h3>Ranking</h3>
-                    <p>Los mejores cafés de cada departamento, votados por ustedes.</p>
-                    <span class="feature-badge">Próximo</span>
-                </div>
+                <a href="descuentos.html" class="feature-card feature-card-link">
+                    <div class="feature-icon">💳</div>
+                    <h3>Descuentos con Tarjetas</h3>
+                    <p>Encontrá cafeterías con descuentos con tarjetas de crédito.</p>
+                    <span class="feature-badge">Ver descuentos</span>
+                </a>
+                <a href="domingos.html" class="feature-card feature-card-link">
+                    <div class="feature-icon">📅</div>
+                    <h3>Domingos</h3>
+                    <p>Encontrá cafeterías que abren los domingos en Montevideo.</p>
+                    <span class="feature-badge">Ver cafés</span>
+                </a>
+                <a href="internacional.html" class="feature-card feature-card-link">
+                    <div class="feature-icon">🌎</div>
+                    <h3>Internacional</h3>
+                    <p>Mis cafés favoritos fuera de Uruguay.</p>
+                    <span class="feature-badge">Ver cafés</span>
+                </a>
                 <div class="feature-card">
                     <div class="feature-icon">🔍</div>
                     <h3>Filtros</h3>
