@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafés Internacionales | cafes.uy</title>
+    <title>Favoritos del Mundo | cafes.uy</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -68,29 +68,78 @@
         }
 
         .page-header {
-            padding: 3rem 1.5rem 2rem;
+            padding: 2rem 1.5rem 1rem;
             text-align: center;
             max-width: 600px;
             margin: 0 auto;
         }
 
-        .page-header-emoji {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
         .page-header h1 {
             font-size: 2rem;
             font-weight: 700;
-            margin-bottom: 0.75rem;
+            margin-bottom: 0.5rem;
         }
 
         .page-header p {
             color: var(--text-secondary);
             font-size: 1rem;
-            line-height: 1.6;
         }
 
+        /* Filtros por país */
+        .filters-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem 1.5rem;
+        }
+
+        .filters-label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            border: 1.5px solid var(--accent-light);
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.375rem;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--accent);
+            color: var(--text-primary);
+        }
+
+        .filter-btn.active {
+            background: var(--text-primary);
+            color: white;
+            border-color: var(--text-primary);
+        }
+
+        .results-count {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0.5rem 1.5rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Lista de cafés */
         .cafes-list {
             max-width: 800px;
             margin: 0 auto;
@@ -101,9 +150,10 @@
             background: var(--bg-card);
             border-radius: 16px;
             border: 1px solid var(--accent-light);
-            padding: 1.5rem;
-            margin-bottom: 1rem;
+            padding: 1.25rem;
+            margin-bottom: 0.75rem;
             transition: all 0.2s;
+            cursor: pointer;
         }
 
         .cafe-card:hover {
@@ -115,7 +165,7 @@
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin-bottom: 0.75rem;
+            gap: 1rem;
         }
 
         .cafe-name {
@@ -123,51 +173,72 @@
             font-weight: 600;
         }
 
-        .cafe-location {
-            font-size: 0.875rem;
+        .cafe-city {
+            font-size: 0.85rem;
             color: var(--text-secondary);
             margin-top: 0.25rem;
         }
 
-        .country-badge {
-            background: #FFF3E0;
-            color: #E65100;
-            padding: 0.375rem 0.75rem;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 600;
+        .cafe-instagram {
+            color: var(--accent-dark);
+            font-size: 0.85rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
             white-space: nowrap;
         }
 
-        .cafe-details {
+        .cafe-instagram:hover {
+            color: var(--text-primary);
+        }
+
+        .cafe-tags {
             display: flex;
             flex-wrap: wrap;
-            gap: 1rem;
-            margin-top: 1rem;
-            padding-top: 1rem;
-            border-top: 1px solid var(--accent-light);
-        }
-
-        .cafe-detail {
-            display: flex;
-            align-items: center;
             gap: 0.375rem;
-            font-size: 0.85rem;
-            color: var(--text-secondary);
+            margin-top: 0.75rem;
         }
 
-        .cafe-detail i {
+        .tag {
+            background: var(--accent-light);
             color: var(--accent-dark);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
 
-        .empty-state {
+        .tag.argentina {
+            background: #E3F2FD;
+            color: #1565C0;
+        }
+
+        .tag.espana {
+            background: #FFF3E0;
+            color: #E65100;
+        }
+
+        .tag.brasil {
+            background: #E8F5E9;
+            color: #2E7D32;
+        }
+
+        .tag.chile {
+            background: #FCE4EC;
+            color: #C2185B;
+        }
+
+        .no-results {
             text-align: center;
-            padding: 4rem 2rem;
+            padding: 3rem 2rem;
             color: var(--text-secondary);
         }
 
-        .empty-state-emoji {
-            font-size: 3rem;
+        .no-results-emoji {
+            font-size: 2.5rem;
             margin-bottom: 1rem;
         }
 
@@ -185,7 +256,7 @@
 
             .cafe-header {
                 flex-direction: column;
-                gap: 0.75rem;
+                gap: 0.5rem;
             }
         }
     </style>
@@ -200,45 +271,171 @@
 
     <main>
         <section class="page-header">
-            <div class="page-header-emoji">🌎☕</div>
-            <h1>Cafés Internacionales</h1>
-            <p>Mis cafés favoritos fuera de Uruguay.</p>
+            <h1>Favoritos del Mundo</h1>
+            <p>Mis cafés favoritos fuera de Uruguay</p>
         </section>
 
-        <section class="cafes-list">
-            <!-- Ejemplo de cafe card - descomentar y duplicar para agregar mas -->
-            <!--
-            <div class="cafe-card">
-                <div class="cafe-header">
-                    <div>
-                        <div class="cafe-name">Nombre del Café</div>
-                        <div class="cafe-location">Ciudad, País</div>
-                    </div>
-                    <span class="country-badge">🇦🇷 Argentina</span>
-                </div>
-                <div class="cafe-details">
-                    <div class="cafe-detail">
-                        <i class="fas fa-map-marker-alt"></i>
-                        Dirección
-                    </div>
-                    <div class="cafe-detail">
-                        <i class="fas fa-coffee"></i>
-                        Specialty coffee
-                    </div>
-                </div>
+        <section class="filters-section">
+            <span class="filters-label">Filtrar por país:</span>
+            <div class="filters">
+                <button class="filter-btn" data-country="argentina">
+                    🇦🇷 Argentina
+                </button>
+                <button class="filter-btn" data-country="espana">
+                    🇪🇸 España
+                </button>
+                <button class="filter-btn" data-country="brasil">
+                    🇧🇷 Brasil
+                </button>
+                <button class="filter-btn" data-country="chile">
+                    🇨🇱 Chile
+                </button>
             </div>
-            -->
+        </section>
 
-            <div class="empty-state">
-                <div class="empty-state-emoji">🔜</div>
-                <p>Pronto vamos a agregar cafés internacionales.</p>
-                <p style="margin-top: 0.5rem;">Seguinos en <a href="https://instagram.com/cafes.uy" target="_blank" style="color: var(--accent-dark);">@cafes.uy</a> para enterarte!</p>
-            </div>
+        <div class="results-count" id="results-count"></div>
+
+        <section class="cafes-list" id="cafes-list">
+            <!-- Cafés se cargan dinámicamente -->
         </section>
     </main>
 
     <footer>
-        <p>Hecho con ☕ en Uruguay</p>
+        <p>Hecho con cafe en Uruguay</p>
     </footer>
+
+    <script>
+        let allCafes = [];
+        let activeCountry = null;
+
+        // Cargar cafés del JSON
+        async function loadCafes() {
+            try {
+                const response = await fetch('internacional.json');
+                const data = await response.json();
+                allCafes = data.coffee_shops;
+                return allCafes;
+            } catch (error) {
+                console.error('Error cargando cafés:', error);
+                document.getElementById('cafes-list').innerHTML = `
+                    <div class="no-results">
+                        <div class="no-results-emoji">😕</div>
+                        <p>Error cargando los cafés</p>
+                    </div>
+                `;
+                return [];
+            }
+        }
+
+        // Renderizar cafés
+        function renderCafes(cafes) {
+            const container = document.getElementById('cafes-list');
+            const countEl = document.getElementById('results-count');
+
+            if (cafes.length === 0) {
+                container.innerHTML = `
+                    <div class="no-results">
+                        <div class="no-results-emoji">🔍</div>
+                        <p>No hay cafés agregados en este país todavía</p>
+                    </div>
+                `;
+                countEl.textContent = '0 cafés encontrados';
+                return;
+            }
+
+            countEl.textContent = `${cafes.length} café${cafes.length !== 1 ? 's' : ''} encontrado${cafes.length !== 1 ? 's' : ''}`;
+
+            container.innerHTML = cafes.map(cafe => `
+                <div class="cafe-card" onclick="window.open('https://instagram.com/${cafe.instagram}', '_blank')">
+                    <div class="cafe-header">
+                        <div>
+                            <div class="cafe-name">${cafe.name}</div>
+                            ${cafe.city ? `<div class="cafe-city"><i class="fas fa-map-marker-alt"></i> ${cafe.city}</div>` : ''}
+                        </div>
+                        <a href="https://instagram.com/${cafe.instagram}" target="_blank" class="cafe-instagram" onclick="event.stopPropagation()">
+                            <i class="fab fa-instagram"></i> @${cafe.instagram}
+                        </a>
+                    </div>
+                    <div class="cafe-tags">
+                        <span class="tag ${cafe.country}">${formatCountry(cafe.country)}</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Formatear país para mostrar
+        function formatCountry(country) {
+            const countryNames = {
+                'argentina': '🇦🇷 Argentina',
+                'espana': '🇪🇸 España',
+                'brasil': '🇧🇷 Brasil',
+                'chile': '🇨🇱 Chile'
+            };
+            return countryNames[country] || country;
+        }
+
+        // Filtrar cafés
+        function filterCafes() {
+            if (!activeCountry) {
+                renderCafes(allCafes);
+                return;
+            }
+
+            const filtered = allCafes.filter(cafe => cafe.country === activeCountry);
+            renderCafes(filtered);
+        }
+
+        // Setup filtros
+        function setupFilters() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const country = btn.dataset.country;
+
+                    if (activeCountry === country) {
+                        activeCountry = null;
+                        btn.classList.remove('active');
+                    } else {
+                        filterBtns.forEach(b => b.classList.remove('active'));
+                        activeCountry = country;
+                        btn.classList.add('active');
+                    }
+
+                    filterCafes();
+                });
+            });
+        }
+
+        // Leer filtro de URL
+        function getCountryFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get('country');
+        }
+
+        // Activar filtro desde URL
+        function activateFilterFromURL() {
+            const country = getCountryFromURL();
+            if (country) {
+                const btn = document.querySelector(`.filter-btn[data-country="${country}"]`);
+                if (btn) {
+                    activeCountry = country;
+                    btn.classList.add('active');
+                }
+            }
+        }
+
+        // Inicializar
+        document.addEventListener('DOMContentLoaded', async () => {
+            setupFilters();
+            activateFilterFromURL();
+            await loadCafes();
+            if (activeCountry) {
+                filterCafes();
+            } else {
+                renderCafes(allCafes);
+            }
+        });
+    </script>
 </body>
 </html>
