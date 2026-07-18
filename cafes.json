@@ -1,7 +1,7 @@
 {
   "coffee_shops": [
     {
-      "name": "UNO CATORECE (1:14)",
+      "name": "Uno Catorce (1:14)",
       "instagram": "unocatorcecafe",
       "address": "",
       "opening_hours": "Lunes a Sábados",
@@ -118,6 +118,153 @@
       "address": "Santiago de Chile 1015, Montevideo",
       "opening_hours": "",
       "tags": ["opcion-celiaco", "descuentos"]
+    },
+    {
+      "name": "Espacio Mirador",
+      "instagram": "miradoruy",
+      "address": "Eduardo Acevedo 899, Montevideo",
+      "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados 09:30-20:00",
+      "tags": []
+    },
+    {
+      "name": "Santé",
+      "instagram": "santepostresyafines",
+      "address": "El viejo Pancho 2457, Montevideo",
+      "opening_hours": "Lunes, Miércoles a Sábado 09:00-20:00, Domingo 09:00-18:00 (Martes cerrado)",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "MASA",
+      "instagram": "masacafe_",
+      "address": "Francisco Muñoz 3150, Pocitos",
+      "opening_hours": "Lunes a Sábado 08:00-20:00",
+      "tags": []
+    },
+    {
+      "name": "Koffee Skates",
+      "instagram": "koffeeskates",
+      "address": "Coronel Mora 495, Montevideo",
+      "opening_hours": "",
+      "tags": ["descuentos"]
+    },
+    {
+      "name": "República Rotisería",
+      "instagram": "republica_rotiseria",
+      "address": "Acevedo Díaz 1269, Montevideo",
+      "opening_hours": "Martes a Sábados 09:00-20:00, Domingos 12:00-16:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Brothaus (Pocitos)",
+      "instagram": "brothaus.uy",
+      "address": "26 de Marzo 1399, Montevideo",
+      "opening_hours": "",
+      "tags": []
+    },
+    {
+      "name": "Brothaus (Punta Gorda)",
+      "instagram": "brothaus.uy",
+      "address": "Líbano 1428, Montevideo",
+      "opening_hours": "",
+      "tags": []
+    },
+    {
+      "name": "Qahwa Coffee House",
+      "instagram": "qahwacoffeehouse",
+      "address": "Paraguay 1266, Montevideo",
+      "opening_hours": "Lunes a Viernes 08:30-20:30, Sábados y Domingos 10:00-20:30",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Contigo Sueño",
+      "instagram": "contigodecocafe",
+      "address": "Alberdi 6046, Carrasco",
+      "opening_hours": "Martes 14:00-20:00, Miércoles a Domingo 08:30-20:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Bulka",
+      "instagram": "bulka.cafe",
+      "address": "Guipuzcoa 416, Punta Carretas",
+      "opening_hours": "Abierto todos los días",
+      "tags": ["domingos", "pet-friendly"]
+    },
+    {
+      "name": "Café Tavoli",
+      "instagram": "cafe_tavoli.uy",
+      "address": "Santiago de Anca 1420, Malvín",
+      "opening_hours": "",
+      "tags": ["pet-friendly"]
+    },
+    {
+      "name": "Desmadre",
+      "instagram": "desmadrecafe",
+      "address": "",
+      "opening_hours": "",
+      "tags": []
+    },
+    {
+      "name": "Culto Cafe",
+      "instagram": "cultocafeuy",
+      "address": "",
+      "opening_hours": "",
+      "tags": []
+    },
+    {
+      "name": "Wild Bakery",
+      "instagram": "wild.bakery",
+      "address": "Bv España 2758, Montevideo",
+      "opening_hours": "Martes a Sábado 08:00-20:00, Domingo 08:30-20:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Ventanín",
+      "instagram": "al_ventanin",
+      "address": "",
+      "opening_hours": "Miércoles a Sábado 08:30-20:00",
+      "tags": []
+    },
+    {
+      "name": "Sometimes Sunday",
+      "instagram": "sometimessundaycafe",
+      "address": "Pérez Castellano 1518, Montevideo",
+      "opening_hours": "Miércoles a Domingo 09:00-18:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "El Cafecito (Pocitos)",
+      "instagram": "elcafecito.uy",
+      "address": "Miguel Barreiro 3293, Pocitos",
+      "opening_hours": "Lunes a Sábado 08:00-20:00, Domingos 10:00-20:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "El Cafecito (Punta Carretas)",
+      "instagram": "elcafecito.uy",
+      "address": "José Scoseria 2453, Punta Carretas",
+      "opening_hours": "Lunes a Sábado 08:00-20:00, Domingos 10:00-20:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Charlotte Bakery Café",
+      "instagram": "charlottecafemvd",
+      "address": "Rodó y Salterain, Cordón",
+      "opening_hours": "Martes a Domingo 10:00-20:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Acevedo",
+      "instagram": "acevedopanycafe",
+      "address": "Durazno 1914 esq Eduardo Acevedo, Montevideo",
+      "opening_hours": "Martes 15:00-20:00, Miércoles a Sábado 10:00-20:30, Domingo 09:30-19:30",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Gourmand",
+      "instagram": "cafegourmand.uy",
+      "address": "Constituyente 2026, Montevideo",
+      "opening_hours": "Sábados y Domingos 09:30-17:00",
+      "tags": ["domingos"]
     }
   ]
 }
