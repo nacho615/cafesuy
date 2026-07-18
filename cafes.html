@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeterías | cafes.uy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #FAF7F5;
+            --bg-card: #FFFFFF;
+            --text-primary: #1A1A1A;
+            --text-secondary: #6B6B6B;
+            --accent: #C4A484;
+            --accent-dark: #8B7355;
+            --accent-light: #E8DDD4;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 1rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--accent-light);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--accent-dark);
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent-dark);
+        }
+
+        .page-header {
+            padding: 2rem 1.5rem 1rem;
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .page-header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .page-header p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        /* Filtros */
+        .filters-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem 1.5rem;
+        }
+
+        .filters-label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            border: 1.5px solid var(--accent-light);
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.375rem;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--accent);
+            color: var(--text-primary);
+        }
+
+        .filter-btn.active {
+            background: var(--text-primary);
+            color: white;
+            border-color: var(--text-primary);
+        }
+
+        .filter-btn i {
+            font-size: 0.8rem;
+        }
+
+        .results-count {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0.5rem 1.5rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Lista de cafés */
+        .cafes-list {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem 1.5rem 3rem;
+        }
+
+        .cafe-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            border: 1px solid var(--accent-light);
+            padding: 1.25rem;
+            margin-bottom: 0.75rem;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .cafe-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+        }
+
+        .cafe-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .cafe-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .cafe-address {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
+        .cafe-hours {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
+        .cafe-instagram {
+            color: var(--accent-dark);
+            font-size: 0.85rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            white-space: nowrap;
+        }
+
+        .cafe-instagram:hover {
+            color: var(--text-primary);
+        }
+
+        .cafe-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.375rem;
+            margin-top: 0.75rem;
+        }
+
+        .tag {
+            background: var(--accent-light);
+            color: var(--accent-dark);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .tag.domingos {
+            background: #E3F2FD;
+            color: #1565C0;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 3rem 2rem;
+            color: var(--text-secondary);
+        }
+
+        .no-results-emoji {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        @media (max-width: 640px) {
+            .page-header h1 {
+                font-size: 1.5rem;
+            }
+
+            .cafe-header {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">cafes<span>.uy</span></a>
+        <a href="index.html" class="back-link">
+            <i class="fas fa-arrow-left"></i> Volver
+        </a>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Cafeterías</h1>
+            <p>Encontrá tu próximo café favorito</p>
+        </section>
+
+        <section class="filters-section">
+            <span class="filters-label">Filtrar por:</span>
+            <div class="filters">
+                <button class="filter-btn" data-tag="domingos">
+                    <i class="far fa-calendar"></i> Domingos
+                </button>
+                <button class="filter-btn" data-tag="opcion-celiaco">
+                    <i class="fas fa-seedling"></i> Opción celíaco
+                </button>
+                <button class="filter-btn" data-tag="opcion-vegano">
+                    <i class="fas fa-leaf"></i> Opción vegano
+                </button>
+                <button class="filter-btn" data-tag="pet-friendly">
+                    <i class="fas fa-dog"></i> Pet friendly
+                </button>
+                <button class="filter-btn" data-tag="wifi">
+                    <i class="fas fa-wifi"></i> WiFi
+                </button>
+                <button class="filter-btn" data-tag="enchufes">
+                    <i class="fas fa-plug"></i> Enchufes
+                </button>
+                <button class="filter-btn" data-tag="descuentos">
+                    <i class="fas fa-percent"></i> Descuentos
+                </button>
+            </div>
+        </section>
+
+        <div class="results-count" id="results-count"></div>
+
+        <section class="cafes-list" id="cafes-list">
+            <!-- Cafés se cargan dinámicamente -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Hecho con cafe en Uruguay</p>
+    </footer>
+
+    <script>
+        let allCafes = [];
+        let activeFilters = new Set();
+
+        // Cargar cafés del JSON
+        async function loadCafes() {
+            try {
+                const response = await fetch('cafes.json');
+                const data = await response.json();
+                allCafes = data.coffee_shops;
+                return allCafes;
+            } catch (error) {
+                console.error('Error cargando cafés:', error);
+                document.getElementById('cafes-list').innerHTML = `
+                    <div class="no-results">
+                        <div class="no-results-emoji">😕</div>
+                        <p>Error cargando los cafés</p>
+                    </div>
+                `;
+                return [];
+            }
+        }
+
+        // Renderizar cafés
+        function renderCafes(cafes) {
+            const container = document.getElementById('cafes-list');
+            const countEl = document.getElementById('results-count');
+
+            if (cafes.length === 0) {
+                container.innerHTML = `
+                    <div class="no-results">
+                        <div class="no-results-emoji">🔍</div>
+                        <p>No encontramos cafés con esos filtros</p>
+                    </div>
+                `;
+                countEl.textContent = '0 cafés encontrados';
+                return;
+            }
+
+            countEl.textContent = `${cafes.length} café${cafes.length !== 1 ? 's' : ''} encontrado${cafes.length !== 1 ? 's' : ''}`;
+
+            container.innerHTML = cafes.map(cafe => `
+                <div class="cafe-card" onclick="window.open('https://instagram.com/${cafe.instagram}', '_blank')">
+                    <div class="cafe-header">
+                        <div>
+                            <div class="cafe-name">${cafe.name}</div>
+                            ${cafe.address ? `<div class="cafe-address"><i class="fas fa-map-marker-alt"></i> ${cafe.address}</div>` : ''}
+                            ${cafe.opening_hours ? `<div class="cafe-hours"><i class="far fa-clock"></i> ${cafe.opening_hours}</div>` : ''}
+                        </div>
+                        <a href="https://instagram.com/${cafe.instagram}" target="_blank" class="cafe-instagram" onclick="event.stopPropagation()">
+                            <i class="fab fa-instagram"></i> @${cafe.instagram}
+                        </a>
+                    </div>
+                    ${cafe.tags.length > 0 ? `
+                        <div class="cafe-tags">
+                            ${cafe.tags.map(tag => `<span class="tag ${tag}">${formatTag(tag)}</span>`).join('')}
+                        </div>
+                    ` : ''}
+                </div>
+            `).join('');
+        }
+
+        // Formatear tag para mostrar
+        function formatTag(tag) {
+            const tagNames = {
+                'domingos': 'Domingos',
+                'opcion-celiaco': 'Celíaco',
+                'opcion-vegano': 'Vegano',
+                'pet-friendly': 'Pet friendly',
+                'wifi': 'WiFi',
+                'enchufes': 'Enchufes',
+                'descuentos': 'Descuentos'
+            };
+            return tagNames[tag] || tag;
+        }
+
+        // Filtrar cafés
+        function filterCafes() {
+            if (activeFilters.size === 0) {
+                renderCafes(allCafes);
+                return;
+            }
+
+            const filtered = allCafes.filter(cafe => {
+                return [...activeFilters].every(filter => cafe.tags.includes(filter));
+            });
+
+            renderCafes(filtered);
+        }
+
+        // Setup filtros
+        function setupFilters() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const tag = btn.dataset.tag;
+
+                    if (activeFilters.has(tag)) {
+                        activeFilters.delete(tag);
+                        btn.classList.remove('active');
+                    } else {
+                        activeFilters.add(tag);
+                        btn.classList.add('active');
+                    }
+
+                    filterCafes();
+                });
+            });
+        }
+
+        // Leer filtro de URL
+        function getFilterFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get('filter');
+        }
+
+        // Activar filtro desde URL
+        function activateFilterFromURL() {
+            const filter = getFilterFromURL();
+            if (filter) {
+                const btn = document.querySelector(`.filter-btn[data-tag="${filter}"]`);
+                if (btn) {
+                    activeFilters.add(filter);
+                    btn.classList.add('active');
+                }
+            }
+        }
+
+        // Inicializar
+        document.addEventListener('DOMContentLoaded', async () => {
+            setupFilters();
+            activateFilterFromURL();
+            await loadCafes();
+            if (activeFilters.size > 0) {
+                filterCafes();
+            } else {
+                renderCafes(allCafes);
+            }
+        });
+    </script>
+</body>
+</html>
