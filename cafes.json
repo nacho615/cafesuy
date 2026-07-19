@@ -15,11 +15,25 @@
       "tags": ["domingos"]
     },
     {
+      "name": "Adagio",
+      "instagram": "adagio_libreriacafe",
+      "address": "Gral. Gregorio Suárez 2741, Montevideo",
+      "opening_hours": "Martes a Jueves 14:00-20:00, Viernes a Domingos 10:00-20:30",
+      "tags": ["domingos"]
+    },
+    {
       "name": "Alto Café",
       "instagram": "alto_cafe_",
       "address": "Pérez Castellano 1417 Bis, Montevideo",
       "opening_hours": "Lunes, Martes, Viernes, Sábado, Domingo 10:00-19:00 (Miércoles y Jueves cerrado)",
       "tags": ["domingos"]
+    },
+    {
+      "name": "Atorrante Café",
+      "instagram": "atorrante_cafe",
+      "address": "San José 1300 esq Aquiles Lanza, Centro",
+      "opening_hours": "Lunes a Viernes 09:00-20:00, Sábados 10:00-16:00",
+      "tags": []
     },
     {
       "name": "Basílico",
@@ -78,6 +92,13 @@
       "tags": []
     },
     {
+      "name": "Café Doré",
+      "instagram": "cafe_dore",
+      "address": "Rivera 2628, Montevideo",
+      "opening_hours": "Todos los días 08:00-20:00",
+      "tags": ["domingos"]
+    },
+    {
       "name": "Café Paraíso",
       "instagram": "cafeparaisouy",
       "address": "Constituyente 1866, Montevideo",
@@ -106,6 +127,20 @@
       "tags": ["pet-friendly"]
     },
     {
+      "name": "Cardenal Coffee Roasters (Bv España)",
+      "instagram": "cardenalcafe",
+      "address": "Bv España 2103, Montevideo",
+      "opening_hours": "12:00-20:00",
+      "tags": []
+    },
+    {
+      "name": "Cardenal Coffee Roasters (Centro)",
+      "instagram": "cardenalcafe",
+      "address": "18 de Julio 1813 bis, Montevideo",
+      "opening_hours": "",
+      "tags": []
+    },
+    {
       "name": "Casa Berracos",
       "instagram": "casaberracos",
       "address": "Estero Bellaco 2835, Montevideo",
@@ -113,11 +148,25 @@
       "tags": []
     },
     {
+      "name": "Casa de Abajo Café",
+      "instagram": "casa_de_abajo",
+      "address": "Encina 1663, Palermo",
+      "opening_hours": "Miércoles a Domingo 10:00-20:00",
+      "tags": ["domingos"]
+    },
+    {
       "name": "Charlotte Bakery Café",
       "instagram": "charlottecafemvd",
       "address": "Rodó y Salterain, Cordón",
       "opening_hours": "Martes a Domingo 10:00-20:00",
       "tags": ["domingos"]
+    },
+    {
+      "name": "Che.co.ffee",
+      "instagram": "che.co.ffee",
+      "address": "Zabala 1341, Montevideo",
+      "opening_hours": "Lunes a Viernes 09:00-18:30, Sábados 10:00-18:30",
+      "tags": []
     },
     {
       "name": "Club Cafe",
@@ -190,6 +239,34 @@
       "tags": []
     },
     {
+      "name": "Estudio-Café",
+      "instagram": "estudio__cafe",
+      "address": "Blvr Artigas 1066, Montevideo",
+      "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados 10:00-20:00",
+      "tags": []
+    },
+    {
+      "name": "Flora (Canelones)",
+      "instagram": "flora.mvd",
+      "address": "Canelones 892, Montevideo",
+      "opening_hours": "Todos los días 09:00-20:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Flora Mostrador",
+      "instagram": "flora.mvd",
+      "address": "Solano García 2487, Montevideo",
+      "opening_hours": "Todos los días 09:30-20:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "FRANCA",
+      "instagram": "franca_uy",
+      "address": "Plaza Cagancha 1124, Montevideo",
+      "opening_hours": "Lunes a Viernes 07:30-19:30, Sábados 09:00-16:00",
+      "tags": []
+    },
+    {
       "name": "Gallardía Café",
       "instagram": "gallardia.cafe",
       "address": "Justicia 2167, Montevideo",
@@ -232,6 +309,27 @@
       "tags": ["domingos"]
     },
     {
+      "name": "Kaffa Café",
+      "instagram": "kaffacafe__",
+      "address": "",
+      "opening_hours": "Lunes 15:00-19:30, Martes a Sábado 09:00-19:30",
+      "tags": []
+    },
+    {
+      "name": "Kaldi (Malvín)",
+      "instagram": "kaldi.uy",
+      "address": "Rivera 4467, Malvín",
+      "opening_hours": "Lunes a Viernes 15:00-19:00, Sábados 10:00-19:00, Domingos 10:00-14:30",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Kaldi (Punta Carretas)",
+      "instagram": "kaldi.uy",
+      "address": "Joaquín Núñez 2843, Punta Carretas",
+      "opening_hours": "Lunes a Sábado 10:00-19:30",
+      "tags": []
+    },
+    {
       "name": "Koffee Skates",
       "instagram": "koffeeskates",
       "address": "Coronel Mora 495, Montevideo",
@@ -272,6 +370,13 @@
       "address": "",
       "opening_hours": "Lunes a Viernes 08:00-19:00, Sábado 09:00-19:00",
       "tags": []
+    },
+    {
+      "name": "La Latina Café",
+      "instagram": "lalatina_cafe",
+      "address": "Av Brasil 2858, Montevideo",
+      "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados y Domingos 11:00-20:00",
+      "tags": ["domingos"]
     },
     {
       "name": "La Madriguera Café",
@@ -323,6 +428,13 @@
       "tags": []
     },
     {
+      "name": "NONA",
+      "instagram": "nona.uy",
+      "address": "Costa Rica 1555, Montevideo",
+      "opening_hours": "Martes a Viernes 08:00-20:00, Sábados y Domingos 10:00-20:00",
+      "tags": ["domingos", "opcion-celiaco"]
+    },
+    {
       "name": "Nueva Malvín",
       "instagram": "nuevamalvin",
       "address": "",
@@ -335,6 +447,13 @@
       "address": "Ibiray 2309, Montevideo",
       "opening_hours": "Lunes, Miércoles a Viernes 09:00-19:30, Sábados y Domingos 10:00-20:00 (Martes cerrado)",
       "tags": ["domingos"]
+    },
+    {
+      "name": "Otero",
+      "instagram": "oteroxrotunda",
+      "address": "Gabriel Otero 6590, Montevideo",
+      "opening_hours": "08:30-20:00",
+      "tags": []
     },
     {
       "name": "Panadería Intuitiva",
@@ -414,6 +533,13 @@
       "tags": ["domingos"]
     },
     {
+      "name": "SAUCO",
+      "instagram": "sauco_cafe",
+      "address": "Canelones 1985, Montevideo",
+      "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados 16:00-20:00",
+      "tags": []
+    },
+    {
       "name": "Seis Montes",
       "instagram": "seismontes",
       "address": "",
@@ -474,6 +600,20 @@
       "instagram": "al_ventanin",
       "address": "",
       "opening_hours": "Miércoles a Sábado 08:30-20:00",
+      "tags": []
+    },
+    {
+      "name": "Vera (Carrasco)",
+      "instagram": "vera.mvd",
+      "address": "Agr Francisco Ros 2758, Carrasco",
+      "opening_hours": "Miércoles a Lunes 09:00-20:00 (Martes cerrado)",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Vera (WTC)",
+      "instagram": "vera.mvd",
+      "address": "World Trade Center, Montevideo",
+      "opening_hours": "Lunes a Viernes 07:30-17:30",
       "tags": []
     },
     {
