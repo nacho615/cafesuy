@@ -5,7 +5,7 @@
       "instagram": "acento.cafe",
       "address": "Bolívar Baliñas 2609, Montevideo",
       "opening_hours": "Lunes a Viernes 08:30-20:00, Sábados y Domingos 09:00-20:00",
-      "tags": ["domingos"]
+      "tags": ["domingos", "descuento-scotiabank"]
     },
     {
       "name": "Acevedo",
@@ -19,7 +19,7 @@
       "instagram": "adagio_libreriacafe",
       "address": "Gral. Gregorio Suárez 2741, Montevideo",
       "opening_hours": "Martes a Jueves 14:00-20:00, Viernes a Domingos 10:00-20:30",
-      "tags": ["domingos"]
+      "tags": ["domingos", "descuento-scotiabank"]
     },
     {
       "name": "Alto Café",
@@ -33,7 +33,7 @@
       "instagram": "somosamerico",
       "address": "Luis de la Torre 565, Punta Carretas",
       "opening_hours": "",
-      "tags": []
+      "tags": ["descuento-scotiabank"]
     },
     {
       "name": "Atorrante Café",
@@ -96,7 +96,7 @@
       "instagram": "browniesluis",
       "address": "Luis de la Torre 497, Punta Carretas",
       "opening_hours": "Martes a Domingos 08:15-19:45",
-      "tags": ["domingos"]
+      "tags": ["domingos", "descuento-scotiabank"]
     },
     {
       "name": "Brothaus (Pocitos)",
@@ -131,7 +131,7 @@
       "instagram": "cafe_dore",
       "address": "Rivera 2628, Montevideo",
       "opening_hours": "Todos los días 08:00-20:00",
-      "tags": ["domingos"]
+      "tags": ["domingos", "descuento-scotiabank"]
     },
     {
       "name": "Café Paraíso",
@@ -257,7 +257,7 @@
       "instagram": "desmadrecafe",
       "address": "",
       "opening_hours": "",
-      "tags": []
+      "tags": ["descuento-scotiabank"]
     },
     {
       "name": "El Cafecito (Pocitos)",
@@ -355,7 +355,7 @@
       "instagram": "iconico.cafe",
       "address": "Joaquín Requena 1039, Montevideo",
       "opening_hours": "Lunes 16:30-20:00, Martes a Sábado 08:15-20:00, Domingo 12:00-19:00",
-      "tags": ["domingos"]
+      "tags": ["domingos", "descuento-scotiabank"]
     },
     {
       "name": "Kaffa Café",
@@ -390,7 +390,7 @@
       "instagram": "labicicletacafeee",
       "address": "",
       "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados y Domingos 10:00-20:00",
-      "tags": ["domingos"]
+      "tags": ["domingos", "descuento-scotiabank"]
     },
     {
       "name": "La Croissantería (Ellauri)",
@@ -607,7 +607,7 @@
       "instagram": "spazio_moka",
       "address": "José Ellauri 982, Montevideo",
       "opening_hours": "",
-      "tags": ["opcion-celiaco"]
+      "tags": ["opcion-celiaco", "descuento-scotiabank"]
     },
     {
       "name": "Talcafé GO",
