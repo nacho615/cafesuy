@@ -212,6 +212,10 @@
             color: white;
         }
 
+        .dropdown-item#descuentos-todos {
+            border-bottom: 1px solid var(--accent-light);
+        }
+
         .dropdown-item img {
             width: 20px;
             height: 20px;
@@ -399,6 +403,9 @@
                         <i class="fas fa-percent"></i> Descuentos <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-left: 0.25rem;"></i>
                     </button>
                     <div class="dropdown-content" id="descuentos-dropdown">
+                        <button class="dropdown-item" data-tag="todos" id="descuentos-todos">
+                            ✨ Ver todos
+                        </button>
                         <button class="dropdown-item" data-tag="descuento-itau">
                             🧡 Itaú
                         </button>
@@ -570,8 +577,14 @@
                     e.stopPropagation();
                     const tag = item.dataset.tag;
 
+                    // Si es "Ver todos", limpiar filtro
+                    if (tag === 'todos') {
+                        activeDiscountFilter = null;
+                        dropdownItems.forEach(i => i.classList.remove('active'));
+                        dropdownBtn.classList.remove('active');
+                    }
                     // Si ya está activo, desactivar
-                    if (activeDiscountFilter === tag) {
+                    else if (activeDiscountFilter === tag) {
                         activeDiscountFilter = null;
                         item.classList.remove('active');
                         dropdownBtn.classList.remove('active');
