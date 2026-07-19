@@ -229,7 +229,7 @@
       "instagram": "_escaramuza",
       "address": "Pablo de María 1185 esquina Charrúa, Montevideo",
       "opening_hours": "Lunes a Sábados 09:00-21:00",
-      "tags": []
+      "tags": ["descuentos"]
     },
     {
       "name": "Espacio Mirador",
@@ -439,7 +439,7 @@
       "instagram": "nuevamalvin",
       "address": "",
       "opening_hours": "",
-      "tags": []
+      "tags": ["descuentos"]
     },
     {
       "name": "Olegaria Café",
@@ -488,7 +488,7 @@
       "instagram": "polo_bamba",
       "address": "26 de Marzo 958, Montevideo",
       "opening_hours": "Lunes a Sábado 07:00-00:00, Domingos hasta 19:00",
-      "tags": ["domingos"]
+      "tags": ["domingos", "descuentos"]
     },
     {
       "name": "Qahwa Coffee House",
