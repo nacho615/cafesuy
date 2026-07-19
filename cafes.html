@@ -135,6 +135,89 @@
             font-size: 0.8rem;
         }
 
+        /* Dropdown de descuentos */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-btn {
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            border: 1.5px solid var(--accent-light);
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.375rem;
+        }
+
+        .dropdown-btn:hover {
+            border-color: var(--accent);
+            color: var(--text-primary);
+        }
+
+        .dropdown-btn.active {
+            background: var(--text-primary);
+            color: white;
+            border-color: var(--text-primary);
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--bg-card);
+            border: 1px solid var(--accent-light);
+            border-radius: 12px;
+            margin-top: 0.5rem;
+            min-width: 180px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            z-index: 10;
+            overflow: hidden;
+        }
+
+        .dropdown-content.show {
+            display: block;
+        }
+
+        .dropdown-item {
+            padding: 0.75rem 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            transition: all 0.2s;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .dropdown-item:hover {
+            background: var(--accent-light);
+            color: var(--text-primary);
+        }
+
+        .dropdown-item.active {
+            background: var(--text-primary);
+            color: white;
+        }
+
+        .dropdown-item img {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+        }
+
         .results-count {
             max-width: 800px;
             margin: 0 auto;
@@ -226,6 +309,26 @@
             color: #1565C0;
         }
 
+        .tag.descuento-bbva {
+            background: #E3F2FD;
+            color: #003087;
+        }
+
+        .tag.descuento-santander {
+            background: #FFEBEE;
+            color: #EC0000;
+        }
+
+        .tag.descuento-itau {
+            background: #FFF3E0;
+            color: #EC7000;
+        }
+
+        .tag.descuento-scotiabank {
+            background: #FFEBEE;
+            color: #EC111A;
+        }
+
         .no-results {
             text-align: center;
             padding: 3rem 2rem;
@@ -291,9 +394,25 @@
                 <button class="filter-btn" data-tag="enchufes">
                     <i class="fas fa-plug"></i> Enchufes
                 </button>
-                <button class="filter-btn" data-tag="descuentos">
-                    <i class="fas fa-percent"></i> Descuentos
-                </button>
+                <div class="dropdown">
+                    <button class="dropdown-btn" id="descuentos-btn">
+                        <i class="fas fa-percent"></i> Descuentos <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-left: 0.25rem;"></i>
+                    </button>
+                    <div class="dropdown-content" id="descuentos-dropdown">
+                        <button class="dropdown-item" data-tag="descuento-itau">
+                            🧡 Itaú
+                        </button>
+                        <button class="dropdown-item" data-tag="descuento-santander">
+                            ❤️ Santander
+                        </button>
+                        <button class="dropdown-item" data-tag="descuento-bbva">
+                            💙 BBVA
+                        </button>
+                        <button class="dropdown-item" data-tag="descuento-scotiabank">
+                            ❤️ Scotiabank
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -311,6 +430,7 @@
     <script>
         let allCafes = [];
         let activeFilters = new Set();
+        let activeDiscountFilter = null;
 
         // Cargar cafés del JSON
         async function loadCafes() {
@@ -379,21 +499,29 @@
                 'pet-friendly': 'Pet friendly',
                 'wifi': 'WiFi',
                 'enchufes': 'Enchufes',
-                'descuentos': 'Descuentos'
+                'descuento-bbva': 'BBVA',
+                'descuento-santander': 'Santander',
+                'descuento-itau': 'Itaú',
+                'descuento-scotiabank': 'Scotiabank'
             };
             return tagNames[tag] || tag;
         }
 
         // Filtrar cafés
         function filterCafes() {
-            if (activeFilters.size === 0) {
-                renderCafes(allCafes);
-                return;
+            let filtered = allCafes;
+
+            // Aplicar filtros normales
+            if (activeFilters.size > 0) {
+                filtered = filtered.filter(cafe => {
+                    return [...activeFilters].every(filter => cafe.tags.includes(filter));
+                });
             }
 
-            const filtered = allCafes.filter(cafe => {
-                return [...activeFilters].every(filter => cafe.tags.includes(filter));
-            });
+            // Aplicar filtro de descuento
+            if (activeDiscountFilter) {
+                filtered = filtered.filter(cafe => cafe.tags.includes(activeDiscountFilter));
+            }
 
             renderCafes(filtered);
         }
@@ -419,6 +547,49 @@
             });
         }
 
+        // Setup dropdown de descuentos
+        function setupDiscountDropdown() {
+            const dropdownBtn = document.getElementById('descuentos-btn');
+            const dropdown = document.getElementById('descuentos-dropdown');
+            const dropdownItems = dropdown.querySelectorAll('.dropdown-item');
+
+            // Toggle dropdown
+            dropdownBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                dropdown.classList.toggle('show');
+            });
+
+            // Cerrar dropdown al hacer click fuera
+            document.addEventListener('click', () => {
+                dropdown.classList.remove('show');
+            });
+
+            // Manejar selección
+            dropdownItems.forEach(item => {
+                item.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const tag = item.dataset.tag;
+
+                    // Si ya está activo, desactivar
+                    if (activeDiscountFilter === tag) {
+                        activeDiscountFilter = null;
+                        item.classList.remove('active');
+                        dropdownBtn.classList.remove('active');
+                    } else {
+                        // Desactivar el anterior
+                        dropdownItems.forEach(i => i.classList.remove('active'));
+                        // Activar el nuevo
+                        activeDiscountFilter = tag;
+                        item.classList.add('active');
+                        dropdownBtn.classList.add('active');
+                    }
+
+                    dropdown.classList.remove('show');
+                    filterCafes();
+                });
+            });
+        }
+
         // Leer filtro de URL
         function getFilterFromURL() {
             const params = new URLSearchParams(window.location.search);
@@ -429,10 +600,20 @@
         function activateFilterFromURL() {
             const filter = getFilterFromURL();
             if (filter) {
-                const btn = document.querySelector(`.filter-btn[data-tag="${filter}"]`);
-                if (btn) {
-                    activeFilters.add(filter);
-                    btn.classList.add('active');
+                // Verificar si es un filtro de descuento
+                if (filter.startsWith('descuento-')) {
+                    const item = document.querySelector(`.dropdown-item[data-tag="${filter}"]`);
+                    if (item) {
+                        activeDiscountFilter = filter;
+                        item.classList.add('active');
+                        document.getElementById('descuentos-btn').classList.add('active');
+                    }
+                } else {
+                    const btn = document.querySelector(`.filter-btn[data-tag="${filter}"]`);
+                    if (btn) {
+                        activeFilters.add(filter);
+                        btn.classList.add('active');
+                    }
                 }
             }
         }
@@ -440,9 +621,10 @@
         // Inicializar
         document.addEventListener('DOMContentLoaded', async () => {
             setupFilters();
+            setupDiscountDropdown();
             activateFilterFromURL();
             await loadCafes();
-            if (activeFilters.size > 0) {
+            if (activeFilters.size > 0 || activeDiscountFilter) {
                 filterCafes();
             } else {
                 renderCafes(allCafes);
