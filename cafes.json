@@ -64,6 +64,27 @@
       "tags": ["opcion-celiaco", "descuentos"]
     },
     {
+      "name": "Brava (Punta Carretas)",
+      "instagram": "brava.pan",
+      "address": "Punta Carretas, Montevideo",
+      "opening_hours": "",
+      "tags": []
+    },
+    {
+      "name": "Brava (Parque Rodó)",
+      "instagram": "brava.pan",
+      "address": "Parque Rodó, Montevideo",
+      "opening_hours": "",
+      "tags": []
+    },
+    {
+      "name": "Brava (Aeropuerto)",
+      "instagram": "brava.pan",
+      "address": "Aeropuerto de Carrasco, Hall de arribos",
+      "opening_hours": "",
+      "tags": []
+    },
+    {
       "name": "Brothaus (Pocitos)",
       "instagram": "brothaus.uy",
       "address": "26 de Marzo 1399, Montevideo",
