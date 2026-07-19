@@ -52,7 +52,7 @@
     {
       "name": "Bazar Café",
       "instagram": "bazarcafeuy",
-      "address": "",
+      "address": "Juan D. Jackson 966, Montevideo",
       "opening_hours": "Lunes a Viernes 08:30-19:00",
       "tags": []
     },
@@ -157,7 +157,7 @@
     {
       "name": "Café Suárez",
       "instagram": "cafesuarez",
-      "address": "",
+      "address": "Suárez 3724 esq Reyes, Montevideo",
       "opening_hours": "Martes a Sábado 08:30-21:00",
       "tags": ["descuento-bbva"]
     },
@@ -239,11 +239,32 @@
       "tags": []
     },
     {
-      "name": "Culto Cafe",
+      "name": "Culto Café (Punta Carretas)",
       "instagram": "cultocafeuy",
-      "address": "",
-      "opening_hours": "",
+      "address": "Joaquín Núñez 2858, Punta Carretas",
+      "opening_hours": "Todos los días 08:00-20:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Culto Café (Tostaduria)",
+      "instagram": "cultocafeuy",
+      "address": "Canelones 2154, Montevideo",
+      "opening_hours": "Todos los días 08:00-20:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Culto Café (Ciudad Vieja)",
+      "instagram": "cultocafeuy",
+      "address": "Sarandí 499, Ciudad Vieja",
+      "opening_hours": "Lunes a Viernes 08:00-19:00, Sábado 10:00-17:00",
       "tags": []
+    },
+    {
+      "name": "Culto Café (EPA)",
+      "instagram": "cultocafeuy",
+      "address": "Ing. Carlos María Morales 851, Montevideo",
+      "opening_hours": "Todos los días 08:00-20:00",
+      "tags": ["domingos"]
     },
     {
       "name": "Desbocada",
@@ -253,10 +274,52 @@
       "tags": []
     },
     {
-      "name": "Desmadre",
+      "name": "Desmadre (Punta Carretas)",
       "instagram": "desmadrecafe",
-      "address": "",
-      "opening_hours": "",
+      "address": "21 de Setiembre 3133, Punta Carretas",
+      "opening_hours": "Lunes a Jueves 08:30-20:00, Viernes y Sábado 08:30-21:00, Domingo 08:30-20:00",
+      "tags": ["domingos", "descuento-scotiabank"]
+    },
+    {
+      "name": "Desmadre (Jacinto)",
+      "instagram": "desmadrecafe",
+      "address": "Itapebí 2108, Montevideo",
+      "opening_hours": "Martes a Domingo 09:00-20:00 (Lunes cerrado)",
+      "tags": ["domingos", "descuento-scotiabank"]
+    },
+    {
+      "name": "Desmadre (Pocitos)",
+      "instagram": "desmadrecafe",
+      "address": "Juan Pablo Laguna 3492, Pocitos",
+      "opening_hours": "Lunes a Viernes 08:30-19:30, Sábado 10:00-19:30",
+      "tags": ["descuento-scotiabank"]
+    },
+    {
+      "name": "Desmadre (Ciudad Vieja)",
+      "instagram": "desmadrecafe",
+      "address": "Pérez Castellano 1515, Ciudad Vieja",
+      "opening_hours": "Martes a Domingo 09:00-20:00 (Lunes cerrado)",
+      "tags": ["domingos", "descuento-scotiabank"]
+    },
+    {
+      "name": "Desmadre (Cordón)",
+      "instagram": "desmadrecafe",
+      "address": "Dr. Joaquín Requena 1423, Cordón",
+      "opening_hours": "Lunes a Sábado 08:30-20:00, Domingo 10:00-18:00",
+      "tags": ["domingos", "descuento-scotiabank"]
+    },
+    {
+      "name": "Desmadre (Ciudad de la Costa)",
+      "instagram": "desmadrecafe",
+      "address": "Av. Giannattasio, Ciudad de la Costa",
+      "opening_hours": "Martes a Domingo 09:00-20:00 (Lunes cerrado)",
+      "tags": ["domingos", "descuento-scotiabank"]
+    },
+    {
+      "name": "Desmadre (Centro)",
+      "instagram": "desmadrecafe",
+      "address": "Canelones 1363, Centro",
+      "opening_hours": "Lunes a Sábado 08:00-20:00",
       "tags": ["descuento-scotiabank"]
     },
     {
@@ -360,8 +423,8 @@
     {
       "name": "Kaffa Café",
       "instagram": "kaffacafe__",
-      "address": "",
-      "opening_hours": "Lunes 15:00-19:30, Martes a Sábado 09:00-19:30",
+      "address": "Oscar Gestido 2690, Montevideo",
+      "opening_hours": "Lunes 14:00-19:30, Martes a Sábado 09:00-19:30",
       "tags": []
     },
     {
@@ -386,9 +449,9 @@
       "tags": ["descuento-scotiabank"]
     },
     {
-      "name": "La Bici Café",
+      "name": "La Bicicleta Café",
       "instagram": "labicicletacafeee",
-      "address": "",
+      "address": "Bv España 2643, Montevideo",
       "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados y Domingos 10:00-20:00",
       "tags": ["domingos", "descuento-scotiabank"]
     },
@@ -416,7 +479,7 @@
     {
       "name": "La Farmacia Café",
       "instagram": "cafelafarmacia",
-      "address": "",
+      "address": "Cerrito 550, Montevideo",
       "opening_hours": "Lunes a Viernes 08:00-19:00, Sábado 09:00-19:00",
       "tags": []
     },
@@ -486,9 +549,9 @@
     {
       "name": "Nueva Malvín",
       "instagram": "nuevamalvin",
-      "address": "",
-      "opening_hours": "",
-      "tags": ["descuento-itau"]
+      "address": "Orinoco 5023, Malvín",
+      "opening_hours": "Lunes, Miércoles a Domingo 07:30-20:30 (Martes cerrado)",
+      "tags": ["domingos", "descuento-itau"]
     },
     {
       "name": "Olegaria Café",
@@ -591,7 +654,7 @@
     {
       "name": "Seis Montes",
       "instagram": "seismontes",
-      "address": "",
+      "address": "Rivera 2208, Montevideo",
       "opening_hours": "Lunes a Viernes 09:00-20:00",
       "tags": []
     },
@@ -631,23 +694,37 @@
       "tags": ["domingos"]
     },
     {
-      "name": "The Lab Coffee Roasters",
+      "name": "The Lab Coffee Roasters (Pocitos)",
       "instagram": "thelabcoffeeroasters",
-      "address": "",
-      "opening_hours": "",
-      "tags": []
+      "address": "Av. Luis Alberto de Herrera 1109, Pocitos",
+      "opening_hours": "Lunes a Viernes 08:30-21:00, Sábados y Domingos 09:00-21:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "The Lab Coffee Roasters (Punta Carretas)",
+      "instagram": "thelabcoffeeroasters",
+      "address": "José Luis Zorrilla de San Martín 146, Punta Carretas",
+      "opening_hours": "Todos los días 08:30-21:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "The Lab Coffee Roasters (MNAV)",
+      "instagram": "thelabcoffeeroasters",
+      "address": "Museo Nacional de Artes Visuales, Av Tomas Giribaldi 2283, Montevideo",
+      "opening_hours": "Martes a Domingo 08:30-20:00 (Lunes cerrado)",
+      "tags": ["domingos"]
     },
     {
       "name": "Uno Catorce (1:14)",
       "instagram": "unocatorcecafe",
-      "address": "",
-      "opening_hours": "Lunes a Sábados",
+      "address": "Salterain 1252, Montevideo",
+      "opening_hours": "Lunes a Sábado 09:00-20:00",
       "tags": []
     },
     {
       "name": "Ventanín",
       "instagram": "al_ventanin",
-      "address": "",
+      "address": "Eduardo Víctor Haedo 2053, Montevideo",
       "opening_hours": "Miércoles a Sábado 08:30-20:00",
       "tags": []
     },
