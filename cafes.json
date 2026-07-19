@@ -755,6 +755,139 @@
       "address": "Bv España 2758, Montevideo",
       "opening_hours": "Martes a Sábado 08:00-20:00, Domingo 08:30-20:00",
       "tags": ["domingos"]
+    },
+    {
+      "name": "Bar Paysandú",
+      "instagram": "paysandu_bar",
+      "address": "Rondeau 1549 esq. Paysandú, Montevideo",
+      "opening_hours": "Lunes a Jueves 10:30-01:30, Viernes 10:30-02:30, Sábado 11:00-02:30",
+      "tags": []
+    },
+    {
+      "name": "Cafelino",
+      "instagram": "cafelino.uy",
+      "address": "Colonia 894, Montevideo",
+      "opening_hours": "",
+      "tags": []
+    },
+    {
+      "name": "Cali Café",
+      "instagram": "cali__cafe",
+      "address": "Punta Carretas, Montevideo",
+      "opening_hours": "Lunes a Jueves 13:00-20:00, Viernes y Sábado 10:00-20:00",
+      "tags": []
+    },
+    {
+      "name": "Club del Pan",
+      "instagram": "clubdelpan.uy",
+      "address": "Gonzalo Ramírez 1485, Montevideo",
+      "opening_hours": "Martes a Sábados 08:30-20:00",
+      "tags": []
+    },
+    {
+      "name": "Cultural Alfabeta",
+      "instagram": "cultural_alfabeta",
+      "address": "Miguel Barreiro 3231, Pocitos",
+      "opening_hours": "Martes a Domingos 09:00-23:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Kerop",
+      "instagram": "kerop_uy",
+      "address": "Pérez Castellano 1495, Ciudad Vieja",
+      "opening_hours": "Miércoles a Sábados 10:00-20:00, Domingos 13:00-20:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "La Isla Café",
+      "instagram": "cafelaisla",
+      "address": "Arocena 1551, Carrasco",
+      "opening_hours": "",
+      "tags": []
+    },
+    {
+      "name": "La Luna Bajo Agua",
+      "instagram": "lalunabajoagua",
+      "address": "Canelones 1250 esq Quijano, Barrio Sur",
+      "opening_hours": "Lunes a Jueves 15:00-22:00, Viernes 15:00-00:00",
+      "tags": []
+    },
+    {
+      "name": "Obrador",
+      "instagram": "obradorsocialclub",
+      "address": "Pablo de María 899 esq. L. Müller, Parque Rodó",
+      "opening_hours": "Lunes a Sábados 09:00-19:00",
+      "tags": []
+    },
+    {
+      "name": "Peperoncino",
+      "instagram": "peperoncino.uy",
+      "address": "Luis de la Torre 960, Punta Carretas",
+      "opening_hours": "Lunes a Viernes 09:00-19:00",
+      "tags": []
+    },
+    {
+      "name": "Plaza Café (Parque Rodó)",
+      "instagram": "plaza_cafe_uy",
+      "address": "Juan D. Jackson 885, Parque Rodó",
+      "opening_hours": "Martes a Domingo 09:00-21:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Plaza Café (Solymar)",
+      "instagram": "plaza_cafe_uy",
+      "address": "Solymar, La Española",
+      "opening_hours": "07:30-19:30",
+      "tags": []
+    },
+    {
+      "name": "Plaza Café (La Barra)",
+      "instagram": "plaza_cafe_uy",
+      "address": "La Barra, Maldonado",
+      "opening_hours": "08:00-21:00",
+      "tags": []
+    },
+    {
+      "name": "Río Café & Restaurant",
+      "instagram": "rio.cafe.restaurant",
+      "address": "Carlos Federico Sáez 6430, Carrasco",
+      "opening_hours": "Miércoles a Lunes, Desayuno 08:00, Almuerzo 12:00-16:00, Cena 19:00-00:00, Domingo Brunch hasta 16:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Saint Germain",
+      "instagram": "saintgermain.uy",
+      "address": "",
+      "opening_hours": "",
+      "tags": []
+    },
+    {
+      "name": "Selva Café",
+      "instagram": "selvacafe.uy",
+      "address": "",
+      "opening_hours": "Lunes a Viernes 08:00-20:00, Sábado y Domingo 09:00-20:00",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Seven Express & Coffee",
+      "instagram": "seven24.uy",
+      "address": "",
+      "opening_hours": "Abierto 24 horas",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Vicio Café",
+      "instagram": "vicio.cafeok",
+      "address": "Plaza Italia Shopping, Montevideo",
+      "opening_hours": "Lunes a Viernes 09:30-20:00, Sábado y Domingo 09:30-20:30",
+      "tags": ["domingos"]
+    },
+    {
+      "name": "Villa Dora Café",
+      "instagram": "villadoracafe",
+      "address": "Nueva York 1146 esq. Rondeau, Montevideo",
+      "opening_hours": "",
+      "tags": []
     }
   ]
 }
