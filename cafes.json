@@ -32,8 +32,8 @@
       "name": "Américo Café",
       "instagram": "somosamerico",
       "address": "Luis de la Torre 565, Punta Carretas",
-      "opening_hours": "",
-      "tags": ["descuento-scotiabank"]
+      "opening_hours": "Martes a Jueves 10:00-19:00, Viernes a Domingo 10:00-20:00 (Lunes cerrado)",
+      "tags": ["domingos", "descuento-scotiabank"]
     },
     {
       "name": "Atorrante Café",
@@ -67,29 +67,29 @@
       "name": "Bonus Gluten Free",
       "instagram": "bonusglutenfree",
       "address": "Santiago de Chile 1015, Montevideo",
-      "opening_hours": "",
-      "tags": ["opcion-celiaco", "descuento-bbva"]
+      "opening_hours": "Miércoles a Domingo 16:00-20:00",
+      "tags": ["domingos", "opcion-celiaco", "descuento-bbva"]
     },
     {
-      "name": "Brava (Punta Carretas)",
+      "name": "Brava (Ellauri)",
       "instagram": "brava.pan",
-      "address": "Punta Carretas, Montevideo",
-      "opening_hours": "",
-      "tags": ["descuento-santander"]
+      "address": "Ellauri, Punta Carretas",
+      "opening_hours": "Martes a Domingo 07:30-20:00",
+      "tags": ["domingos", "descuento-santander"]
     },
     {
-      "name": "Brava (Parque Rodó)",
+      "name": "Brava (Pablo de María)",
       "instagram": "brava.pan",
-      "address": "Parque Rodó, Montevideo",
-      "opening_hours": "",
-      "tags": ["descuento-santander"]
+      "address": "Pablo de María, Parque Rodó",
+      "opening_hours": "Martes a Domingo 08:30-20:00",
+      "tags": ["domingos", "descuento-santander"]
     },
     {
       "name": "Brava (Aeropuerto)",
       "instagram": "brava.pan",
       "address": "Aeropuerto de Carrasco, Hall de arribos",
-      "opening_hours": "",
-      "tags": ["descuento-santander"]
+      "opening_hours": "Lunes a Domingo 07:00-19:00",
+      "tags": ["domingos", "descuento-santander"]
     },
     {
       "name": "Brownies Luis",
@@ -102,14 +102,14 @@
       "name": "Brothaus (Pocitos)",
       "instagram": "brothaus.uy",
       "address": "26 de Marzo 1399, Montevideo",
-      "opening_hours": "",
+      "opening_hours": "Lunes a Sábado 08:00-20:00",
       "tags": []
     },
     {
-      "name": "Brothaus (Punta Gorda)",
+      "name": "Brothaus (Carrasco)",
       "instagram": "brothaus.uy",
       "address": "Líbano 1428, Montevideo",
-      "opening_hours": "",
+      "opening_hours": "Lunes a Sábado 08:00-20:00",
       "tags": []
     },
     {
@@ -165,14 +165,14 @@
       "name": "Café Tavoli",
       "instagram": "cafe_tavoli.uy",
       "address": "Santiago de Anca 1420, Malvín",
-      "opening_hours": "",
-      "tags": ["pet-friendly"]
+      "opening_hours": "Martes 15:30-20:30, Miércoles a Viernes 10:00-20:30, Sábado 10:00-21:00, Domingo 15:30-21:00 (Lunes cerrado)",
+      "tags": ["domingos", "pet-friendly"]
     },
     {
       "name": "Cafetto Prado",
       "instagram": "cafettoprado",
       "address": "Av. Joaquín Suárez 3640, Montevideo",
-      "opening_hours": "",
+      "opening_hours": "Miércoles a Sábado 11:00-20:00",
       "tags": ["descuento-santander"]
     },
     {
@@ -186,8 +186,8 @@
       "name": "Cardenal Coffee Roasters (Centro)",
       "instagram": "cardenalcafe",
       "address": "18 de Julio 1813 bis, Montevideo",
-      "opening_hours": "",
-      "tags": []
+      "opening_hours": "Lunes a Viernes 08:00-20:00, Sábado 09:00-14:00, Domingo 10:00-15:00",
+      "tags": ["domingos"]
     },
     {
       "name": "Casa Berracos",
@@ -358,7 +358,7 @@
       "tags": []
     },
     {
-      "name": "Flora (Canelones)",
+      "name": "Flora Café",
       "instagram": "flora.mvd",
       "address": "Canelones 892, Montevideo",
       "opening_hours": "Todos los días 09:00-20:00",
@@ -410,8 +410,8 @@
       "name": "HOLI",
       "instagram": "holicafe_",
       "address": "Montero 2806 bis, Punta Carretas",
-      "opening_hours": "",
-      "tags": []
+      "opening_hours": "Martes a Domingo 09:30-19:30 (Lunes cerrado)",
+      "tags": ["domingos"]
     },
     {
       "name": "Icónico Café",
@@ -445,7 +445,7 @@
       "name": "Koffee Skates",
       "instagram": "koffeeskates",
       "address": "Coronel Mora 495, Montevideo",
-      "opening_hours": "",
+      "opening_hours": "Lunes a Viernes 12:00-20:15, Sábado 10:00-20:15",
       "tags": ["descuento-scotiabank"]
     },
     {
@@ -459,15 +459,15 @@
       "name": "La Croissantería (Ellauri)",
       "instagram": "lacroissanteria.uy",
       "address": "José Ellauri 534, Montevideo",
-      "opening_hours": "",
-      "tags": ["descuento-itau"]
+      "opening_hours": "Todos los días 08:00-19:30",
+      "tags": ["domingos", "descuento-itau"]
     },
     {
       "name": "La Croissantería (Pocitos)",
       "instagram": "lacroissanteria.uy",
       "address": "26 de Marzo 1267, Montevideo",
-      "opening_hours": "",
-      "tags": ["descuento-itau"]
+      "opening_hours": "Todos los días 08:00-19:30",
+      "tags": ["domingos", "descuento-itau"]
     },
     {
       "name": "La Esquina Café",
@@ -507,23 +507,23 @@
     {
       "name": "La Resistance Boulangerie (Carrasco)",
       "instagram": "laresistanceboulangerie",
-      "address": "Potosí 1695, Montevideo",
-      "opening_hours": "",
-      "tags": ["descuento-itau"]
+      "address": "Potosí 1695, Carrasco",
+      "opening_hours": "Martes a Domingo 08:30-19:30 (Lunes cerrado)",
+      "tags": ["domingos", "descuento-itau"]
     },
     {
       "name": "La Resistance Boulangerie (Pocitos)",
       "instagram": "laresistanceboulangerie",
-      "address": "Libertad 2500, Montevideo",
-      "opening_hours": "",
-      "tags": ["descuento-itau"]
+      "address": "Libertad 2500, Pocitos",
+      "opening_hours": "Martes a Domingo 08:30-19:30 (Lunes cerrado)",
+      "tags": ["domingos", "descuento-itau"]
     },
     {
       "name": "La Resistance Boulangerie (Punta Carretas)",
       "instagram": "laresistanceboulangerie",
-      "address": "S. Antuña 2680, Montevideo",
-      "opening_hours": "",
-      "tags": ["descuento-itau"]
+      "address": "Francisco Solano Antuña 2680, Punta Carretas",
+      "opening_hours": "Martes a Domingo 08:30-20:00 (Lunes cerrado)",
+      "tags": ["domingos", "descuento-itau"]
     },
     {
       "name": "MASA",
@@ -536,7 +536,7 @@
       "name": "Necio",
       "instagram": "necio.cafe",
       "address": "Constituyente 1757, Montevideo",
-      "opening_hours": "",
+      "opening_hours": "Lunes y Miércoles 11:00-20:00, Martes, Jueves y Viernes 09:00-20:00, Sábado 09:00-14:00",
       "tags": []
     },
     {
@@ -666,10 +666,17 @@
       "tags": ["domingos"]
     },
     {
-      "name": "Spazio Moka",
+      "name": "Spazio Moka (Ellauri)",
       "instagram": "spazio_moka",
       "address": "José Ellauri 982, Montevideo",
-      "opening_hours": "",
+      "opening_hours": "Lunes a Viernes 08:00-20:00, Domingo 09:00-20:00 (Sábado cerrado)",
+      "tags": ["domingos", "opcion-celiaco", "descuento-scotiabank"]
+    },
+    {
+      "name": "Spazio Moka (Artigas)",
+      "instagram": "spazio_moka",
+      "address": "Edificio Joy, Bv. Gral. Artigas 1296, Montevideo",
+      "opening_hours": "Lunes a Viernes 08:00-20:00, Sábado 09:00-20:00",
       "tags": ["opcion-celiaco", "descuento-scotiabank"]
     },
     {
