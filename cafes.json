@@ -12,7 +12,7 @@
       "instagram": "acevedopanycafe",
       "address": "Durazno 1914 esq Eduardo Acevedo, Montevideo",
       "opening_hours": "Martes 15:00-20:00, Miércoles a Sábado 10:00-20:30, Domingo 09:30-19:30",
-      "tags": ["domingos"]
+      "tags": ["domingos", "descuentos"]
     },
     {
       "name": "Adagio",
@@ -124,7 +124,7 @@
       "instagram": "cafesuarez",
       "address": "",
       "opening_hours": "Martes a Sábado 08:30-21:00",
-      "tags": []
+      "tags": ["descuentos"]
     },
     {
       "name": "Café Tavoli",
@@ -187,7 +187,7 @@
       "instagram": "contigodecocafe",
       "address": "Alberdi 6046, Carrasco",
       "opening_hours": "Martes 14:00-20:00, Miércoles a Domingo 08:30-20:00",
-      "tags": ["domingos"]
+      "tags": ["domingos", "descuentos"]
     },
     {
       "name": "Craft Cafe",
