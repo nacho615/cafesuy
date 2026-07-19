@@ -29,6 +29,13 @@
       "tags": ["domingos"]
     },
     {
+      "name": "Américo Café",
+      "instagram": "somosamerico",
+      "address": "Luis de la Torre 565, Punta Carretas",
+      "opening_hours": "",
+      "tags": []
+    },
+    {
       "name": "Atorrante Café",
       "instagram": "atorrante_cafe",
       "address": "San José 1300 esq Aquiles Lanza, Centro",
@@ -83,6 +90,13 @@
       "address": "Aeropuerto de Carrasco, Hall de arribos",
       "opening_hours": "",
       "tags": ["descuento-santander"]
+    },
+    {
+      "name": "Brownies Luis",
+      "instagram": "browniesluis",
+      "address": "Luis de la Torre 497, Punta Carretas",
+      "opening_hours": "Martes a Domingos 08:15-19:45",
+      "tags": ["domingos"]
     },
     {
       "name": "Brothaus (Pocitos)",
