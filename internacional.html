@@ -14,151 +14,155 @@
         }
 
         :root {
-            --bg-primary: #FAF7F5;
-            --bg-card: #FFFFFF;
-            --text-primary: #1A1A1A;
-            --text-secondary: #6B6B6B;
-            --accent: #C4A484;
-            --accent-dark: #8B7355;
-            --accent-light: #E8DDD4;
+            --bg-primary: #000000;
+            --bg-secondary: #121212;
+            --bg-card: #1c1c1c;
+            --bg-elevated: #262626;
+            --text-primary: #ffffff;
+            --text-secondary: #a8a8a8;
+            --text-muted: #737373;
+            --border: #363636;
+            --gradient-start: #833ab4;
+            --gradient-mid: #fd1d1d;
+            --gradient-end: #fcb045;
+            --accent: #0095f6;
         }
 
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             background: var(--bg-primary);
             color: var(--text-primary);
             min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
         }
 
+        /* Header */
         header {
-            padding: 1rem 1.5rem;
+            padding: 0.875rem 1rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: var(--bg-card);
-            border-bottom: 1px solid var(--accent-light);
+            background: var(--bg-primary);
+            border-bottom: 1px solid var(--border);
             position: sticky;
             top: 0;
             z-index: 100;
         }
 
         .logo {
-            font-weight: 700;
-            font-size: 1.25rem;
+            font-weight: 600;
+            font-size: 1.5rem;
             color: var(--text-primary);
             text-decoration: none;
+            letter-spacing: -0.5px;
         }
 
-        .logo span {
-            color: var(--accent-dark);
-        }
-
-        .back-link {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.9rem;
+        .header-actions {
             display: flex;
             align-items: center;
-            gap: 0.5rem;
-            transition: color 0.2s;
+            gap: 1rem;
         }
 
-        .back-link:hover {
-            color: var(--accent-dark);
+        .header-actions a {
+            color: var(--text-primary);
+            font-size: 1.25rem;
+            text-decoration: none;
         }
 
-        .page-header {
-            padding: 2rem 1.5rem 1rem;
-            text-align: center;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .page-header h1 {
-            font-size: 2rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-        }
-
-        .page-header p {
-            color: var(--text-secondary);
-            font-size: 1rem;
-        }
-
-        /* Filtros por país */
-        .filters-section {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 1rem 1.5rem;
-        }
-
-        .filters-label {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            margin-bottom: 0.75rem;
-            display: block;
-        }
-
-        .filters {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-
-        .filter-btn {
-            padding: 0.5rem 1rem;
-            border-radius: 50px;
-            border: 1.5px solid var(--accent-light);
-            background: var(--bg-card);
-            color: var(--text-secondary);
-            font-size: 0.85rem;
-            font-family: 'Inter', sans-serif;
-            cursor: pointer;
-            transition: all 0.2s;
+        .back-btn {
+            font-size: 0.875rem !important;
             display: flex;
             align-items: center;
             gap: 0.375rem;
         }
 
-        .filter-btn:hover {
-            border-color: var(--accent);
+        /* Page header */
+        .page-header {
+            padding: 1.5rem 1rem 0.5rem;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .page-header p {
+            color: var(--text-muted);
+            font-size: 0.8125rem;
+        }
+
+        /* Filters */
+        .filters-section {
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .filters {
+            display: flex;
+            gap: 0.5rem;
+            padding: 0 1rem;
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .filters::-webkit-scrollbar {
+            display: none;
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: transparent;
             color: var(--text-primary);
+            font-size: 0.875rem;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s;
+            white-space: nowrap;
+        }
+
+        .filter-btn:hover {
+            background: var(--bg-elevated);
         }
 
         .filter-btn.active {
             background: var(--text-primary);
-            color: white;
+            color: var(--bg-primary);
             border-color: var(--text-primary);
         }
 
+        /* Results count */
         .results-count {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0.5rem 1.5rem;
-            font-size: 0.85rem;
-            color: var(--text-secondary);
+            padding: 1rem 1rem 0.5rem;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-weight: 500;
         }
 
-        /* Lista de cafés */
+        /* Cafes list */
         .cafes-list {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 1rem 1.5rem 3rem;
+            padding: 0.5rem 0 5rem;
         }
 
         .cafe-card {
-            background: var(--bg-card);
-            border-radius: 16px;
-            border: 1px solid var(--accent-light);
-            padding: 1.25rem;
-            margin-bottom: 0.75rem;
-            transition: all 0.2s;
+            background: var(--bg-primary);
+            padding: 1rem;
+            border-bottom: 1px solid var(--border);
+            transition: background 0.15s;
             cursor: pointer;
         }
 
         .cafe-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+            background: var(--bg-secondary);
+        }
+
+        .cafe-card:active {
+            background: var(--bg-card);
         }
 
         .cafe-header {
@@ -168,105 +172,134 @@
             gap: 1rem;
         }
 
+        .cafe-info {
+            flex: 1;
+            min-width: 0;
+        }
+
         .cafe-name {
-            font-size: 1.1rem;
+            font-size: 0.9375rem;
             font-weight: 600;
+            color: var(--text-primary);
         }
 
         .cafe-city {
-            font-size: 0.85rem;
+            font-size: 0.8125rem;
             color: var(--text-secondary);
             margin-top: 0.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.375rem;
+        }
+
+        .cafe-city i {
+            font-size: 0.75rem;
+            color: var(--text-muted);
         }
 
         .cafe-instagram {
-            color: var(--accent-dark);
-            font-size: 0.85rem;
+            color: var(--accent);
+            font-size: 0.8125rem;
             text-decoration: none;
+            font-weight: 500;
             display: flex;
             align-items: center;
-            gap: 0.25rem;
-            white-space: nowrap;
+            gap: 0.375rem;
+            flex-shrink: 0;
         }
 
         .cafe-instagram:hover {
-            color: var(--text-primary);
+            text-decoration: underline;
+        }
+
+        .cafe-instagram i {
+            font-size: 1rem;
         }
 
         .cafe-tags {
             display: flex;
             flex-wrap: wrap;
             gap: 0.375rem;
-            margin-top: 0.75rem;
+            margin-top: 0.625rem;
         }
 
         .tag {
-            background: var(--accent-light);
-            color: var(--accent-dark);
-            padding: 0.25rem 0.5rem;
+            background: var(--bg-elevated);
+            color: var(--text-secondary);
+            padding: 0.25rem 0.625rem;
             border-radius: 4px;
-            font-size: 0.7rem;
-            font-weight: 500;
+            font-size: 0.6875rem;
+            font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.3px;
         }
 
         .tag.argentina {
-            background: #E3F2FD;
-            color: #1565C0;
+            background: rgba(117, 170, 219, 0.15);
+            color: #75aadb;
         }
 
         .tag.espana {
-            background: #FFF3E0;
-            color: #E65100;
+            background: rgba(255, 196, 0, 0.15);
+            color: #ffc400;
         }
 
         .tag.brasil {
-            background: #E8F5E9;
-            color: #2E7D32;
+            background: rgba(0, 156, 59, 0.15);
+            color: #00c853;
         }
 
         .tag.chile {
-            background: #FCE4EC;
-            color: #C2185B;
+            background: rgba(213, 43, 30, 0.15);
+            color: #ff6659;
         }
 
+        /* No results */
         .no-results {
             text-align: center;
-            padding: 3rem 2rem;
+            padding: 4rem 2rem;
             color: var(--text-secondary);
         }
 
         .no-results-emoji {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin-bottom: 1rem;
+            filter: grayscale(1);
         }
 
+        .no-results p {
+            font-size: 0.9375rem;
+        }
+
+        /* Footer */
         footer {
             text-align: center;
             padding: 2rem;
-            color: var(--text-secondary);
-            font-size: 0.875rem;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            border-top: 1px solid var(--border);
         }
 
         @media (max-width: 640px) {
-            .page-header h1 {
-                font-size: 1.5rem;
-            }
-
             .cafe-header {
                 flex-direction: column;
-                gap: 0.5rem;
+                gap: 0.625rem;
+            }
+
+            .cafe-instagram {
+                align-self: flex-start;
             }
         }
     </style>
 </head>
 <body>
     <header>
-        <a href="index.html" class="logo">cafes<span>.uy</span></a>
-        <a href="index.html" class="back-link">
-            <i class="fas fa-arrow-left"></i> Volver
-        </a>
+        <a href="index.html" class="logo">cafes.uy</a>
+        <div class="header-actions">
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+        </div>
     </header>
 
     <main>
@@ -276,19 +309,18 @@
         </section>
 
         <section class="filters-section">
-            <span class="filters-label">Filtrar por país:</span>
             <div class="filters">
                 <button class="filter-btn" data-country="argentina">
-                    🇦🇷 Argentina
+                    Argentina
                 </button>
                 <button class="filter-btn" data-country="espana">
-                    🇪🇸 España
+                    España
                 </button>
                 <button class="filter-btn" data-country="brasil">
-                    🇧🇷 Brasil
+                    Brasil
                 </button>
                 <button class="filter-btn" data-country="chile">
-                    🇨🇱 Chile
+                    Chile
                 </button>
             </div>
         </section>
@@ -319,7 +351,7 @@
                 console.error('Error cargando cafés:', error);
                 document.getElementById('cafes-list').innerHTML = `
                     <div class="no-results">
-                        <div class="no-results-emoji">😕</div>
+                        <div class="no-results-emoji">:/</div>
                         <p>Error cargando los cafés</p>
                     </div>
                 `;
@@ -335,22 +367,22 @@
             if (cafes.length === 0) {
                 container.innerHTML = `
                     <div class="no-results">
-                        <div class="no-results-emoji">🔍</div>
-                        <p>No hay cafés agregados en este país todavía</p>
+                        <div class="no-results-emoji">:/</div>
+                        <p>No hay cafés agregados todavía</p>
                     </div>
                 `;
-                countEl.textContent = '0 cafés encontrados';
+                countEl.textContent = '0 cafés';
                 return;
             }
 
-            countEl.textContent = `${cafes.length} café${cafes.length !== 1 ? 's' : ''} encontrado${cafes.length !== 1 ? 's' : ''}`;
+            countEl.textContent = `${cafes.length} café${cafes.length !== 1 ? 's' : ''}`;
 
             container.innerHTML = cafes.map(cafe => `
                 <div class="cafe-card" onclick="window.open('https://instagram.com/${cafe.instagram}', '_blank')">
                     <div class="cafe-header">
-                        <div>
+                        <div class="cafe-info">
                             <div class="cafe-name">${cafe.name}</div>
-                            ${cafe.city ? `<div class="cafe-city"><i class="fas fa-map-marker-alt"></i> ${cafe.city}</div>` : ''}
+                            ${cafe.city ? `<div class="cafe-city"><i class="fas fa-location-dot"></i> ${cafe.city}</div>` : ''}
                         </div>
                         <a href="https://instagram.com/${cafe.instagram}" target="_blank" class="cafe-instagram" onclick="event.stopPropagation()">
                             <i class="fab fa-instagram"></i> @${cafe.instagram}
@@ -366,10 +398,10 @@
         // Formatear país para mostrar
         function formatCountry(country) {
             const countryNames = {
-                'argentina': '🇦🇷 Argentina',
-                'espana': '🇪🇸 España',
-                'brasil': '🇧🇷 Brasil',
-                'chile': '🇨🇱 Chile'
+                'argentina': 'Argentina',
+                'espana': 'España',
+                'brasil': 'Brasil',
+                'chile': 'Chile'
             };
             return countryNames[country] || country;
         }

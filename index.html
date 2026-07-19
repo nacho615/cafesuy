@@ -14,217 +14,211 @@
         }
 
         :root {
-            --bg-primary: #FAF7F5;
-            --bg-card: #FFFFFF;
-            --text-primary: #1A1A1A;
-            --text-secondary: #6B6B6B;
-            --accent: #C4A484;
-            --accent-dark: #8B7355;
-            --accent-light: #E8DDD4;
+            --bg-primary: #000000;
+            --bg-secondary: #121212;
+            --bg-card: #1c1c1c;
+            --bg-elevated: #262626;
+            --text-primary: #ffffff;
+            --text-secondary: #a8a8a8;
+            --text-muted: #737373;
+            --border: #363636;
+            --gradient-start: #833ab4;
+            --gradient-mid: #fd1d1d;
+            --gradient-end: #fcb045;
+            --accent: #0095f6;
         }
 
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             background: var(--bg-primary);
             color: var(--text-primary);
             min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
         }
 
         /* Header */
         header {
-            padding: 1rem 1.5rem;
+            padding: 0.875rem 1rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: var(--bg-card);
-            border-bottom: 1px solid var(--accent-light);
+            background: var(--bg-primary);
+            border-bottom: 1px solid var(--border);
             position: sticky;
             top: 0;
             z-index: 100;
         }
 
         .logo {
-            font-weight: 700;
-            font-size: 1.25rem;
+            font-weight: 600;
+            font-size: 1.5rem;
             color: var(--text-primary);
-        }
-
-        .logo span {
-            color: var(--accent-dark);
-        }
-
-        nav a {
-            color: var(--text-secondary);
             text-decoration: none;
-            font-size: 0.9rem;
-            margin-left: 1.5rem;
-            transition: color 0.2s;
+            letter-spacing: -0.5px;
         }
 
-        nav a:hover {
-            color: var(--accent-dark);
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+        }
+
+        .header-actions a {
+            color: var(--text-primary);
+            font-size: 1.25rem;
+            text-decoration: none;
+            transition: opacity 0.15s;
+        }
+
+        .header-actions a:hover {
+            opacity: 0.7;
         }
 
         /* Hero */
         .hero {
-            padding: 4rem 1.5rem;
+            padding: 3rem 1.5rem;
             text-align: center;
-            max-width: 600px;
+            max-width: 500px;
             margin: 0 auto;
         }
 
-        .hero-emoji {
-            font-size: 3rem;
-            margin-bottom: 1.5rem;
-        }
-
         .hero h1 {
-            font-size: 2.5rem;
+            font-size: 1.75rem;
             font-weight: 700;
-            margin-bottom: 1rem;
-            line-height: 1.2;
+            margin-bottom: 0.75rem;
+            line-height: 1.3;
+            letter-spacing: -0.5px;
         }
 
         .hero p {
             color: var(--text-secondary);
-            font-size: 1.1rem;
-            line-height: 1.6;
-            margin-bottom: 2rem;
+            font-size: 0.9375rem;
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
         }
 
         .hero-buttons {
             display: flex;
-            gap: 1rem;
+            gap: 0.75rem;
             justify-content: center;
             flex-wrap: wrap;
         }
 
         .btn {
-            padding: 0.875rem 1.75rem;
-            border-radius: 50px;
-            font-size: 0.95rem;
-            font-weight: 500;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            font-weight: 600;
             text-decoration: none;
-            transition: all 0.2s;
+            transition: all 0.15s;
             cursor: pointer;
             border: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
         }
 
         .btn-primary {
-            background: var(--text-primary);
+            background: linear-gradient(45deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
             color: white;
         }
 
         .btn-primary:hover {
-            background: #333;
-            transform: translateY(-2px);
+            transform: scale(1.02);
+            filter: brightness(1.1);
         }
 
         .btn-secondary {
             background: transparent;
             color: var(--text-primary);
-            border: 1.5px solid var(--accent);
+            border: 1px solid var(--border);
         }
 
         .btn-secondary:hover {
-            background: var(--accent-light);
+            background: var(--bg-elevated);
         }
 
-        /* Coming Soon Section */
-        .coming-soon {
-            padding: 3rem 1.5rem;
-            max-width: 900px;
+        /* Features Grid */
+        .features-section {
+            padding: 1rem 1rem 2rem;
+            max-width: 500px;
             margin: 0 auto;
         }
 
-        .coming-soon h2 {
-            text-align: center;
-            font-size: 1rem;
-            font-weight: 500;
-            color: var(--text-secondary);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 2rem;
-        }
-
         .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
         }
 
         .feature-card {
             background: var(--bg-card);
-            padding: 1.5rem;
-            border-radius: 16px;
-            border: 1px solid var(--accent-light);
-            transition: all 0.2s;
+            padding: 1.25rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            transition: all 0.15s;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
         }
 
         .feature-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            background: var(--bg-elevated);
+            border-color: var(--text-muted);
+        }
+
+        .feature-card:active {
+            transform: scale(0.98);
         }
 
         .feature-icon {
             width: 48px;
             height: 48px;
-            background: var(--accent-light);
+            background: var(--bg-elevated);
             border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 1rem;
-            font-size: 1.25rem;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .feature-content {
+            flex: 1;
+            min-width: 0;
         }
 
         .feature-card h3 {
-            font-size: 1rem;
+            font-size: 0.9375rem;
             font-weight: 600;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.25rem;
         }
 
         .feature-card p {
-            font-size: 0.875rem;
+            font-size: 0.8125rem;
             color: var(--text-secondary);
-            line-height: 1.5;
+            line-height: 1.4;
         }
 
-        .feature-badge {
-            display: inline-block;
-            font-size: 0.7rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: var(--accent-dark);
-            background: var(--accent-light);
-            padding: 0.25rem 0.5rem;
-            border-radius: 4px;
-            margin-top: 0.75rem;
-        }
-
-        .feature-card-link {
-            text-decoration: none;
-            color: inherit;
-            display: block;
-        }
-
-        .feature-card-link:hover .feature-badge {
-            background: var(--accent-dark);
-            color: white;
+        .feature-arrow {
+            color: var(--text-muted);
+            font-size: 0.875rem;
         }
 
         /* Instagram CTA */
         .instagram-cta {
             text-align: center;
-            padding: 4rem 1.5rem;
-            background: var(--bg-card);
-            margin-top: 2rem;
+            padding: 2.5rem 1.5rem;
+            border-top: 1px solid var(--border);
+            margin-top: 1rem;
         }
 
         .instagram-cta p {
-            color: var(--text-secondary);
+            color: var(--text-muted);
             margin-bottom: 1rem;
+            font-size: 0.875rem;
         }
 
         .instagram-link {
@@ -234,40 +228,41 @@
             color: var(--text-primary);
             text-decoration: none;
             font-weight: 600;
-            font-size: 1.1rem;
-            transition: color 0.2s;
+            font-size: 1rem;
+            transition: opacity 0.15s;
         }
 
         .instagram-link:hover {
-            color: var(--accent-dark);
+            opacity: 0.7;
         }
 
         .instagram-link i {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
+            background: linear-gradient(45deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
 
         .followers {
-            font-size: 0.875rem;
-            color: var(--text-secondary);
+            font-size: 0.8125rem;
+            color: var(--text-muted);
             margin-top: 0.5rem;
         }
 
         /* Footer */
         footer {
             text-align: center;
-            padding: 2rem;
-            color: var(--text-secondary);
-            font-size: 0.875rem;
+            padding: 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            border-top: 1px solid var(--border);
         }
 
         /* Mobile */
         @media (max-width: 640px) {
             .hero h1 {
-                font-size: 2rem;
-            }
-
-            nav {
-                display: none;
+                font-size: 1.5rem;
             }
 
             .hero-buttons {
@@ -276,52 +271,55 @@
 
             .btn {
                 width: 100%;
-                text-align: center;
+                justify-content: center;
             }
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="logo">cafes<span>.uy</span></div>
-        <nav>
-            <a href="#">Cafeterías</a>
-            <a href="#">Mapa</a>
-            <a href="#">Ranking</a>
-        </nav>
+        <span class="logo">cafes.uy</span>
+        <div class="header-actions">
+            <a href="https://instagram.com/cafes.uy" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
     </header>
 
     <main>
         <section class="hero">
-            <div class="hero-emoji">☕️🍰🥰</div>
             <h1>Descubrí los mejores cafés de Uruguay</h1>
-            <p>Tu guía para encontrar cafeterías con el mejor café, ambiente y cosas ricas en Uruguay.</p>
+            <p>Tu guía para encontrar cafeterías con el mejor café, ambiente y cosas ricas.</p>
             <div class="hero-buttons">
                 <a href="https://instagram.com/cafes.uy" target="_blank" class="btn btn-primary">
-                    <i class="fab fa-instagram"></i> Seguinos en Instagram
+                    <i class="fab fa-instagram"></i> Seguinos
                 </a>
             </div>
         </section>
 
-        <section class="coming-soon" id="coming-soon">
+        <section class="features-section">
             <div class="features-grid">
-                <a href="cafes.html" class="feature-card feature-card-link">
+                <a href="cafes.html" class="feature-card">
                     <div class="feature-icon">☕</div>
-                    <h3>Cafeterías de Montevideo</h3>
-                    <p>Pet friendly, wifi, enchufes, brunch, specialty coffee y más.</p>
-                    <span class="feature-badge">Ver todos</span>
+                    <div class="feature-content">
+                        <h3>Cafeterías de Montevideo</h3>
+                        <p>Descuentos, pet friendly, domingos y más</p>
+                    </div>
+                    <i class="fas fa-chevron-right feature-arrow"></i>
                 </a>
-                <a href="internacional.html" class="feature-card feature-card-link">
+                <a href="internacional.html" class="feature-card">
                     <div class="feature-icon">🌎</div>
-                    <h3>Favoritos del Mundo</h3>
-                    <p>Mis cafés favoritos fuera de Uruguay.</p>
-                    <span class="feature-badge">Ver cafés</span>
+                    <div class="feature-content">
+                        <h3>Favoritos del Mundo</h3>
+                        <p>Mis cafés favoritos fuera de Uruguay</p>
+                    </div>
+                    <i class="fas fa-chevron-right feature-arrow"></i>
                 </a>
             </div>
         </section>
 
         <section class="instagram-cta">
-            <p>Mientras tanto, seguí nuestras recomendaciones en</p>
+            <p>Seguí nuestras recomendaciones en</p>
             <a href="https://instagram.com/cafes.uy" target="_blank" class="instagram-link">
                 <i class="fab fa-instagram"></i> @cafes.uy
             </a>
@@ -330,7 +328,7 @@
     </main>
 
     <footer>
-        <p>Hecho con ☕ en Uruguay</p>
+        <p>Hecho con cafe en Uruguay</p>
     </footer>
 </body>
 </html>
