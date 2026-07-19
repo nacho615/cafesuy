@@ -68,21 +68,21 @@
       "instagram": "brava.pan",
       "address": "Punta Carretas, Montevideo",
       "opening_hours": "",
-      "tags": []
+      "tags": ["descuentos"]
     },
     {
       "name": "Brava (Parque Rodó)",
       "instagram": "brava.pan",
       "address": "Parque Rodó, Montevideo",
       "opening_hours": "",
-      "tags": []
+      "tags": ["descuentos"]
     },
     {
       "name": "Brava (Aeropuerto)",
       "instagram": "brava.pan",
       "address": "Aeropuerto de Carrasco, Hall de arribos",
       "opening_hours": "",
-      "tags": []
+      "tags": ["descuentos"]
     },
     {
       "name": "Brothaus (Pocitos)",
@@ -159,7 +159,7 @@
       "instagram": "cafettoprado",
       "address": "Av. Joaquín Suárez 3640, Montevideo",
       "opening_hours": "",
-      "tags": []
+      "tags": ["descuentos"]
     },
     {
       "name": "Cardenal Coffee Roasters (Bv España)",
@@ -397,7 +397,7 @@
       "instagram": "la_esquina.cafe",
       "address": "Arocena 1996 esq Mones Roses, Montevideo",
       "opening_hours": "Lunes a Sábados 08:30-20:00, Domingos 16:00-20:00",
-      "tags": ["domingos"]
+      "tags": ["domingos", "descuentos"]
     },
     {
       "name": "La Farmacia Café",
@@ -467,7 +467,7 @@
       "instagram": "nona.uy",
       "address": "Costa Rica 1555, Montevideo",
       "opening_hours": "Martes a Viernes 08:00-20:00, Sábados y Domingos 10:00-20:00",
-      "tags": ["domingos", "opcion-celiaco"]
+      "tags": ["domingos", "opcion-celiaco", "descuentos"]
     },
     {
       "name": "Nueva Malvín",
@@ -488,7 +488,7 @@
       "instagram": "oteroxrotunda",
       "address": "Gabriel Otero 6590, Montevideo",
       "opening_hours": "08:30-20:00",
-      "tags": []
+      "tags": ["descuentos"]
     },
     {
       "name": "Panadería Intuitiva",
