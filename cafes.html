@@ -291,6 +291,18 @@
             object-fit: contain;
         }
 
+        .bank-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .bank-dot.itau { background: #F47920; }
+        .bank-dot.santander { background: #EC0000; }
+        .bank-dot.bbva { background: #004481; }
+        .bank-dot.scotiabank { background: #B22234; }
+
         /* Results count */
         .results-count {
             max-width: 800px;
@@ -563,16 +575,16 @@
                             Ver todos
                         </button>
                         <button class="dropdown-item" data-tag="descuento-itau">
-                            Itaú
+                            <span class="bank-dot itau"></span> Itaú
                         </button>
                         <button class="dropdown-item" data-tag="descuento-santander">
-                            Santander
+                            <span class="bank-dot santander"></span> Santander
                         </button>
                         <button class="dropdown-item" data-tag="descuento-bbva">
-                            BBVA
+                            <span class="bank-dot bbva"></span> BBVA
                         </button>
                         <button class="dropdown-item" data-tag="descuento-scotiabank">
-                            Scotiabank
+                            <span class="bank-dot scotiabank"></span> Scotiabank
                         </button>
                     </div>
                 </div>
