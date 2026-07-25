@@ -275,8 +275,14 @@
             color: white;
         }
 
-        .dropdown-item#descuentos-todos {
+        .dropdown-item#descuentos-todos,
+        .dropdown-item#barrio-todos {
             border-bottom: 1px solid var(--border);
+        }
+
+        #barrio-dropdown {
+            max-height: 300px;
+            overflow-y: auto;
         }
 
         .dropdown-item img {
@@ -527,6 +533,28 @@
                     <i class="fas fa-plug"></i> Enchufes
                 </button>
                 <div class="dropdown">
+                    <button class="dropdown-btn" id="barrio-btn">
+                        <i class="fas fa-map-marker-alt"></i> Barrio <i class="fas fa-chevron-down" style="font-size: 0.65rem; margin-left: 0.25rem;"></i>
+                    </button>
+                    <div class="dropdown-content" id="barrio-dropdown">
+                        <button class="dropdown-item" data-barrio="todos" id="barrio-todos">
+                            Todos los barrios
+                        </button>
+                        <button class="dropdown-item" data-barrio="Pocitos">Pocitos</button>
+                        <button class="dropdown-item" data-barrio="Punta Carretas">Punta Carretas</button>
+                        <button class="dropdown-item" data-barrio="Cordón">Cordón</button>
+                        <button class="dropdown-item" data-barrio="Centro">Centro</button>
+                        <button class="dropdown-item" data-barrio="Ciudad Vieja">Ciudad Vieja</button>
+                        <button class="dropdown-item" data-barrio="Carrasco">Carrasco</button>
+                        <button class="dropdown-item" data-barrio="Parque Rodó">Parque Rodó</button>
+                        <button class="dropdown-item" data-barrio="Parque Batlle">Parque Batlle</button>
+                        <button class="dropdown-item" data-barrio="Malvín">Malvín</button>
+                        <button class="dropdown-item" data-barrio="Palermo">Palermo</button>
+                        <button class="dropdown-item" data-barrio="Prado">Prado</button>
+                        <button class="dropdown-item" data-barrio="Barrio Sur">Barrio Sur</button>
+                    </div>
+                </div>
+                <div class="dropdown">
                     <button class="dropdown-btn" id="descuentos-btn">
                         <i class="fas fa-percent"></i> Descuentos <i class="fas fa-chevron-down" style="font-size: 0.65rem; margin-left: 0.25rem;"></i>
                     </button>
@@ -566,6 +594,7 @@
         let allCafes = [];
         let activeFilters = new Set();
         let activeDiscountFilter = null;
+        let activeBarrioFilter = null;
 
         async function loadCafes() {
             try {
@@ -643,6 +672,13 @@
             return tagNames[tag] || tag;
         }
 
+        function getBarrioFromAddress(address) {
+            if (!address) return null;
+            const parts = address.split(',').map(p => p.trim());
+            // El barrio está en la segunda posición (índice 1)
+            return parts.length > 1 ? parts[1] : null;
+        }
+
         function filterCafes() {
             let filtered = allCafes;
 
@@ -654,6 +690,13 @@
 
             if (activeDiscountFilter) {
                 filtered = filtered.filter(cafe => cafe.tags.includes(activeDiscountFilter));
+            }
+
+            if (activeBarrioFilter) {
+                filtered = filtered.filter(cafe => {
+                    const barrio = getBarrioFromAddress(cafe.address);
+                    return barrio && barrio.toLowerCase().includes(activeBarrioFilter.toLowerCase());
+                });
             }
 
             renderCafes(filtered);
@@ -686,11 +729,8 @@
 
             dropdownBtn.addEventListener('click', (e) => {
                 e.stopPropagation();
+                document.getElementById('barrio-dropdown').classList.remove('show');
                 dropdown.classList.toggle('show');
-            });
-
-            document.addEventListener('click', () => {
-                dropdown.classList.remove('show');
             });
 
             dropdownItems.forEach(item => {
@@ -720,13 +760,63 @@
             });
         }
 
+        function setupBarrioDropdown() {
+            const dropdownBtn = document.getElementById('barrio-btn');
+            const dropdown = document.getElementById('barrio-dropdown');
+            const dropdownItems = dropdown.querySelectorAll('.dropdown-item');
+
+            dropdownBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                document.getElementById('descuentos-dropdown').classList.remove('show');
+                dropdown.classList.toggle('show');
+            });
+
+            dropdownItems.forEach(item => {
+                item.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const barrio = item.dataset.barrio;
+
+                    if (barrio === 'todos') {
+                        activeBarrioFilter = null;
+                        dropdownItems.forEach(i => i.classList.remove('active'));
+                        dropdownBtn.classList.remove('active');
+                        dropdownBtn.innerHTML = '<i class="fas fa-map-marker-alt"></i> Barrio <i class="fas fa-chevron-down" style="font-size: 0.65rem; margin-left: 0.25rem;"></i>';
+                    }
+                    else if (activeBarrioFilter === barrio) {
+                        activeBarrioFilter = null;
+                        item.classList.remove('active');
+                        dropdownBtn.classList.remove('active');
+                        dropdownBtn.innerHTML = '<i class="fas fa-map-marker-alt"></i> Barrio <i class="fas fa-chevron-down" style="font-size: 0.65rem; margin-left: 0.25rem;"></i>';
+                    } else {
+                        dropdownItems.forEach(i => i.classList.remove('active'));
+                        activeBarrioFilter = barrio;
+                        item.classList.add('active');
+                        dropdownBtn.classList.add('active');
+                        dropdownBtn.innerHTML = `<i class="fas fa-map-marker-alt"></i> ${barrio} <i class="fas fa-chevron-down" style="font-size: 0.65rem; margin-left: 0.25rem;"></i>`;
+                    }
+
+                    dropdown.classList.remove('show');
+                    filterCafes();
+                });
+            });
+        }
+
+        document.addEventListener('click', () => {
+            document.getElementById('descuentos-dropdown').classList.remove('show');
+            document.getElementById('barrio-dropdown').classList.remove('show');
+        });
+
         function getFilterFromURL() {
             const params = new URLSearchParams(window.location.search);
-            return params.get('filter');
+            return {
+                filter: params.get('filter'),
+                barrio: params.get('barrio')
+            };
         }
 
         function activateFilterFromURL() {
-            const filter = getFilterFromURL();
+            const { filter, barrio } = getFilterFromURL();
+
             if (filter) {
                 if (filter.startsWith('descuento-')) {
                     const item = document.querySelector(`.dropdown-item[data-tag="${filter}"]`);
@@ -743,14 +833,26 @@
                     }
                 }
             }
+
+            if (barrio) {
+                const item = document.querySelector(`.dropdown-item[data-barrio="${barrio}"]`);
+                if (item) {
+                    activeBarrioFilter = barrio;
+                    item.classList.add('active');
+                    const barrioBtn = document.getElementById('barrio-btn');
+                    barrioBtn.classList.add('active');
+                    barrioBtn.innerHTML = `<i class="fas fa-map-marker-alt"></i> ${barrio} <i class="fas fa-chevron-down" style="font-size: 0.65rem; margin-left: 0.25rem;"></i>`;
+                }
+            }
         }
 
         document.addEventListener('DOMContentLoaded', async () => {
             setupFilters();
             setupDiscountDropdown();
+            setupBarrioDropdown();
             activateFilterFromURL();
             await loadCafes();
-            if (activeFilters.size > 0 || activeDiscountFilter) {
+            if (activeFilters.size > 0 || activeDiscountFilter || activeBarrioFilter) {
                 filterCafes();
             } else {
                 renderCafes(allCafes);
