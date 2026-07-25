@@ -103,65 +103,20 @@
             background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
         }
 
-        /* Decorative stripe */
-        .stripe-decoration {
-            height: 6px;
-            background: linear-gradient(
-                to right,
-                var(--primary) 0%,
-                var(--primary) 25%,
-                var(--secondary) 25%,
-                var(--secondary) 50%,
-                var(--accent) 50%,
-                var(--accent) 75%,
-                var(--teal) 75%,
-                var(--teal) 100%
-            );
+        /* Site Banner */
+        .site-banner {
+            background: #2B323B;
+            padding: 1.5rem 2rem;
+            text-align: center;
         }
 
-        /* Header */
-        header {
-            padding: 1.25rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: var(--bg-card);
-            border-bottom: 1px solid var(--border);
-            position: sticky;
-            top: 0;
-            z-index: 100;
+        .banner-logo {
+            display: inline-block;
         }
 
-        .logo {
-            font-weight: 700;
-            font-size: 1.35rem;
-            color: var(--text-primary);
-            text-decoration: none;
-            letter-spacing: var(--tracking-wide);
-            text-transform: uppercase;
-        }
-
-        .logo span {
-            color: var(--primary);
-        }
-
-        .back-link {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.5rem 1rem;
-            border-radius: var(--radius-full);
-            transition: all var(--transition-base);
-            letter-spacing: var(--tracking-wide);
-        }
-
-        .back-link:hover {
-            color: var(--text-primary);
-            background: var(--bg-primary);
+        .banner-logo img {
+            height: 80px;
+            width: auto;
         }
 
         /* Page Header */
@@ -538,14 +493,11 @@
     </style>
 </head>
 <body>
-    <div class="stripe-decoration"></div>
-
-    <header>
-        <a href="index.html" class="logo">cafes<span>.uy</span></a>
-        <a href="index.html" class="back-link">
-            <i class="fas fa-arrow-left"></i> Volver
+    <section class="site-banner">
+        <a href="index.html" class="banner-logo">
+            <img src="logo-transparent.png" alt="cafes.uy">
         </a>
-    </header>
+    </section>
 
     <main>
         <section class="page-header">
