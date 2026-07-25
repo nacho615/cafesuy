@@ -109,167 +109,79 @@
             background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
         }
 
-        /* Header */
-        header {
-            padding: 1.25rem 2rem;
+        /* Site Header - reusable across pages */
+        .site-header {
+            background: #2B323B;
+            padding: 1rem 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: var(--bg-card);
-            border-bottom: 1px solid var(--border);
-            position: sticky;
-            top: 0;
-            z-index: 100;
         }
 
-        .logo {
-            font-weight: 700;
-            font-size: 1.35rem;
-            color: var(--text-primary);
+        .site-header a {
             text-decoration: none;
-            letter-spacing: var(--tracking-wide);
-            text-transform: uppercase;
         }
 
-        .logo span {
-            color: var(--primary);
+        .header-logo img {
+            height: 50px;
+            width: auto;
         }
 
-        nav {
+        .header-nav {
             display: flex;
-            gap: 0.5rem;
+            gap: 1.5rem;
+            align-items: center;
         }
 
-        nav a {
-            color: var(--text-secondary);
-            text-decoration: none;
+        .header-nav a {
+            color: rgba(240, 230, 216, 0.7);
             font-size: 0.875rem;
             font-weight: 500;
-            padding: 0.5rem 1rem;
-            border-radius: var(--radius-full);
-            transition: all var(--transition-base);
-            letter-spacing: var(--tracking-wide);
+            transition: color var(--transition-base);
         }
 
-        nav a:hover {
-            color: var(--text-primary);
+        .header-nav a:hover {
+            color: var(--cream);
+        }
+
+        .header-nav .nav-instagram {
+            color: var(--cream);
+            display: flex;
+            align-items: center;
+            gap: 0.375rem;
+        }
+
+        .header-nav .nav-instagram i {
+            font-size: 1.1rem;
+        }
+
+        /* Hero - compact version */
+        .hero {
+            padding: 3rem 2rem;
+            text-align: center;
             background: var(--bg-primary);
         }
 
-        /* Hero - Dark section matching logo */
-        .hero {
-            padding: 4rem 2rem 5rem;
-            text-align: center;
-            background: #2B323B;
-            position: relative;
-        }
-
         .hero-content {
-            max-width: 680px;
+            max-width: 600px;
             margin: 0 auto;
         }
 
-        .hero-logo {
-            width: 280px;
-            height: 280px;
-            margin: 0 auto 1.5rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .hero-logo img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-
         .hero h1 {
-            font-size: 2.75rem;
+            font-size: 2.25rem;
             font-weight: 700;
-            margin-bottom: 1.25rem;
-            line-height: 1.15;
+            margin-bottom: 0.75rem;
+            line-height: 1.2;
             letter-spacing: var(--tracking-tight);
-            color: var(--cream);
+            color: var(--text-primary);
         }
 
         .hero p {
-            color: rgba(240, 230, 216, 0.75);
-            font-size: 1.15rem;
-            line-height: 1.7;
-            margin-bottom: 2.5rem;
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            line-height: 1.6;
             max-width: 480px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .hero-buttons {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .hero .btn-primary {
-            background: var(--primary);
-            color: white;
-        }
-
-        .hero .btn-secondary {
-            background: transparent;
-            color: var(--cream);
-            border: 2px solid rgba(240, 230, 216, 0.4);
-        }
-
-        .hero .btn-secondary:hover {
-            border-color: var(--cream);
-            background: rgba(240, 230, 216, 0.1);
-            color: var(--cream);
-        }
-
-        /* Buttons */
-        .btn {
-            padding: 1rem 2rem;
-            border-radius: var(--radius-full);
-            font-size: 0.95rem;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all var(--transition-base);
-            cursor: pointer;
-            border: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.625rem;
-            letter-spacing: var(--tracking-wide);
-        }
-
-        .btn-primary {
-            background: var(--primary);
-            color: white;
-            box-shadow: var(--shadow-md), 0 2px 0 var(--primary-hover);
-        }
-
-        .btn-primary:hover {
-            background: var(--primary-hover);
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-lg), 0 4px 0 #8B3333;
-        }
-
-        .btn-primary:active {
-            transform: translateY(0);
-            box-shadow: var(--shadow-sm);
-        }
-
-        .btn-secondary {
-            background: var(--bg-card);
-            color: var(--text-primary);
-            border: 2px solid var(--border);
-        }
-
-        .btn-secondary:hover {
-            border-color: var(--secondary);
-            background: var(--secondary-light);
-            color: var(--secondary);
+            margin: 0 auto;
         }
 
         /* Features Section */
@@ -435,42 +347,39 @@
 
         /* Mobile */
         @media (max-width: 640px) {
-            header {
-                padding: 1rem 1.5rem;
+            .site-header {
+                padding: 0.875rem 1.25rem;
+                flex-wrap: wrap;
+                gap: 0.75rem;
             }
 
-            .hero {
-                padding: 2.5rem 1.5rem 3.5rem;
+            .header-logo img {
+                height: 40px;
             }
 
-            .hero-logo {
-                width: 160px;
-                height: 160px;
+            .header-nav {
+                gap: 1rem;
+                font-size: 0.8rem;
             }
 
-            .hero h1 {
-                font-size: 1.85rem;
-            }
-
-            .hero p {
-                font-size: 1rem;
-            }
-
-            nav {
+            .header-nav a:not(.nav-instagram) {
                 display: none;
             }
 
-            .hero-buttons {
-                flex-direction: column;
+            .hero {
+                padding: 2rem 1.5rem;
             }
 
-            .btn {
-                width: 100%;
-                justify-content: center;
+            .hero h1 {
+                font-size: 1.65rem;
+            }
+
+            .hero p {
+                font-size: 0.95rem;
             }
 
             .features-section {
-                padding: 3rem 1.5rem;
+                padding: 2.5rem 1.5rem;
             }
 
             .instagram-cta {
@@ -480,22 +389,24 @@
     </style>
 </head>
 <body>
+    <header class="site-header">
+        <a href="index.html" class="header-logo">
+            <img src="logo-transparent.png" alt="cafes.uy">
+        </a>
+        <nav class="header-nav">
+            <a href="cafes.html">Cafeterías</a>
+            <a href="internacional.html">Internacional</a>
+            <a href="https://instagram.com/cafes.uy" target="_blank" class="nav-instagram">
+                <i class="fab fa-instagram"></i> @cafes.uy
+            </a>
+        </nav>
+    </header>
+
     <main>
         <section class="hero">
             <div class="hero-content">
-                <div class="hero-logo">
-                    <img src="logo-transparent.png" alt="cafes.uy">
-                </div>
                 <h1>Descubrí los mejores cafés</h1>
                 <p>Tu guía para encontrar cafeterías con el mejor café de especialidad, ambiente y cosas ricas.</p>
-                <div class="hero-buttons">
-                    <a href="https://instagram.com/cafes.uy" target="_blank" class="btn btn-primary">
-                        <i class="fab fa-instagram"></i> Seguime en Instagram
-                    </a>
-                    <a href="cafes.html" class="btn btn-secondary">
-                        Ver cafeterías
-                    </a>
-                </div>
             </div>
         </section>
 
