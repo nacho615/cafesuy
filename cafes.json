@@ -1422,18 +1422,18 @@
       "name": "Otero",
       "instagram": "oteroxrotunda",
       "address": "Gabriel Otero 6590, Carrasco, Montevideo, Montevideo, Uruguay",
-      "opening_hours": "08:30-20:00",
+      "opening_hours": "Todos los días 09:00-20:00",
       "tags": [
         "descuento-santander"
       ],
       "hours_data": {
-        "lunes": "08:30-20:00",
-        "martes": "08:30-20:00",
-        "miercoles": "08:30-20:00",
-        "jueves": "08:30-20:00",
-        "viernes": "08:30-20:00",
-        "sabado": "08:30-20:00",
-        "domingo": "08:30-20:00"
+        "lunes": "09:00-20:00",
+        "martes": "09:00-20:00",
+        "miercoles": "09:00-20:00",
+        "jueves": "09:00-20:00",
+        "viernes": "09:00-20:00",
+        "sabado": "09:00-20:00",
+        "domingo": "09:00-20:00"
       }
     },
     {
