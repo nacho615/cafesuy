@@ -485,6 +485,139 @@
             color: var(--primary);
         }
 
+        /* Menu Button */
+        .menu-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            background: var(--primary);
+            border: none;
+            border-radius: var(--radius-full);
+            color: white;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition-base);
+            font-family: var(--font-sans);
+        }
+
+        .menu-btn:hover {
+            background: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .menu-btn i {
+            font-size: 1rem;
+        }
+
+        /* Menu Modal */
+        .menu-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        .menu-modal.active {
+            display: flex;
+        }
+
+        .menu-content {
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            max-width: 700px;
+            width: 100%;
+            max-height: 85vh;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .menu-header {
+            position: sticky;
+            top: 0;
+            background: var(--bg-card);
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+        }
+
+        .menu-header h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .menu-close {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            padding: 0.5rem;
+            transition: color var(--transition-base);
+        }
+
+        .menu-close:hover {
+            color: var(--text-primary);
+        }
+
+        .menu-body {
+            padding: 1.5rem;
+        }
+
+        .menu-category {
+            margin-bottom: 2rem;
+        }
+
+        .menu-category:last-child {
+            margin-bottom: 0;
+        }
+
+        .menu-category-title {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary-light);
+        }
+
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.5rem;
+        }
+
+        .menu-item {
+            padding: 0.5rem 0;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .menu-content {
+                max-height: 90vh;
+            }
+
+            .menu-items {
+                grid-template-columns: 1fr;
+            }
+        }
+
         /* Footer */
         footer {
             text-align: center;
@@ -657,6 +790,9 @@
             <a href="https://www.google.com/maps/search/?api=1&query=Río+Negro+1254,+Centro,+Montevideo" target="_blank" class="social-link">
                 <i class="fas fa-directions"></i> Cómo llegar
             </a>
+            <button class="menu-btn" onclick="openMenu()">
+                <i class="fas fa-book-open"></i> Menú
+            </button>
         </div>
 
         <!-- Info Cards -->
@@ -775,7 +911,166 @@
         <p>Hecho con cafe en Uruguay</p>
     </footer>
 
+    <!-- Menu Modal -->
+    <div class="menu-modal" id="menuModal">
+        <div class="menu-content">
+            <div class="menu-header">
+                <h2>Menú</h2>
+                <button class="menu-close" onclick="closeMenu()">&times;</button>
+            </div>
+            <div class="menu-body">
+                <div class="menu-category">
+                    <h3 class="menu-category-title">Café</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">Espresso</div>
+                        <div class="menu-item">Espresso Largo</div>
+                        <div class="menu-item">Espresso Doble</div>
+                        <div class="menu-item">Americano</div>
+                        <div class="menu-item">Iced Americano</div>
+                        <div class="menu-item">Cortado</div>
+                        <div class="menu-item">Flat White</div>
+                        <div class="menu-item">Cappuccino</div>
+                        <div class="menu-item">Mocca</div>
+                        <div class="menu-item">Iced Latte</div>
+                        <div class="menu-item">Iced Coffee</div>
+                        <div class="menu-item">Chocolate Caliente</div>
+                        <div class="menu-item">Affogato</div>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <h3 class="menu-category-title">Té</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">Té Negro</div>
+                        <div class="menu-item">Té Verde</div>
+                        <div class="menu-item">Té Durazno</div>
+                        <div class="menu-item">Iced Tea</div>
+                        <div class="menu-item">Matcha</div>
+                        <div class="menu-item">Iced Matcha</div>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <h3 class="menu-category-title">Jugos</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">Jugo de Naranja</div>
+                        <div class="menu-item">Limonada</div>
+                        <div class="menu-item">Jarra de limonada con menta y jengibre</div>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <h3 class="menu-category-title">Smoothies</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">Banana y Mix Rojos</div>
+                        <div class="menu-item">Mango, Banana y Frutilla</div>
+                        <div class="menu-item">Manzana Verde, Pepino, Apio y Jengibre</div>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <h3 class="menu-category-title">Kombucha</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">Bendita Kombucha</div>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <h3 class="menu-category-title">Bowls</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">Yogur, granola y frutas</div>
+                        <div class="menu-item">Base de banana con leche vegetal, granola y frutas</div>
+                        <div class="menu-item">Açaí, granola y frutas</div>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <h3 class="menu-category-title">Brunch</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">Palta y huevo</div>
+                        <div class="menu-item">Palta, huevo, tomates confitados o cherry y cream cheese</div>
+                        <div class="menu-item">Palta, queso halloumi, criolla, rúcula y aceto balsámico</div>
+                        <div class="menu-item">Panceta, huevo y cheddar</div>
+                        <div class="menu-item">Palta, huevo y queso halloumi</div>
+                        <div class="menu-item">Salmón, queso crema, rúcula y cebolla colorada</div>
+                        <div class="menu-item">Omelette de espinaca y queso</div>
+                        <div class="menu-item">Plato Ritual</div>
+                        <div class="menu-item">Huevos Benedictos</div>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <h3 class="menu-category-title">Almuerzo</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">Tarta del día con ensalada</div>
+                        <div class="menu-item">Milanesa de carne con ensalada</div>
+                        <div class="menu-item">Hamburguesa vegetariana con ensalada</div>
+                        <div class="menu-item">Ensalada de falafel</div>
+                        <div class="menu-item">Ensalada de salmón ahumado</div>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <h3 class="menu-category-title">Salados</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">Pan de queso</div>
+                        <div class="menu-item">Scon de queso</div>
+                        <div class="menu-item">Medialuna semidulce de jamón y queso</div>
+                        <div class="menu-item">Medialuna integral de jamón y queso</div>
+                        <div class="menu-item">Croissant de jamón y queso</div>
+                        <div class="menu-item">Croissant de lomito, huevo y queso</div>
+                        <div class="menu-item">Sándwich caliente de jamón y queso</div>
+                        <div class="menu-item">Sándwich de queso, cebolla caramelizada, tomate y mostaza Dijon</div>
+                        <div class="menu-item">Tostadas con dips</div>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <h3 class="menu-category-title">Dulces</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">Alfajor de maicena</div>
+                        <div class="menu-item">Alfabrownie</div>
+                        <div class="menu-item">Cookie de chipas con chocolate</div>
+                        <div class="menu-item">Cookie de avena</div>
+                        <div class="menu-item">Cookie rellena de dulce de leche</div>
+                        <div class="menu-item">Cookie rellena de Nutella</div>
+                        <div class="menu-item">Roll de canela</div>
+                        <div class="menu-item">Croissant de almendras</div>
+                        <div class="menu-item">Lemon Pie</div>
+                        <div class="menu-item">Brownie con merengue y dulce de leche</div>
+                        <div class="menu-item">Cheesecake</div>
+                        <div class="menu-item">Carrot Cake</div>
+                        <div class="menu-item">Cuadrado de limón</div>
+                        <div class="menu-item">Cuadrado de coco y dulce de leche</div>
+                        <div class="menu-item">Tarta de manzana, nuez y canela</div>
+                        <div class="menu-item">Pasta frola de membrillo</div>
+                        <div class="menu-item">Pasta frola de dulce de leche</div>
+                        <div class="menu-item">Waffles</div>
+                        <div class="menu-item">Pancakes</div>
+                        <div class="menu-item">French Toast</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
+        // Menu modal functionality
+        function openMenu() {
+            document.getElementById('menuModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMenu() {
+            document.getElementById('menuModal').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Close modal when clicking outside
+        document.getElementById('menuModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeMenu();
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeMenu();
+            }
+        });
+
         // Carousel dots functionality
         const track = document.querySelector('.carousel-track');
         const dots = document.querySelectorAll('.carousel-dots .dot');
