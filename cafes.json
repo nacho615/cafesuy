@@ -23,7 +23,7 @@
     {
       "name": "Acevedo",
       "instagram": "acevedopanycafe",
-      "address": "Durazno 1914, Cordón Sur, Montevideo, Montevideo, Uruguay",
+      "address": "Durazno 1914, Palermo, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Martes 15:00-20:00, Miércoles a Sábado 10:00-20:30, Domingo 09:30-19:30",
       "tags": [
         "domingos",
@@ -193,7 +193,7 @@
     {
       "name": "Bonus Gluten Free",
       "instagram": "bonusglutenfree",
-      "address": "Santiago de Chile 1015, Centro, Montevideo, Montevideo, Uruguay",
+      "address": "Santiago de Chile 1015, Barrio Sur, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Miércoles a Domingo 16:00-20:00",
       "tags": [
         "domingos",
@@ -268,9 +268,9 @@
       "image": "img/cafes/brava.pan.jpg"
     },
     {
-      "name": "Brothaus (Carrasco)",
+      "name": "Brothaus (Punta Gorda)",
       "instagram": "brothaus.uy",
-      "address": "Líbano 1428, Carrasco, Montevideo, Montevideo, Uruguay",
+      "address": "Líbano 1428, Punta Gorda, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Lunes a Sábado 08:00-20:00",
       "tags": [],
       "hours_data": {
@@ -427,7 +427,7 @@
     {
       "name": "Café Cum Panis",
       "instagram": "cafecumpanis",
-      "address": "Roque Graseras 829 Bis, Punta Carretas, Montevideo, Montevideo, Uruguay",
+      "address": "Roque Graseras 829 Bis, Pocitos, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Lunes a Viernes 10:00-19:00 (Sábado y Domingo cerrado)",
       "tags": [],
       "hours_data": {
@@ -549,7 +549,7 @@
     {
       "name": "Cali Café",
       "instagram": "cali__cafe",
-      "address": "Punta Carretas, Montevideo, Montevideo, Uruguay",
+      "address": "Claudio Williman 642, Punta Carretas, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Lunes a Jueves 13:00-20:00, Viernes y Sábado 10:00-20:00",
       "tags": [],
       "hours_data": {
@@ -582,7 +582,7 @@
     {
       "name": "Cardenal Coffee Roasters (Bv España)",
       "instagram": "cardenalcafe",
-      "address": "Bulevar España 2103, Pocitos, Montevideo, Montevideo, Uruguay",
+      "address": "Bulevar España 2103, Cordón, Montevideo, Montevideo, Uruguay",
       "opening_hours": "12:00-20:00",
       "tags": [],
       "hours_data": {
@@ -685,7 +685,7 @@
     {
       "name": "Club Cafe",
       "instagram": "clubcafeprado",
-      "address": "Hermanos Gil 1123, Pocitos, Montevideo, Montevideo, Uruguay",
+      "address": "Hermanos Gil 1123, Prado, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados 09:00-12:00 y 16:00-20:00",
       "tags": [],
       "hours_data": {
@@ -954,7 +954,7 @@
     {
       "name": "Desmadre (Jacinto)",
       "instagram": "desmadrecafe",
-      "address": "Itapebí 2108, Parque Batlle, Montevideo, Montevideo, Uruguay",
+      "address": "Itapebí 2108, Jacinto Vera, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Martes a Domingo 09:00-20:00 (Lunes cerrado)",
       "tags": [
         "domingos",
@@ -1067,7 +1067,7 @@
     {
       "name": "Espacio Mirador",
       "instagram": "miradoruy",
-      "address": "Eduardo Acevedo 899, Cordón, Montevideo, Montevideo, Uruguay",
+      "address": "Eduardo Acevedo 899, Parque Rodó, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados 09:30-20:00",
       "tags": [],
       "hours_data": {
@@ -1506,7 +1506,7 @@
     {
       "name": "La Madriguera Café",
       "instagram": "la_madriguera_cafe",
-      "address": "Divina Comedia 1666 Bis, Punta Carretas, Montevideo, Montevideo, Uruguay",
+      "address": "Divina Comedia 1666 Bis, Carrasco, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Lunes a Viernes 08:00-20:00, Sábado 08:30-20:00",
       "tags": [],
       "hours_data": {
@@ -1597,7 +1597,7 @@
     {
       "name": "MACOCO Café",
       "instagram": "macococafe",
-      "address": "Maldonado 1775, Cordón, Montevideo, Montevideo, Uruguay",
+      "address": "Maldonado 1775, Palermo, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Lunes a Viernes 09:00-20:00, Sábado 12:00-20:00 (Domingo cerrado)",
       "tags": [],
       "hours_data": {
@@ -1787,7 +1787,7 @@
     {
       "name": "Peperoncino",
       "instagram": "peperoncino.uy",
-      "address": "Luis de la Torre 960, Punta Carretas, Montevideo, Montevideo, Uruguay",
+      "address": "Luis de la Torre 960, Pocitos, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Lunes a Viernes 09:00-19:00",
       "tags": [],
       "hours_data": {
@@ -2215,7 +2215,7 @@
     {
       "name": "Talcafé (SOHO)",
       "instagram": "talcafeuy",
-      "address": "Maldonado 1827, Cordón, Montevideo, Montevideo, Uruguay",
+      "address": "Maldonado 1827, Palermo, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Lunes a Viernes 08:00-20:00, Sábado 09:00-14:00",
       "tags": [],
       "hours_data": {
@@ -2249,7 +2249,7 @@
     {
       "name": "The Lab Coffee Roasters (MNAV)",
       "instagram": "thelabcoffeeroasters",
-      "address": "Museo Nacional de Artes Visuales, Av. Tomás Giribaldi 2283, Parque Rodó, Montevideo, Montevideo, Uruguay",
+      "address": "Museo Nacional de Artes Visuales - Av. Tomás Giribaldi 2283, Parque Rodó, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Martes a Domingo 08:30-20:00 (Lunes cerrado)",
       "tags": [
         "domingos"
