@@ -2416,6 +2416,26 @@
         "domingo": "08:30-20:00"
       },
       "image": "img/cafes/wild.bakery.jpg"
+    },
+    {
+      "name": "Café L'Atelier Casciani",
+      "instagram": "cafe_atelier_casciani",
+      "address": "Sarandí 294 esquina Colón, Ciudad Vieja, Montevideo, Uruguay",
+      "opening_hours": "L-V 9-18hs, S-D 10-20hs",
+      "tags": [
+        "domingos"
+      ],
+      "image": "img/cafes/cafe_atelier_casciani.jpg"
+    },
+    {
+      "name": "Harta Café",
+      "instagram": "hartacafe",
+      "address": "Plácido Ellauri 3252 esq Buxareo, Pocitos, Montevideo, Uruguay",
+      "opening_hours": "M-V 15-20:30hs, S-D 10-12:30 y 15-20:30hs",
+      "tags": [
+        "domingos"
+      ],
+      "image": "img/cafes/hartacafe.jpg"
     }
   ]
 }
