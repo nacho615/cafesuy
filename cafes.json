@@ -316,7 +316,8 @@
         "jueves": "15:00-20:00",
         "viernes": "15:00-20:00",
         "sabado": "15:00-20:00"
-      }
+      },
+      "image": "img/cafes/cacaoseismontes.jpg"
     },
     {
       "name": "Café Doré",
