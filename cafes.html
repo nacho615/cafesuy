@@ -615,6 +615,9 @@
         <section class="filters-section">
             <span class="filters-label">Filtrar por</span>
             <div class="filters">
+                <button class="filter-btn" id="open-now-btn">
+                    <i class="far fa-clock"></i> Abiertas Ahora
+                </button>
                 <button class="filter-btn" data-tag="domingos">
                     <i class="far fa-calendar"></i> Domingos
                 </button>
@@ -684,6 +687,7 @@
         let activeFilters = new Set();
         let activeDiscountFilter = null;
         let activeBarrioFilter = null;
+        let openNowFilter = false;
 
         async function loadCafes() {
             try {
@@ -768,8 +772,38 @@
             return parts.length > 1 ? parts[1] : null;
         }
 
+        function isOpenNow(cafe) {
+            if (!cafe.hours_data) return false;
+
+            const now = new Date();
+            const days = ['domingo', 'lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'];
+            const today = days[now.getDay()];
+
+            const todayHours = cafe.hours_data[today];
+            if (!todayHours) return false;
+
+            const [openTime, closeTime] = todayHours.split('-');
+            const [openH, openM] = openTime.split(':').map(Number);
+            const [closeH, closeM] = closeTime.split(':').map(Number);
+
+            const currentMinutes = now.getHours() * 60 + now.getMinutes();
+            const openMinutes = openH * 60 + openM;
+            let closeMinutes = closeH * 60 + closeM;
+
+            // Si cierra después de medianoche (ej: 00:00, 01:00, 02:00)
+            if (closeMinutes < openMinutes) {
+                closeMinutes += 24 * 60;
+            }
+
+            return currentMinutes >= openMinutes && currentMinutes < closeMinutes;
+        }
+
         function filterCafes() {
             let filtered = allCafes;
+
+            if (openNowFilter) {
+                filtered = filtered.filter(cafe => isOpenNow(cafe));
+            }
 
             if (activeFilters.size > 0) {
                 filtered = filtered.filter(cafe => {
@@ -792,7 +826,7 @@
         }
 
         function setupFilters() {
-            const filterBtns = document.querySelectorAll('.filter-btn');
+            const filterBtns = document.querySelectorAll('.filter-btn[data-tag]');
 
             filterBtns.forEach(btn => {
                 btn.addEventListener('click', () => {
@@ -808,6 +842,15 @@
 
                     filterCafes();
                 });
+            });
+        }
+
+        function setupOpenNowFilter() {
+            const btn = document.getElementById('open-now-btn');
+            btn.addEventListener('click', () => {
+                openNowFilter = !openNowFilter;
+                btn.classList.toggle('active', openNowFilter);
+                filterCafes();
             });
         }
 
@@ -937,11 +980,12 @@
 
         document.addEventListener('DOMContentLoaded', async () => {
             setupFilters();
+            setupOpenNowFilter();
             setupDiscountDropdown();
             setupBarrioDropdown();
             activateFilterFromURL();
             await loadCafes();
-            if (activeFilters.size > 0 || activeDiscountFilter || activeBarrioFilter) {
+            if (activeFilters.size > 0 || activeDiscountFilter || activeBarrioFilter || openNowFilter) {
                 filterCafes();
             } else {
                 renderCafes(allCafes);
