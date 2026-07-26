@@ -153,7 +153,8 @@
         "jueves": "08:00-20:00",
         "viernes": "08:00-20:00",
         "sabado": "09:00-20:00"
-      }
+      },
+      "image": "img/cafes/bertha_uy.jpg"
     },
     {
       "name": "Bonus Gluten Free",
