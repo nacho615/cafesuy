@@ -877,7 +877,7 @@
             countEl.textContent = `${cafes.length} café${cafes.length !== 1 ? 's' : ''} encontrado${cafes.length !== 1 ? 's' : ''}`;
 
             container.innerHTML = cafes.map(cafe => `
-                <div class="cafe-card" onclick="window.open('https://instagram.com/${cafe.instagram}', '_blank')">
+                <div class="cafe-card" onclick="openCafe('${cafe.instagram}')">
                     <div class="cafe-header">
                         <div class="cafe-main">
                             ${cafe.image ? `<img src="${cafe.image}" alt="${cafe.name}" class="cafe-image" onerror="this.style.display='none'">` : ''}
@@ -905,6 +905,28 @@
             const parts = address.split(',').map(p => p.trim());
             // Mostrar solo calle y barrio (primeros 2 componentes)
             return parts.slice(0, 2).join(', ');
+        }
+
+        function getCafeUrl(instagram) {
+            // Cafes con página de detalle
+            const cafePages = {
+                'ritualcafe.uy': 'cafe-ritual.html'
+            };
+            if (cafePages[instagram]) {
+                return cafePages[instagram];
+            }
+            return `https://instagram.com/${instagram}`;
+        }
+
+        function openCafe(instagram) {
+            const cafePages = {
+                'ritualcafe.uy': 'cafe-ritual.html'
+            };
+            if (cafePages[instagram]) {
+                window.location.href = cafePages[instagram];
+            } else {
+                window.open(`https://instagram.com/${instagram}`, '_blank');
+            }
         }
 
         function formatTag(tag) {
