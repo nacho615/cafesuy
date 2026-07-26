@@ -211,6 +211,57 @@
             border-radius: 0 0 var(--radius-lg) 0;
         }
 
+        /* Mobile Carousel - hidden on desktop */
+        .photo-carousel {
+            display: none;
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .carousel-track {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+            border-radius: var(--radius-lg);
+            gap: 0;
+        }
+
+        .carousel-track::-webkit-scrollbar {
+            display: none;
+        }
+
+        .carousel-slide {
+            flex: 0 0 100%;
+            aspect-ratio: 16/10;
+            background-size: cover;
+            background-position: center;
+            scroll-snap-align: start;
+        }
+
+        .carousel-dots {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+        }
+
+        .carousel-dots .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--border);
+            transition: all var(--transition-base);
+            cursor: pointer;
+        }
+
+        .carousel-dots .dot.active {
+            background: var(--primary);
+            width: 24px;
+            border-radius: 4px;
+        }
+
         /* Cafe Header */
         .cafe-header {
             margin-bottom: 2rem;
@@ -479,17 +530,12 @@
                 padding: 0 1.5rem 3rem;
             }
 
-            .photo-gallery {
-                grid-template-columns: 1fr;
-            }
-
-            .featured-photo {
-                border-radius: var(--radius-lg);
-                aspect-ratio: 16/10;
-            }
-
-            .photo-grid {
+            .photo-gallery.desktop-gallery {
                 display: none;
+            }
+
+            .photo-carousel {
+                display: block;
             }
 
             .cafe-name {
@@ -551,12 +597,26 @@
 
     <main class="cafe-detail">
 
-        <!-- Photo Gallery -->
-        <div class="photo-gallery">
+        <!-- Photo Gallery - Desktop -->
+        <div class="photo-gallery desktop-gallery">
             <div class="featured-photo" style="background-image: url('img/cafes/ritual-1.jpg');"></div>
             <div class="photo-grid">
                 <div class="photo" style="background-image: url('img/cafes/ritual-2.jpg');"></div>
                 <div class="photo" style="background-image: url('img/cafes/ritual-3.jpg');"></div>
+            </div>
+        </div>
+
+        <!-- Photo Carousel - Mobile -->
+        <div class="photo-carousel">
+            <div class="carousel-track">
+                <div class="carousel-slide" style="background-image: url('img/cafes/ritual-1.jpg');"></div>
+                <div class="carousel-slide" style="background-image: url('img/cafes/ritual-2.jpg');"></div>
+                <div class="carousel-slide" style="background-image: url('img/cafes/ritual-3.jpg');"></div>
+            </div>
+            <div class="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
             </div>
         </div>
 
@@ -665,6 +725,33 @@
     <footer>
         <p>Hecho con cafe en Uruguay</p>
     </footer>
+
+    <script>
+        // Carousel dots functionality
+        const track = document.querySelector('.carousel-track');
+        const dots = document.querySelectorAll('.carousel-dots .dot');
+
+        if (track && dots.length) {
+            // Update dots on scroll
+            track.addEventListener('scroll', () => {
+                const slideWidth = track.offsetWidth;
+                const scrollPos = track.scrollLeft;
+                const activeIndex = Math.round(scrollPos / slideWidth);
+
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === activeIndex);
+                });
+            });
+
+            // Click on dot to navigate
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    const slideWidth = track.offsetWidth;
+                    track.scrollTo({ left: slideWidth * index, behavior: 'smooth' });
+                });
+            });
+        }
+    </script>
 
 </body>
 </html>
