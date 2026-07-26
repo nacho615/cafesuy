@@ -1148,7 +1148,8 @@
         "viernes": "08:00-20:00",
         "sabado": "10:00-20:00",
         "domingo": "10:00-20:00"
-      }
+      },
+      "image": "img/cafes/labicicletacafeee.jpg"
     },
     {
       "name": "La Croissantería (Ellauri)",
@@ -1167,7 +1168,8 @@
         "viernes": "08:00-19:30",
         "sabado": "08:00-19:30",
         "domingo": "08:00-19:30"
-      }
+      },
+      "image": "img/cafes/lacroissanteria.uy.jpg"
     },
     {
       "name": "La Croissantería (Pocitos)",
@@ -1186,7 +1188,8 @@
         "viernes": "08:00-19:30",
         "sabado": "08:00-19:30",
         "domingo": "08:00-19:30"
-      }
+      },
+      "image": "img/cafes/lacroissanteria.uy.jpg"
     },
     {
       "name": "La Esquina Café",
@@ -1205,7 +1208,8 @@
         "viernes": "08:30-20:00",
         "sabado": "08:30-20:00",
         "domingo": "16:00-20:00"
-      }
+      },
+      "image": "img/cafes/la_esquina.cafe.jpg"
     },
     {
       "name": "La Farmacia Café",
@@ -1220,7 +1224,8 @@
         "jueves": "08:00-19:00",
         "viernes": "08:00-19:00",
         "sabado": "09:00-19:00"
-      }
+      },
+      "image": "img/cafes/cafelafarmacia.jpg"
     },
     {
       "name": "La Latina Café",
@@ -1238,7 +1243,8 @@
         "viernes": "08:00-20:00",
         "sabado": "11:00-20:00",
         "domingo": "11:00-20:00"
-      }
+      },
+      "image": "img/cafes/lalatina_cafe.jpg"
     },
     {
       "name": "La Madriguera Café",
@@ -1253,7 +1259,8 @@
         "jueves": "08:00-20:00",
         "viernes": "08:00-20:00",
         "sabado": "08:30-20:00"
-      }
+      },
+      "image": "img/cafes/la_madriguera_cafe.jpg"
     },
     {
       "name": "La Pantalla",
@@ -1270,7 +1277,8 @@
         "viernes": "12:00-21:00",
         "sabado": "10:00-20:00",
         "domingo": "10:00-20:00"
-      }
+      },
+      "image": "img/cafes/lapantallamalvin.jpg"
     },
     {
       "name": "La Resistance Boulangerie (Carrasco)",
@@ -1288,7 +1296,8 @@
         "viernes": "08:30-19:30",
         "sabado": "08:30-19:30",
         "domingo": "08:30-19:30"
-      }
+      },
+      "image": "img/cafes/laresistanceboulangerie.jpg"
     },
     {
       "name": "La Resistance Boulangerie (Pocitos)",
@@ -1306,7 +1315,8 @@
         "viernes": "08:30-19:30",
         "sabado": "08:30-19:30",
         "domingo": "08:30-19:30"
-      }
+      },
+      "image": "img/cafes/laresistanceboulangerie.jpg"
     },
     {
       "name": "La Resistance Boulangerie (Punta Carretas)",
@@ -1324,7 +1334,8 @@
         "viernes": "08:30-20:00",
         "sabado": "08:30-20:00",
         "domingo": "08:30-20:00"
-      }
+      },
+      "image": "img/cafes/laresistanceboulangerie.jpg"
     },
     {
       "name": "MASA",
