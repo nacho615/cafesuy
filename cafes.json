@@ -491,7 +491,8 @@
         "jueves": "09:00-20:00",
         "viernes": "09:00-20:00",
         "sabado": "12:00-20:00"
-      }
+      },
+      "image": "img/cafes/casaberracos.jpg"
     },
     {
       "name": "Casa de Abajo Café",
