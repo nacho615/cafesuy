@@ -792,11 +792,50 @@
         let openNowFilter = false;
         let searchQuery = '';
 
+        function getBaseName(name) {
+            // Remove location suffix like " (Pocitos)" from the name
+            const match = name.match(/^(.+?)\s*\([^)]+\)$/);
+            return match ? match[1].trim() : name;
+        }
+
+        function shuffleArray(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        function randomizeCafesKeepingGroupsTogether(cafes) {
+            // Group cafes by base name
+            const groups = {};
+            cafes.forEach(cafe => {
+                const baseName = getBaseName(cafe.name);
+                if (!groups[baseName]) {
+                    groups[baseName] = [];
+                }
+                groups[baseName].push(cafe);
+            });
+
+            // Get array of group keys and shuffle them
+            const groupKeys = shuffleArray(Object.keys(groups));
+
+            // Flatten back to array, keeping each group's cafes together
+            const result = [];
+            groupKeys.forEach(key => {
+                result.push(...groups[key]);
+            });
+
+            return result;
+        }
+
         async function loadCafes() {
             try {
                 const response = await fetch('cafes.json');
                 const data = await response.json();
-                allCafes = data.coffee_shops;
+                // Randomize cafes but keep multi-location cafes grouped together
+                allCafes = randomizeCafesKeepingGroupsTogether(data.coffee_shops);
                 return allCafes;
             } catch (error) {
                 console.error('Error cargando cafés:', error);
