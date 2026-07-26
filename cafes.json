@@ -36,7 +36,8 @@
         "viernes": "10:00-20:30",
         "sabado": "10:00-20:30",
         "domingo": "09:30-19:30"
-      }
+      },
+      "image": "img/cafes/acevedopanycafe.jpg"
     },
     {
       "name": "Adagio",
