@@ -272,19 +272,19 @@
       "name": "Bulka",
       "instagram": "bulka.cafe",
       "address": "Guipúzcoa 416, Punta Carretas, Montevideo, Montevideo, Uruguay",
-      "opening_hours": "Abierto todos los días",
+      "opening_hours": "Lunes a Viernes 08:00-19:30, Sábado 10:00-19:30, Domingo 14:00-19:30",
       "tags": [
         "domingos",
         "pet-friendly"
       ],
       "hours_data": {
-        "lunes": "09:00-20:00",
-        "martes": "09:00-20:00",
-        "miercoles": "09:00-20:00",
-        "jueves": "09:00-20:00",
-        "viernes": "09:00-20:00",
-        "sabado": "09:00-20:00",
-        "domingo": "09:00-20:00"
+        "lunes": "08:00-19:30",
+        "martes": "08:00-19:30",
+        "miercoles": "08:00-19:30",
+        "jueves": "08:00-19:30",
+        "viernes": "08:00-19:30",
+        "sabado": "10:00-19:30",
+        "domingo": "14:00-19:30"
       }
     },
     {
