@@ -1364,7 +1364,8 @@
         "jueves": "09:00-20:00",
         "viernes": "09:00-20:00",
         "sabado": "09:00-14:00"
-      }
+      },
+      "image": "img/cafes/necio.cafe.jpg"
     },
     {
       "name": "NONA",
@@ -1383,7 +1384,8 @@
         "viernes": "08:00-20:00",
         "sabado": "10:00-20:00",
         "domingo": "10:00-20:00"
-      }
+      },
+      "image": "img/cafes/nona.uy.jpg"
     },
     {
       "name": "Nueva Malvín",
@@ -1400,7 +1402,8 @@
         "viernes": "07:30-20:30",
         "sabado": "07:30-20:30",
         "domingo": "07:30-20:30"
-      }
+      },
+      "image": "img/cafes/nuevamalvin.jpg"
     },
     {
       "name": "Olegaria Café",
@@ -1416,7 +1419,8 @@
         "viernes": "09:00-19:30",
         "sabado": "10:00-20:00",
         "domingo": "10:00-20:00"
-      }
+      },
+      "image": "img/cafes/olegariacafe.jpg"
     },
     {
       "name": "Otero",
@@ -1434,7 +1438,8 @@
         "viernes": "09:00-20:00",
         "sabado": "09:00-20:00",
         "domingo": "09:00-20:00"
-      }
+      },
+      "image": "img/cafes/oteroxrotunda.jpg"
     },
     {
       "name": "Panadería Intuitiva",
@@ -1451,7 +1456,8 @@
         "viernes": "07:00-21:00",
         "sabado": "15:00-20:00",
         "domingo": "15:00-20:00"
-      }
+      },
+      "image": "img/cafes/panaderia.intuitiva.jpg"
     },
     {
       "name": "Patrimonio Café",
@@ -1470,7 +1476,8 @@
         "viernes": "09:00-21:00",
         "sabado": "11:00-21:00",
         "domingo": "11:00-21:00"
-      }
+      },
+      "image": "img/cafes/patrimoniocafe.jpg"
     },
     {
       "name": "PAUSAT",
