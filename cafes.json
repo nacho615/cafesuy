@@ -91,7 +91,8 @@
         "viernes": "10:00-20:00",
         "sabado": "10:00-20:00",
         "domingo": "10:00-20:00"
-      }
+      },
+      "image": "img/cafes/somosamerico.jpg"
     },
     {
       "name": "Atorrante Café",
