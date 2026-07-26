@@ -17,7 +17,8 @@
         "viernes": "08:30-20:00",
         "sabado": "09:00-20:00",
         "domingo": "09:00-20:00"
-      }
+      },
+      "image": "img/cafes/acento.cafe.jpg"
     },
     {
       "name": "Acevedo",
