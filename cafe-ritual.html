@@ -485,31 +485,10 @@
             color: var(--primary);
         }
 
-        /* Menu Button */
+        /* Menu Button - inherits from social-link */
         .menu-btn {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.75rem 1.25rem;
-            background: var(--primary);
-            border: none;
-            border-radius: var(--radius-full);
-            color: white;
-            font-size: 0.9rem;
-            font-weight: 600;
             cursor: pointer;
-            transition: all var(--transition-base);
             font-family: var(--font-sans);
-        }
-
-        .menu-btn:hover {
-            background: var(--primary-hover);
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-md);
-        }
-
-        .menu-btn i {
-            font-size: 1rem;
         }
 
         /* Menu Modal */
@@ -790,7 +769,7 @@
             <a href="https://www.google.com/maps/search/?api=1&query=Río+Negro+1254,+Centro,+Montevideo" target="_blank" class="social-link">
                 <i class="fas fa-directions"></i> Cómo llegar
             </a>
-            <button class="menu-btn" onclick="openMenu()">
+            <button class="social-link menu-btn" onclick="openMenu()">
                 <i class="fas fa-book-open"></i> Menú
             </button>
         </div>
