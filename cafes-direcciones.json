@@ -1,0 +1,522 @@
+[
+  {
+    "name": "Acento Café",
+    "address": "Dr. Bolivar Balinas 2609, 11300 Montevideo, Departamento de Montevideome "
+  },
+  {
+    "name": "Acevedo",
+    "address": "Durazno 1914 esq Eduardo Acevedo, Montevideo"
+  },
+  {
+    "name": "Adagio",
+    "address": "Gral. Gregorio Suárez 2741, Montevideo"
+  },
+  {
+    "name": "Alto Café",
+    "address": "Pérez Castellano 1417 Bis, Montevideo"
+  },
+  {
+    "name": "Américo Café",
+    "address": "Luis de la Torre 565, Punta Carretas"
+  },
+  {
+    "name": "Atorrante Café",
+    "address": "San José 1300 esq Aquiles Lanza, Centro"
+  },
+  {
+    "name": "Basílico",
+    "address": "Carlos Quijano 1284, Montevideo"
+  },
+  {
+    "name": "Bazar Café",
+    "address": "Juan D. Jackson 966, Montevideo"
+  },
+  {
+    "name": "Bertha",
+    "address": "Benito Lamas 2864, Montevideo"
+  },
+  {
+    "name": "Bonus Gluten Free",
+    "address": "Santiago de Chile 1015, Montevideo"
+  },
+  {
+    "name": "Brava (Ellauri)",
+    "address": "Ellauri, Punta Carretas"
+  },
+  {
+    "name": "Brava (Pablo de María)",
+    "address": "Pablo de María, Parque Rodó"
+  },
+  {
+    "name": "Brava (Aeropuerto)",
+    "address": "Aeropuerto de Carrasco, Hall de arribos"
+  },
+  {
+    "name": "Brownies Luis",
+    "address": "Luis de la Torre 497, Punta Carretas"
+  },
+  {
+    "name": "Brothaus (Pocitos)",
+    "address": "26 de Marzo 1399, Montevideo"
+  },
+  {
+    "name": "Brothaus (Carrasco)",
+    "address": "Líbano 1428, Montevideo"
+  },
+  {
+    "name": "Bulka",
+    "address": "Guipuzcoa 416, Punta Carretas"
+  },
+  {
+    "name": "Cacao Seis Montes",
+    "address": "Joaquín de Salterain 1437, Montevideo"
+  },
+  {
+    "name": "Café Doré",
+    "address": "Rivera 2628, Montevideo"
+  },
+  {
+    "name": "Café Paraíso",
+    "address": "Constituyente 1866, Montevideo"
+  },
+  {
+    "name": "Café Pura",
+    "address": "18 de Julio 2100 esq Requena, Montevideo"
+  },
+  {
+    "name": "Café Social Club",
+    "address": "Plaza Independencia 842, Palacio Salvo, Montevideo"
+  },
+  {
+    "name": "Café Suárez",
+    "address": "Suárez 3724 esq Reyes, Montevideo"
+  },
+  {
+    "name": "Café Tavoli",
+    "address": "Santiago de Anca 1420, Malvín"
+  },
+  {
+    "name": "Cafetto Prado",
+    "address": "Av. Joaquín Suárez 3640, Montevideo"
+  },
+  {
+    "name": "Cardenal Coffee Roasters (Bv España)",
+    "address": "Bv España 2103, Montevideo"
+  },
+  {
+    "name": "Cardenal Coffee Roasters (Centro)",
+    "address": "18 de Julio 1813 bis, Montevideo"
+  },
+  {
+    "name": "Casa Berracos",
+    "address": "Estero Bellaco 2835, Montevideo"
+  },
+  {
+    "name": "Casa de Abajo Café",
+    "address": "Encina 1663, Palermo"
+  },
+  {
+    "name": "Charlotte Bakery Café",
+    "address": "Rodó y Salterain, Cordón"
+  },
+  {
+    "name": "Che.co.ffee",
+    "address": "Zabala 1341, Montevideo"
+  },
+  {
+    "name": "Club Cafe",
+    "address": "Hermanos Gil 1123, Montevideo"
+  },
+  {
+    "name": "Contigo Sueño",
+    "address": "Alberdi 6046, Carrasco"
+  },
+  {
+    "name": "Craft Cafe",
+    "address": "Av 8 de Octubre 2771, Montevideo"
+  },
+  {
+    "name": "Culto Café (Punta Carretas)",
+    "address": "Joaquín Núñez 2858, Punta Carretas"
+  },
+  {
+    "name": "Culto Café (Tostaduria)",
+    "address": "Canelones 2154, Montevideo"
+  },
+  {
+    "name": "Culto Café (Ciudad Vieja)",
+    "address": "Sarandí 499, Ciudad Vieja"
+  },
+  {
+    "name": "Culto Café (EPA)",
+    "address": "Ing. Carlos María Morales 851, Montevideo"
+  },
+  {
+    "name": "Desbocada",
+    "address": "Bv España 2734, Montevideo"
+  },
+  {
+    "name": "Desmadre (Punta Carretas)",
+    "address": "21 de Setiembre 3133, Punta Carretas"
+  },
+  {
+    "name": "Desmadre (Jacinto)",
+    "address": "Itapebí 2108, Montevideo"
+  },
+  {
+    "name": "Desmadre (Pocitos)",
+    "address": "Juan Pablo Laguna 3492, Pocitos"
+  },
+  {
+    "name": "Desmadre (Ciudad Vieja)",
+    "address": "Pérez Castellano 1515, Ciudad Vieja"
+  },
+  {
+    "name": "Desmadre (Cordón)",
+    "address": "Dr. Joaquín Requena 1423, Cordón"
+  },
+  {
+    "name": "Desmadre (Ciudad de la Costa)",
+    "address": "Av. Giannattasio, Ciudad de la Costa"
+  },
+  {
+    "name": "Desmadre (Centro)",
+    "address": "Canelones 1363, Centro"
+  },
+  {
+    "name": "El Cafecito (Pocitos)",
+    "address": "Miguel Barreiro 3293, Pocitos"
+  },
+  {
+    "name": "El Cafecito (Punta Carretas)",
+    "address": "José Scoseria 2453, Punta Carretas"
+  },
+  {
+    "name": "Escaramuza",
+    "address": "Pablo de María 1185 esquina Charrúa, Montevideo"
+  },
+  {
+    "name": "Espacio Mirador",
+    "address": "Eduardo Acevedo 899, Montevideo"
+  },
+  {
+    "name": "Estudio-Café",
+    "address": "Blvr Artigas 1066, Montevideo"
+  },
+  {
+    "name": "Flora Café",
+    "address": "Canelones 892, Montevideo"
+  },
+  {
+    "name": "Flora Mostrador",
+    "address": "Solano García 2487, Montevideo"
+  },
+  {
+    "name": "FRANCA",
+    "address": "Plaza Cagancha 1124, Montevideo"
+  },
+  {
+    "name": "Gallardía Café",
+    "address": "Justicia 2167, Montevideo"
+  },
+  {
+    "name": "GARI",
+    "address": "Humaitá 2708 esquina Garibaldi, Montevideo"
+  },
+  {
+    "name": "Gourmand",
+    "address": "Constituyente 2026, Montevideo"
+  },
+  {
+    "name": "Gutierrez Café",
+    "address": "José Osorio 1188, Montevideo"
+  },
+  {
+    "name": "HOLI",
+    "address": "Montero 2806 bis, Punta Carretas"
+  },
+  {
+    "name": "Icónico Café",
+    "address": "Joaquín Requena 1039, Montevideo"
+  },
+  {
+    "name": "Kaffa Café",
+    "address": "Oscar Gestido 2690, Montevideo"
+  },
+  {
+    "name": "Kaldi (Malvín)",
+    "address": "Rivera 4467, Malvín"
+  },
+  {
+    "name": "Kaldi (Punta Carretas)",
+    "address": "Joaquín Núñez 2843, Punta Carretas"
+  },
+  {
+    "name": "Koffee Skates",
+    "address": "Coronel Mora 495, Montevideo"
+  },
+  {
+    "name": "La Bicicleta Café",
+    "address": "Bv España 2643, Montevideo"
+  },
+  {
+    "name": "La Croissantería (Ellauri)",
+    "address": "José Ellauri 534, Montevideo"
+  },
+  {
+    "name": "La Croissantería (Pocitos)",
+    "address": "26 de Marzo 1267, Montevideo"
+  },
+  {
+    "name": "La Esquina Café",
+    "address": "Arocena 1996 esq Mones Roses, Montevideo"
+  },
+  {
+    "name": "La Farmacia Café",
+    "address": "Cerrito 550, Montevideo"
+  },
+  {
+    "name": "La Latina Café",
+    "address": "Av Brasil 2858, Montevideo"
+  },
+  {
+    "name": "La Madriguera Café",
+    "address": "Divina Comedia 1666 Bis, Montevideo"
+  },
+  {
+    "name": "La Pantalla",
+    "address": "Michigan 1404, Malvín"
+  },
+  {
+    "name": "La Resistance Boulangerie (Carrasco)",
+    "address": "Potosí 1695, Carrasco"
+  },
+  {
+    "name": "La Resistance Boulangerie (Pocitos)",
+    "address": "Libertad 2500, Pocitos"
+  },
+  {
+    "name": "La Resistance Boulangerie (Punta Carretas)",
+    "address": "Francisco Solano Antuña 2680, Punta Carretas"
+  },
+  {
+    "name": "MASA",
+    "address": "Francisco Muñoz 3150, Pocitos"
+  },
+  {
+    "name": "Necio",
+    "address": "Constituyente 1757, Montevideo"
+  },
+  {
+    "name": "NONA",
+    "address": "Costa Rica 1555, Montevideo"
+  },
+  {
+    "name": "Nueva Malvín",
+    "address": "Orinoco 5023, Malvín"
+  },
+  {
+    "name": "Olegaria Café",
+    "address": "Ibiray 2309, Montevideo"
+  },
+  {
+    "name": "Otero",
+    "address": "Gabriel Otero 6590, Montevideo"
+  },
+  {
+    "name": "Panadería Intuitiva",
+    "address": "San Salvador 2015, Montevideo"
+  },
+  {
+    "name": "Patrimonio Café",
+    "address": "Paullier 1294 esquina Chaná, Montevideo"
+  },
+  {
+    "name": "PAUSAT",
+    "address": "Ciudadela 1282, Montevideo"
+  },
+  {
+    "name": "Pistacho",
+    "address": "Brito Foresti 2951, Montevideo"
+  },
+  {
+    "name": "Polo Bamba",
+    "address": "26 de Marzo 958, Montevideo"
+  },
+  {
+    "name": "Qahwa Coffee House",
+    "address": "Paraguay 1266, Montevideo"
+  },
+  {
+    "name": "República Rotisería",
+    "address": "Acevedo Díaz 1269, Montevideo"
+  },
+  {
+    "name": "Rioplatense",
+    "address": "Williman 504, Montevideo"
+  },
+  {
+    "name": "Ritual Cafe",
+    "address": "Río Negro 1254, Montevideo"
+  },
+  {
+    "name": "Ronda",
+    "address": "Bv España 2141, Montevideo"
+  },
+  {
+    "name": "Santé",
+    "address": "El viejo Pancho 2457, Montevideo"
+  },
+  {
+    "name": "SAUCO",
+    "address": "Canelones 1985, Montevideo"
+  },
+  {
+    "name": "Seis Montes",
+    "address": "Rivera 2208, Montevideo"
+  },
+  {
+    "name": "Sometimes Sunday",
+    "address": "Pérez Castellano 1518, Montevideo"
+  },
+  {
+    "name": "Spazio Moka (Ellauri)",
+    "address": "José Ellauri 982, Montevideo"
+  },
+  {
+    "name": "Spazio Moka (Artigas)",
+    "address": "Edificio Joy, Bv. Gral. Artigas 1296, Montevideo"
+  },
+  {
+    "name": "Talcafé GO",
+    "address": "Acevedo Díaz 1642, Montevideo"
+  },
+  {
+    "name": "Talcafé SOHO",
+    "address": "Maldonado 1827, Montevideo"
+  },
+  {
+    "name": "Templo Tostadores",
+    "address": "Charrúa 2825, Montevideo"
+  },
+  {
+    "name": "The Lab Coffee Roasters (Pocitos)",
+    "address": "Av. Luis Alberto de Herrera 1109, Pocitos"
+  },
+  {
+    "name": "The Lab Coffee Roasters (Punta Carretas)",
+    "address": "José Luis Zorrilla de San Martín 146, Punta Carretas"
+  },
+  {
+    "name": "The Lab Coffee Roasters (MNAV)",
+    "address": "Museo Nacional de Artes Visuales, Av Tomas Giribaldi 2283, Montevideo"
+  },
+  {
+    "name": "Uno Catorce (1:14)",
+    "address": "Salterain 1252, Montevideo"
+  },
+  {
+    "name": "Ventanín",
+    "address": "Eduardo Víctor Haedo 2053, Montevideo"
+  },
+  {
+    "name": "Vera (Carrasco)",
+    "address": "Agr Francisco Ros 2758, Carrasco"
+  },
+  {
+    "name": "Vera (WTC)",
+    "address": "World Trade Center, Montevideo"
+  },
+  {
+    "name": "Wild Bakery",
+    "address": "Bv España 2758, Montevideo"
+  },
+  {
+    "name": "Bar Paysandú",
+    "address": "Rondeau 1549 esq. Paysandú, Montevideo"
+  },
+  {
+    "name": "Cafelino",
+    "address": "Colonia 894, Montevideo"
+  },
+  {
+    "name": "Cali Café",
+    "address": "Punta Carretas, Montevideo"
+  },
+  {
+    "name": "Club del Pan",
+    "address": "Gonzalo Ramírez 1485, Montevideo"
+  },
+  {
+    "name": "Cultural Alfabeta",
+    "address": "Miguel Barreiro 3231, Pocitos"
+  },
+  {
+    "name": "Kerop",
+    "address": "Pérez Castellano 1495, Ciudad Vieja"
+  },
+  {
+    "name": "La Isla Café",
+    "address": "Arocena 1551, Carrasco"
+  },
+  {
+    "name": "La Luna Bajo Agua",
+    "address": "Canelones 1250 esq Quijano, Barrio Sur"
+  },
+  {
+    "name": "Obrador",
+    "address": "Pablo de María 899 esq. L. Müller, Parque Rodó"
+  },
+  {
+    "name": "Peperoncino",
+    "address": "Luis de la Torre 960, Punta Carretas"
+  },
+  {
+    "name": "Plaza Café (Parque Rodó)",
+    "address": "Juan D. Jackson 885, Parque Rodó"
+  },
+  {
+    "name": "Plaza Café (Solymar)",
+    "address": "Solymar, La Española"
+  },
+  {
+    "name": "Plaza Café (La Barra)",
+    "address": "La Barra, Maldonado"
+  },
+  {
+    "name": "Río Café & Restaurant",
+    "address": "Carlos Federico Sáez 6430, Carrasco"
+  },
+  {
+    "name": "Saint Germain (Punta Carretas Shopping)",
+    "address": "Punta Carretas Shopping, Montevideo"
+  },
+  {
+    "name": "Saint Germain (Pocitos)",
+    "address": "Oscar Gestido 2805, Pocitos"
+  },
+  {
+    "name": "Saint Germain (Alianza Francesa)",
+    "address": "Bv. Gral. Artigas 1271, Montevideo"
+  },
+  {
+    "name": "Saint Germain (Divino)",
+    "address": "Irlanda 2014, Malvín"
+  },
+  {
+    "name": "Selva Café",
+    "address": "Ruta 101 Km 19300, Canelones"
+  },
+  {
+    "name": "Seven Express & Coffee",
+    "address": "26 de Marzo 3330, Pocitos"
+  },
+  {
+    "name": "Vicio Café",
+    "address": "Plaza Italia Shopping, Montevideo"
+  },
+  {
+    "name": "Villa Dora Café",
+    "address": "Nueva York 1146 esq. Rondeau, Montevideo"
+  }
+]
