@@ -2431,7 +2431,8 @@
         "viernes": "08:00-20:00",
         "sabado": "08:00-20:00",
         "domingo": "08:30-20:00"
-      }
+      },
+      "image": "img/cafes/wild.bakery.jpg"
     }
   ]
 }
