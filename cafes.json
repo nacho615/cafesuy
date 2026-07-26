@@ -423,7 +423,8 @@
         "viernes": "10:00-20:30",
         "sabado": "10:00-21:00",
         "domingo": "15:30-21:00"
-      }
+      },
+      "image": "img/cafes/cafe_tavoli.uy.jpg"
     },
     {
       "name": "Cafetto Prado",
