@@ -106,19 +106,45 @@
         /* Site Header */
         .site-header {
             background: #2B323B;
-            padding: 1rem 2rem;
+            padding: 1.5rem 2rem;
+        }
+
+        .header-top {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            max-width: 1100px;
+            margin: 0 auto;
         }
 
-        .site-header a {
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .header-brand a {
             text-decoration: none;
         }
 
         .header-logo img {
-            height: 50px;
+            height: 70px;
             width: auto;
+        }
+
+        .header-text h1 {
+            color: var(--cream);
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: var(--tracking-tight);
+            margin-bottom: 0.25rem;
+        }
+
+        .header-text p {
+            color: rgba(240, 230, 216, 0.65);
+            font-size: 0.85rem;
+            max-width: 320px;
+            line-height: 1.4;
         }
 
         .header-nav {
@@ -132,6 +158,7 @@
             font-size: 0.875rem;
             font-weight: 500;
             transition: color var(--transition-base);
+            text-decoration: none;
         }
 
         .header-nav a:hover,
@@ -148,27 +175,6 @@
 
         .header-nav .nav-instagram i {
             font-size: 1.1rem;
-        }
-
-        /* Page Header */
-        .page-header {
-            padding: 2rem 2rem 1rem;
-            text-align: center;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .page-header h1 {
-            font-size: 1.75rem;
-            font-weight: 700;
-            margin-bottom: 0.375rem;
-            letter-spacing: var(--tracking-tight);
-            color: var(--text-primary);
-        }
-
-        .page-header p {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
         }
 
         /* Filters */
@@ -509,13 +515,34 @@
         }
 
         /* Mobile */
-        @media (max-width: 640px) {
+        @media (max-width: 768px) {
             .site-header {
-                padding: 0.875rem 1.25rem;
+                padding: 1.25rem 1.5rem;
+            }
+
+            .header-top {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .header-brand {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
             }
 
             .header-logo img {
-                height: 40px;
+                height: 60px;
+            }
+
+            .header-text h1 {
+                font-size: 1.25rem;
+            }
+
+            .header-text p {
+                font-size: 0.8rem;
+                max-width: 280px;
+                margin: 0 auto;
             }
 
             .header-nav {
@@ -524,14 +551,6 @@
 
             .header-nav a:not(.nav-instagram) {
                 display: none;
-            }
-
-            .page-header {
-                padding: 1.5rem 1.5rem 0.75rem;
-            }
-
-            .page-header h1 {
-                font-size: 1.5rem;
             }
 
             .filters-section {
@@ -555,23 +574,27 @@
 </head>
 <body>
     <header class="site-header">
-        <a href="index.html" class="header-logo">
-            <img src="logo-transparent.png" alt="cafes.uy">
-        </a>
-        <nav class="header-nav">
-            <a href="cafes.html" class="active">Cafeterías</a>
-            <a href="internacional.html">Internacional</a>
-            <a href="https://instagram.com/cafes.uy" target="_blank" class="nav-instagram">
-                <i class="fab fa-instagram"></i> @cafes.uy
-            </a>
-        </nav>
+        <div class="header-top">
+            <div class="header-brand">
+                <a href="index.html" class="header-logo">
+                    <img src="logo-transparent.png" alt="cafes.uy">
+                </a>
+                <div class="header-text">
+                    <h1>Descubrí los mejores cafés</h1>
+                    <p>Tu guía para encontrar cafeterías con el mejor café de especialidad, ambiente y cosas ricas.</p>
+                </div>
+            </div>
+            <nav class="header-nav">
+                <a href="cafes.html" class="active">Cafeterías</a>
+                <a href="internacional.html">Internacional</a>
+                <a href="https://instagram.com/cafes.uy" target="_blank" class="nav-instagram">
+                    <i class="fab fa-instagram"></i> @cafes.uy
+                </a>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section class="page-header">
-            <h1>Cafeterías</h1>
-            <p>Encontrá tu próximo café favorito</p>
-        </section>
 
         <section class="filters-section">
             <span class="filters-label">Filtrar por</span>
