@@ -335,7 +335,8 @@
         "viernes": "08:00-20:00",
         "sabado": "08:00-20:00",
         "domingo": "08:00-20:00"
-      }
+      },
+      "image": "img/cafes/cafe_dore.jpg"
     },
     {
       "name": "Café Paraíso",
