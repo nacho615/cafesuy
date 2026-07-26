@@ -123,7 +123,8 @@
         "jueves": "10:30-01:30",
         "viernes": "10:30-02:30",
         "sabado": "11:00-02:30"
-      }
+      },
+      "image": "img/cafes/paysandu_bar.jpg"
     },
     {
       "name": "Basílico",
@@ -385,7 +386,8 @@
         "jueves": "12:00-20:00",
         "viernes": "12:00-20:00",
         "sabado": "15:00-20:00"
-      }
+      },
+      "image": "img/cafes/cafelino.uy.jpg"
     },
     {
       "name": "Cafetto Prado",
@@ -1621,7 +1623,8 @@
         "jueves": "08:00-20:00",
         "viernes": "08:00-20:00",
         "sabado": "08:00-20:00"
-      }
+      },
+      "image": "img/cafes/masacafe_.jpg"
     },
     {
       "name": "Necio",
@@ -1793,7 +1796,8 @@
         "miercoles": "09:00-19:00",
         "jueves": "09:00-19:00",
         "viernes": "09:00-19:00"
-      }
+      },
+      "image": "img/cafes/peperoncino.uy.jpg"
     },
     {
       "name": "Pistacho",
@@ -1825,7 +1829,8 @@
         "viernes": "08:00-21:00",
         "sabado": "08:00-21:00",
         "domingo": "08:00-21:00"
-      }
+      },
+      "image": "img/cafes/plaza_cafe_uy.jpg"
     },
     {
       "name": "Plaza Café (Parque Rodó)",
@@ -1842,7 +1847,8 @@
         "viernes": "09:00-21:00",
         "sabado": "09:00-21:00",
         "domingo": "09:00-21:00"
-      }
+      },
+      "image": "img/cafes/plaza_cafe_uy.jpg"
     },
     {
       "name": "Plaza Café (Solymar)",
@@ -1858,7 +1864,8 @@
         "viernes": "07:30-19:30",
         "sabado": "07:30-19:30",
         "domingo": "07:30-19:30"
-      }
+      },
+      "image": "img/cafes/plaza_cafe_uy.jpg"
     },
     {
       "name": "Polo Bamba",
