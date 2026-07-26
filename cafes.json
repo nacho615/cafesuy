@@ -122,7 +122,8 @@
         "miercoles": "08:00-20:00",
         "jueves": "08:00-20:00",
         "viernes": "08:00-20:00"
-      }
+      },
+      "image": "img/cafes/basilico_pane.jpg"
     },
     {
       "name": "Bazar Café",
