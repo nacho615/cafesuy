@@ -301,7 +301,8 @@
         "viernes": "08:00-19:30",
         "sabado": "10:00-19:30",
         "domingo": "14:00-19:30"
-      }
+      },
+      "image": "img/cafes/bulka.cafe.jpg"
     },
     {
       "name": "Cacao Seis Montes",
