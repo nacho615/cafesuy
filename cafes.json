@@ -871,7 +871,8 @@
         "jueves": "09:00-21:00",
         "viernes": "09:00-21:00",
         "sabado": "09:00-21:00"
-      }
+      },
+      "image": "img/cafes/_escaramuza.jpg"
     },
     {
       "name": "Espacio Mirador",
@@ -886,7 +887,8 @@
         "jueves": "08:00-20:00",
         "viernes": "08:00-20:00",
         "sabado": "09:30-20:00"
-      }
+      },
+      "image": "img/cafes/miradoruy.jpg"
     },
     {
       "name": "Estudio-Café",
@@ -901,7 +903,8 @@
         "jueves": "08:00-20:00",
         "viernes": "08:00-20:00",
         "sabado": "10:00-20:00"
-      }
+      },
+      "image": "img/cafes/estudio__cafe.jpg"
     },
     {
       "name": "Flora Café",
@@ -919,7 +922,8 @@
         "viernes": "09:00-20:00",
         "sabado": "09:00-20:00",
         "domingo": "09:00-20:00"
-      }
+      },
+      "image": "img/cafes/flora.mvd.jpg"
     },
     {
       "name": "Flora Mostrador",
@@ -937,7 +941,8 @@
         "viernes": "09:30-20:00",
         "sabado": "09:30-20:00",
         "domingo": "09:30-20:00"
-      }
+      },
+      "image": "img/cafes/flora.mvd.jpg"
     },
     {
       "name": "FRANCA",
