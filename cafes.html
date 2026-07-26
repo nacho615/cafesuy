@@ -475,6 +475,12 @@
             display: flex;
             align-items: center;
             gap: 0.375rem;
+            text-decoration: none;
+            transition: color var(--transition-base);
+        }
+
+        .cafe-address:hover {
+            color: var(--secondary);
         }
 
         .cafe-address i {
@@ -877,7 +883,7 @@
                             ${cafe.image ? `<img src="${cafe.image}" alt="${cafe.name}" class="cafe-image" onerror="this.style.display='none'">` : ''}
                             <div class="cafe-info">
                                 <div class="cafe-name">${cafe.name}</div>
-                                ${cafe.address ? `<div class="cafe-address"><i class="fas fa-map-marker-alt"></i> ${formatAddress(cafe.address)}</div>` : ''}
+                                ${cafe.address ? `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(cafe.address)}" target="_blank" class="cafe-address" onclick="event.stopPropagation()"><i class="fas fa-map-marker-alt"></i> ${formatAddress(cafe.address)}</a>` : ''}
                                 ${cafe.opening_hours ? `<div class="cafe-hours"><i class="far fa-clock"></i> ${cafe.opening_hours}</div>` : ''}
                             </div>
                         </div>
