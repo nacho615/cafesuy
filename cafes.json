@@ -106,7 +106,8 @@
         "jueves": "09:00-20:00",
         "viernes": "09:00-20:00",
         "sabado": "10:00-16:00"
-      }
+      },
+      "image": "img/cafes/atorrante_cafe.jpg"
     },
     {
       "name": "Basílico",
