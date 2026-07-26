@@ -989,7 +989,8 @@
         "jueves": "08:00-19:00",
         "viernes": "08:00-19:00",
         "sabado": "09:00-15:00"
-      }
+      },
+      "image": "img/cafes/garicafe.uy.jpg"
     },
     {
       "name": "Gourmand",
@@ -1002,7 +1003,8 @@
       "hours_data": {
         "sabado": "09:30-17:00",
         "domingo": "09:30-17:00"
-      }
+      },
+      "image": "img/cafes/cafegourmand.uy.jpg"
     },
     {
       "name": "Gutierrez Café",
@@ -1073,7 +1075,8 @@
         "jueves": "09:00-19:30",
         "viernes": "09:00-19:30",
         "sabado": "09:00-19:30"
-      }
+      },
+      "image": "img/cafes/kaffacafe__.jpg"
     },
     {
       "name": "Kaldi (Malvín)",
@@ -1091,7 +1094,8 @@
         "viernes": "15:00-19:00",
         "sabado": "10:00-19:00",
         "domingo": "10:00-14:30"
-      }
+      },
+      "image": "img/cafes/kaldi.uy.jpg"
     },
     {
       "name": "Kaldi (Punta Carretas)",
@@ -1106,7 +1110,8 @@
         "jueves": "10:00-19:30",
         "viernes": "10:00-19:30",
         "sabado": "10:00-19:30"
-      }
+      },
+      "image": "img/cafes/kaldi.uy.jpg"
     },
     {
       "name": "Koffee Skates",
@@ -1123,7 +1128,8 @@
         "jueves": "12:00-20:15",
         "viernes": "12:00-20:15",
         "sabado": "10:00-20:15"
-      }
+      },
+      "image": "img/cafes/koffeeskates.jpg"
     },
     {
       "name": "La Bicicleta Café",
