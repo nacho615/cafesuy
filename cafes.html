@@ -224,13 +224,35 @@
             position: relative;
         }
 
-        .search-wrapper i {
+        .search-wrapper .search-icon {
             position: absolute;
             left: 1rem;
             top: 50%;
             transform: translateY(-50%);
             color: var(--text-muted);
             font-size: 1rem;
+        }
+
+        .search-clear {
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 1rem;
+            cursor: pointer;
+            display: none;
+            background: none;
+            border: none;
+            padding: 0.25rem;
+        }
+
+        .search-clear:hover {
+            color: var(--text-primary);
+        }
+
+        .search-clear.visible {
+            display: block;
         }
 
         .filters {
@@ -682,8 +704,11 @@
         <section class="filters-section">
             <div class="search-box">
                 <div class="search-wrapper">
-                    <i class="fas fa-search"></i>
+                    <i class="fas fa-search search-icon"></i>
                     <input type="text" class="search-input" id="search-input" placeholder="Buscar por nombre, barrio o dirección...">
+                    <button class="search-clear" id="search-clear" type="button">
+                        <i class="fas fa-times"></i>
+                    </button>
                 </div>
             </div>
             <span class="filters-label">Filtrar por</span>
@@ -1073,9 +1098,20 @@
 
         function setupSearch() {
             const searchInput = document.getElementById('search-input');
+            const clearBtn = document.getElementById('search-clear');
+
             searchInput.addEventListener('input', (e) => {
                 searchQuery = e.target.value;
+                clearBtn.classList.toggle('visible', searchQuery.length > 0);
                 filterCafes();
+            });
+
+            clearBtn.addEventListener('click', () => {
+                searchInput.value = '';
+                searchQuery = '';
+                clearBtn.classList.remove('visible');
+                filterCafes();
+                searchInput.focus();
             });
         }
 
