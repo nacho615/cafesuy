@@ -194,6 +194,45 @@
             display: block;
         }
 
+        .search-box {
+            margin-bottom: 1rem;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.875rem 1rem 0.875rem 2.75rem;
+            border-radius: var(--radius-full);
+            border: 1.5px solid var(--border);
+            background: var(--bg-card);
+            color: var(--text-primary);
+            font-size: 1rem;
+            font-family: var(--font-sans);
+            transition: all var(--transition-base);
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--secondary);
+            box-shadow: 0 0 0 3px var(--secondary-light);
+        }
+
+        .search-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .search-wrapper {
+            position: relative;
+        }
+
+        .search-wrapper i {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
         .filters {
             display: flex;
             flex-wrap: wrap;
@@ -641,6 +680,12 @@
     <main>
 
         <section class="filters-section">
+            <div class="search-box">
+                <div class="search-wrapper">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="search-input" id="search-input" placeholder="Buscar por nombre, barrio o dirección...">
+                </div>
+            </div>
             <span class="filters-label">Filtrar por</span>
             <div class="filters">
                 <button class="filter-btn" id="open-now-btn">
@@ -716,6 +761,7 @@
         let activeDiscountFilter = null;
         let activeBarrioFilter = null;
         let openNowFilter = false;
+        let searchQuery = '';
 
         async function loadCafes() {
             try {
@@ -857,6 +903,15 @@
                 filtered = filtered.filter(cafe => {
                     const barrio = getBarrioFromAddress(cafe.address);
                     return barrio && barrio.toLowerCase().includes(activeBarrioFilter.toLowerCase());
+                });
+            }
+
+            if (searchQuery) {
+                const query = searchQuery.toLowerCase();
+                filtered = filtered.filter(cafe => {
+                    return cafe.name.toLowerCase().includes(query) ||
+                           (cafe.address && cafe.address.toLowerCase().includes(query)) ||
+                           cafe.instagram.toLowerCase().includes(query);
                 });
             }
 
@@ -1016,11 +1071,20 @@
             }
         }
 
+        function setupSearch() {
+            const searchInput = document.getElementById('search-input');
+            searchInput.addEventListener('input', (e) => {
+                searchQuery = e.target.value;
+                filterCafes();
+            });
+        }
+
         document.addEventListener('DOMContentLoaded', async () => {
             setupFilters();
             setupOpenNowFilter();
             setupDiscountDropdown();
             setupBarrioDropdown();
+            setupSearch();
             activateFilterFromURL();
             await loadCafes();
             if (activeFilters.size > 0 || activeDiscountFilter || activeBarrioFilter || openNowFilter) {
