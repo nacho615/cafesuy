@@ -55,7 +55,8 @@
         "viernes": "10:00-20:30",
         "sabado": "10:00-20:30",
         "domingo": "10:00-20:30"
-      }
+      },
+      "image": "img/cafes/adagio_libreriacafe.jpg"
     },
     {
       "name": "Alto Café",
