@@ -154,7 +154,6 @@
       "opening_hours": "Miércoles a Domingo 16:00-20:00",
       "tags": [
         "domingos",
-        "opcion-celiaco",
         "descuento-bbva",
         "sin-gluten"
       ],
@@ -1299,7 +1298,6 @@
       "opening_hours": "Martes a Viernes 08:00-20:00, Sábados y Domingos 10:00-20:00",
       "tags": [
         "domingos",
-        "opcion-celiaco",
         "descuento-santander",
         "sin-gluten"
       ],
@@ -1599,7 +1597,6 @@
       "opening_hours": "Lunes a Viernes 08:00-20:00, Domingo 09:00-20:00 (Sábado cerrado)",
       "tags": [
         "domingos",
-        "opcion-celiaco",
         "descuento-scotiabank"
       ],
       "hours_data": {
@@ -1617,7 +1614,6 @@
       "address": "Edificio Joy, Bulevar General Artigas 1296, Parque Rodó, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Lunes a Viernes 08:00-20:00, Sábado 09:00-20:00",
       "tags": [
-        "opcion-celiaco",
         "descuento-scotiabank"
       ],
       "hours_data": {
