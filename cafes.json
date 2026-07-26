@@ -2436,6 +2436,25 @@
         "domingos"
       ],
       "image": "img/cafes/hartacafe.jpg"
+    },
+    {
+      "name": "Café Bertin",
+      "instagram": "cafebertin",
+      "address": "Av. Dr. Juan Bautista Alberdi 6047, Carrasco, Montevideo, Uruguay",
+      "opening_hours": "M-J 10-20:30hs, V-S 10-00hs, D 10-20:30hs",
+      "tags": [
+        "domingos"
+      ],
+      "hours_data": {
+        "domingo": "10:00-20:30",
+        "lunes": null,
+        "martes": "10:00-20:30",
+        "miercoles": "10:00-20:30",
+        "jueves": "10:00-20:30",
+        "viernes": "10:00-00:00",
+        "sabado": "10:00-00:00"
+      },
+      "image": "img/cafes/cafebertin.jpg"
     }
   ]
 }
