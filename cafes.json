@@ -1816,23 +1816,6 @@
       "image": "img/cafes/pistacho_patisserie.jpg"
     },
     {
-      "name": "Plaza Café (La Barra)",
-      "instagram": "plaza_cafe_uy",
-      "address": "La Barra, Maldonado, Maldonado, Uruguay",
-      "opening_hours": "08:00-21:00",
-      "tags": [],
-      "hours_data": {
-        "lunes": "08:00-21:00",
-        "martes": "08:00-21:00",
-        "miercoles": "08:00-21:00",
-        "jueves": "08:00-21:00",
-        "viernes": "08:00-21:00",
-        "sabado": "08:00-21:00",
-        "domingo": "08:00-21:00"
-      },
-      "image": "img/cafes/plaza_cafe_uy.jpg"
-    },
-    {
       "name": "Plaza Café (Parque Rodó)",
       "instagram": "plaza_cafe_uy",
       "address": "Juan D. Jackson 885, Parque Rodó, Montevideo, Montevideo, Uruguay",
