@@ -2165,6 +2165,140 @@
         "jueves": "10:00-19:00",
         "sabado": "11:00-18:00"
       }
+    },
+    {
+      "name": "Blanca Café",
+      "instagram": "blancacafe.uy",
+      "address": "Gabriel Pereira 3125, Pocitos, Montevideo, Montevideo, Uruguay",
+      "opening_hours": "Domingo a Jueves 09:00-20:00, Viernes 09:00-16:30 (Sábado cerrado)",
+      "tags": [
+        "domingos"
+      ],
+      "hours_data": {
+        "domingo": "09:00-20:00",
+        "lunes": "09:00-20:00",
+        "martes": "09:00-20:00",
+        "miercoles": "09:00-20:00",
+        "jueves": "09:00-20:00",
+        "viernes": "09:00-16:30"
+      }
+    },
+    {
+      "name": "Federación",
+      "instagram": "federacion_uy",
+      "address": "Pérez Castellano 1370, Ciudad Vieja, Montevideo, Montevideo, Uruguay",
+      "opening_hours": "Lunes, Martes, Jueves a Domingo 09:00-19:00 (Miércoles cerrado)",
+      "tags": [
+        "domingos"
+      ],
+      "hours_data": {
+        "lunes": "09:00-19:00",
+        "martes": "09:00-19:00",
+        "jueves": "09:00-19:00",
+        "viernes": "09:00-19:00",
+        "sabado": "09:00-19:00",
+        "domingo": "09:00-19:00"
+      }
+    },
+    {
+      "name": "Café Cum Panis",
+      "instagram": "cafecumpanis",
+      "address": "Roque Graseras 829 Bis, Punta Carretas, Montevideo, Montevideo, Uruguay",
+      "opening_hours": "Lunes a Viernes 10:00-19:00 (Sábado y Domingo cerrado)",
+      "tags": [],
+      "hours_data": {
+        "lunes": "10:00-19:00",
+        "martes": "10:00-19:00",
+        "miercoles": "10:00-19:00",
+        "jueves": "10:00-19:00",
+        "viernes": "10:00-19:00"
+      }
+    },
+    {
+      "name": "Cafe Valderrama",
+      "instagram": "cafe_valderrama",
+      "address": "Dr. Gabriel Otero 6437, Carrasco, Montevideo, Montevideo, Uruguay",
+      "opening_hours": "Lunes 08:15-20:00, Martes a Domingo 08:15-23:30",
+      "tags": [
+        "domingos",
+        "descuento-itau"
+      ],
+      "hours_data": {
+        "lunes": "08:15-20:00",
+        "martes": "08:15-23:30",
+        "miercoles": "08:15-23:30",
+        "jueves": "08:15-23:30",
+        "viernes": "08:15-23:30",
+        "sabado": "08:15-23:30",
+        "domingo": "08:15-23:30"
+      }
+    },
+    {
+      "name": "Café Cinemateca",
+      "instagram": "cinematecacafe",
+      "address": "Bartolomé Mitre 1236, Centro, Montevideo, Montevideo, Uruguay",
+      "opening_hours": "Lunes a Viernes 12:00-21:00, Sábado y Domingo 16:00-21:00",
+      "tags": [
+        "domingos"
+      ],
+      "hours_data": {
+        "lunes": "12:00-21:00",
+        "martes": "12:00-21:00",
+        "miercoles": "12:00-21:00",
+        "jueves": "12:00-21:00",
+        "viernes": "12:00-21:00",
+        "sabado": "16:00-21:00",
+        "domingo": "16:00-21:00"
+      }
+    },
+    {
+      "name": "MACOCO Café",
+      "instagram": "macococafe",
+      "address": "Maldonado 1775, Cordón, Montevideo, Montevideo, Uruguay",
+      "opening_hours": "Lunes a Viernes 09:00-20:00, Sábado 12:00-20:00 (Domingo cerrado)",
+      "tags": [],
+      "hours_data": {
+        "lunes": "09:00-20:00",
+        "martes": "09:00-20:00",
+        "miercoles": "09:00-20:00",
+        "jueves": "09:00-20:00",
+        "viernes": "09:00-20:00",
+        "sabado": "12:00-20:00"
+      }
+    },
+    {
+      "name": "Carabele",
+      "instagram": "carabele_",
+      "address": "Dr. Alejandro Schroeder 6558, Carrasco, Montevideo, Montevideo, Uruguay",
+      "opening_hours": "Lunes a Viernes 09:00-18:00 (Sábado y Domingo cerrado)",
+      "tags": [
+        "sin-gluten"
+      ],
+      "hours_data": {
+        "lunes": "09:00-18:00",
+        "martes": "09:00-18:00",
+        "miercoles": "09:00-18:00",
+        "jueves": "09:00-18:00",
+        "viernes": "09:00-18:00"
+      }
+    },
+    {
+      "name": "Costa Café",
+      "instagram": "costacafe2023",
+      "address": "Tomás Diago 843, Pocitos, Montevideo, Montevideo, Uruguay",
+      "opening_hours": "Lunes a Domingo 08:00-22:00",
+      "tags": [
+        "domingos"
+      ],
+      "hours_data": {
+        "lunes": "08:00-22:00",
+        "martes": "08:00-22:00",
+        "miercoles": "08:00-22:00",
+        "jueves": "08:00-22:00",
+        "viernes": "08:00-22:00",
+        "sabado": "08:00-22:00",
+        "domingo": "08:00-22:00"
+      }
     }
   ]
 }
