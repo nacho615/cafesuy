@@ -347,35 +347,45 @@
         /* Mobile */
         @media (max-width: 768px) {
             .site-header {
-                padding: 1rem 1rem;
+                padding: 0.875rem 1rem;
             }
 
             .header-top {
-                flex-direction: column;
-                gap: 0.75rem;
+                flex-direction: row;
+                justify-content: center;
             }
 
             .header-brand {
-                gap: 0.75rem;
+                gap: 1rem;
             }
 
             .header-logo img {
-                height: 50px;
+                height: 55px;
             }
 
             .header-text h1 {
-                font-size: 1rem;
+                font-size: 0.95rem;
+                margin-bottom: 0.125rem;
             }
 
             .header-text p {
                 display: none;
             }
 
-            .header-nav {
-                gap: 1rem;
+            .header-text .mobile-instagram {
+                display: flex;
+                align-items: center;
+                gap: 0.25rem;
+                color: var(--cream);
+                font-size: 0.8rem;
+                text-decoration: none;
             }
 
-            .header-nav a:not(.nav-instagram) {
+            .header-text .mobile-instagram i {
+                font-size: 0.9rem;
+            }
+
+            .header-nav {
                 display: none;
             }
 
@@ -385,6 +395,12 @@
 
             .instagram-cta {
                 padding: 3rem 1.5rem;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .header-text .mobile-instagram {
+                display: none;
             }
         }
     </style>
@@ -399,6 +415,9 @@
                 <div class="header-text">
                     <h1>Descubrí los mejores cafés</h1>
                     <p>Tu guía para encontrar cafeterías con el mejor café de especialidad, ambiente y cosas ricas.</p>
+                    <a href="https://instagram.com/cafes.uy" target="_blank" class="mobile-instagram">
+                        <i class="fab fa-instagram"></i> @cafes.uy
+                    </a>
                 </div>
             </div>
             <nav class="header-nav">
