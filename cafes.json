@@ -2346,7 +2346,8 @@
         "jueves": "08:30-20:00",
         "viernes": "08:30-20:00",
         "sabado": "08:30-20:00"
-      }
+      },
+      "image": "img/cafes/al_ventanin.jpg"
     },
     {
       "name": "Vera (Carrasco)",
@@ -2363,7 +2364,8 @@
         "sabado": "09:00-20:00",
         "domingo": "09:00-20:00",
         "lunes": "09:00-20:00"
-      }
+      },
+      "image": "img/cafes/vera.mvd.jpg"
     },
     {
       "name": "Vera (WTC)",
@@ -2377,7 +2379,8 @@
         "miercoles": "07:30-17:30",
         "jueves": "07:30-17:30",
         "viernes": "07:30-17:30"
-      }
+      },
+      "image": "img/cafes/vera.mvd.jpg"
     },
     {
       "name": "Vicio Café",
