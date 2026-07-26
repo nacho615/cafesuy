@@ -759,7 +759,7 @@
                             ${cafe.image ? `<img src="${cafe.image}" alt="${cafe.name}" class="cafe-image" onerror="this.style.display='none'">` : ''}
                             <div class="cafe-info">
                                 <div class="cafe-name">${cafe.name}</div>
-                                ${cafe.address ? `<div class="cafe-address"><i class="fas fa-map-marker-alt"></i> ${cafe.address}</div>` : ''}
+                                ${cafe.address ? `<div class="cafe-address"><i class="fas fa-map-marker-alt"></i> ${formatAddress(cafe.address)}</div>` : ''}
                                 ${cafe.opening_hours ? `<div class="cafe-hours"><i class="far fa-clock"></i> ${cafe.opening_hours}</div>` : ''}
                             </div>
                         </div>
@@ -774,6 +774,13 @@
                     ` : ''}
                 </div>
             `).join('');
+        }
+
+        function formatAddress(address) {
+            if (!address) return '';
+            const parts = address.split(',').map(p => p.trim());
+            // Mostrar solo calle y barrio (primeros 2 componentes)
+            return parts.slice(0, 2).join(', ');
         }
 
         function formatTag(tag) {
