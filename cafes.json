@@ -69,7 +69,8 @@
         "viernes": "10:00-19:00",
         "sabado": "10:00-19:00",
         "domingo": "10:00-19:00"
-      }
+      },
+      "image": "img/cafes/alto_cafe_.jpg"
     },
     {
       "name": "Américo Café",
@@ -130,7 +131,8 @@
         "miercoles": "08:30-19:00",
         "jueves": "08:30-19:00",
         "viernes": "08:30-19:00"
-      }
+      },
+      "image": "img/cafes/bazarcafeuy.jpg"
     },
     {
       "name": "Bertha",
@@ -181,7 +183,8 @@
         "viernes": "07:30-20:00",
         "sabado": "07:30-20:00",
         "domingo": "07:30-20:00"
-      }
+      },
+      "image": "img/cafes/brava.pan.jpg"
     },
     {
       "name": "Brava (Pablo de María)",
@@ -199,7 +202,8 @@
         "viernes": "08:30-20:00",
         "sabado": "08:30-20:00",
         "domingo": "08:30-20:00"
-      }
+      },
+      "image": "img/cafes/brava.pan.jpg"
     },
     {
       "name": "Brava (Aeropuerto)",
@@ -218,7 +222,8 @@
         "viernes": "07:00-19:00",
         "sabado": "07:00-19:00",
         "domingo": "07:00-19:00"
-      }
+      },
+      "image": "img/cafes/brava.pan.jpg"
     },
     {
       "name": "Brownies Luis",
@@ -333,7 +338,8 @@
         "jueves": "09:00-20:00",
         "viernes": "09:00-20:00",
         "sabado": "09:00-20:00"
-      }
+      },
+      "image": "img/cafes/cafeparaisouy.jpg"
     },
     {
       "name": "Café Pura",
@@ -348,7 +354,8 @@
         "jueves": "08:00-20:00",
         "viernes": "08:00-20:00",
         "sabado": "08:00-20:00"
-      }
+      },
+      "image": "img/cafes/cafepura.uy.jpg"
     },
     {
       "name": "Café Social Club",
@@ -382,7 +389,8 @@
         "jueves": "08:30-21:00",
         "viernes": "08:30-21:00",
         "sabado": "08:30-21:00"
-      }
+      },
+      "image": "img/cafes/cafesuarez.jpg"
     },
     {
       "name": "Café Tavoli",
@@ -431,7 +439,8 @@
         "viernes": "12:00-20:00",
         "sabado": "12:00-20:00",
         "domingo": "12:00-20:00"
-      }
+      },
+      "image": "img/cafes/cardenalcafe.jpg"
     },
     {
       "name": "Cardenal Coffee Roasters (Centro)",
@@ -449,7 +458,8 @@
         "viernes": "08:00-20:00",
         "sabado": "09:00-14:00",
         "domingo": "10:00-15:00"
-      }
+      },
+      "image": "img/cafes/cardenalcafe.jpg"
     },
     {
       "name": "Casa Berracos",
@@ -480,7 +490,8 @@
         "viernes": "10:00-20:00",
         "sabado": "10:00-20:00",
         "domingo": "10:00-20:00"
-      }
+      },
+      "image": "img/cafes/casa_de_abajo.jpg"
     },
     {
       "name": "Charlotte Bakery Café",
@@ -497,7 +508,8 @@
         "viernes": "10:00-20:00",
         "sabado": "10:00-20:00",
         "domingo": "10:00-20:00"
-      }
+      },
+      "image": "img/cafes/charlottecafemvd.jpg"
     },
     {
       "name": "Che.co.ffee",
@@ -527,7 +539,8 @@
         "jueves": "08:00-20:00",
         "viernes": "08:00-20:00",
         "sabado": "09:00-12:00"
-      }
+      },
+      "image": "img/cafes/clubcafeprado.jpg"
     },
     {
       "name": "Contigo Sueño",
@@ -578,7 +591,8 @@
         "viernes": "08:00-20:00",
         "sabado": "08:00-20:00",
         "domingo": "08:00-20:00"
-      }
+      },
+      "image": "img/cafes/cultocafeuy.jpg"
     },
     {
       "name": "Culto Café (Tostaduria)",
@@ -596,7 +610,8 @@
         "viernes": "08:00-20:00",
         "sabado": "08:00-20:00",
         "domingo": "08:00-20:00"
-      }
+      },
+      "image": "img/cafes/cultocafeuy.jpg"
     },
     {
       "name": "Culto Café (Ciudad Vieja)",
@@ -611,7 +626,8 @@
         "jueves": "08:00-19:00",
         "viernes": "08:00-19:00",
         "sabado": "10:00-17:00"
-      }
+      },
+      "image": "img/cafes/cultocafeuy.jpg"
     },
     {
       "name": "Culto Café (EPA)",
@@ -629,7 +645,8 @@
         "viernes": "08:00-20:00",
         "sabado": "08:00-20:00",
         "domingo": "08:00-20:00"
-      }
+      },
+      "image": "img/cafes/cultocafeuy.jpg"
     },
     {
       "name": "Desbocada",
@@ -788,7 +805,8 @@
         "viernes": "08:00-20:00",
         "sabado": "08:00-20:00",
         "domingo": "10:00-20:00"
-      }
+      },
+      "image": "img/cafes/elcafecito.uy.jpg"
     },
     {
       "name": "El Cafecito (Punta Carretas)",
@@ -806,7 +824,8 @@
         "viernes": "08:00-20:00",
         "sabado": "08:00-20:00",
         "domingo": "10:00-20:00"
-      }
+      },
+      "image": "img/cafes/elcafecito.uy.jpg"
     },
     {
       "name": "Escaramuza",
@@ -904,7 +923,8 @@
         "jueves": "07:30-19:30",
         "viernes": "07:30-19:30",
         "sabado": "09:00-16:00"
-      }
+      },
+      "image": "img/cafes/franca_uy.jpg"
     },
     {
       "name": "Gallardía Café",
@@ -919,7 +939,8 @@
         "jueves": "09:00-20:00",
         "viernes": "09:00-20:00",
         "sabado": "09:00-20:00"
-      }
+      },
+      "image": "img/cafes/gallardia.cafe.jpg"
     },
     {
       "name": "GARI",
@@ -964,7 +985,8 @@
         "viernes": "08:00-20:00",
         "sabado": "08:00-20:00",
         "domingo": "12:00-20:00"
-      }
+      },
+      "image": "img/cafes/gutierrezcafe_.jpg"
     },
     {
       "name": "HOLI",
@@ -981,7 +1003,8 @@
         "viernes": "09:30-19:30",
         "sabado": "09:30-19:30",
         "domingo": "09:30-19:30"
-      }
+      },
+      "image": "img/cafes/holicafe_.jpg"
     },
     {
       "name": "Icónico Café",
@@ -1000,7 +1023,8 @@
         "viernes": "08:15-20:00",
         "sabado": "08:15-20:00",
         "domingo": "12:00-19:00"
-      }
+      },
+      "image": "img/cafes/iconico.cafe.jpg"
     },
     {
       "name": "Kaffa Café",

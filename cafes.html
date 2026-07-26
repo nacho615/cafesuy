@@ -381,6 +381,25 @@
             gap: 1rem;
         }
 
+        .cafe-main {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .cafe-image {
+            width: 56px;
+            height: 56px;
+            border-radius: var(--radius-full);
+            object-fit: cover;
+            flex-shrink: 0;
+            border: 2px solid var(--border-light);
+        }
+
+        .cafe-info {
+            flex: 1;
+        }
+
         .cafe-name {
             font-size: 1.15rem;
             font-weight: 600;
@@ -576,6 +595,11 @@
             .cafe-card {
                 padding: 1.25rem;
             }
+
+            .cafe-image {
+                width: 48px;
+                height: 48px;
+            }
         }
 
         @media (min-width: 769px) {
@@ -731,10 +755,13 @@
             container.innerHTML = cafes.map(cafe => `
                 <div class="cafe-card" onclick="window.open('https://instagram.com/${cafe.instagram}', '_blank')">
                     <div class="cafe-header">
-                        <div>
-                            <div class="cafe-name">${cafe.name}</div>
-                            ${cafe.address ? `<div class="cafe-address"><i class="fas fa-map-marker-alt"></i> ${cafe.address}</div>` : ''}
-                            ${cafe.opening_hours ? `<div class="cafe-hours"><i class="far fa-clock"></i> ${cafe.opening_hours}</div>` : ''}
+                        <div class="cafe-main">
+                            ${cafe.image ? `<img src="${cafe.image}" alt="${cafe.name}" class="cafe-image" onerror="this.style.display='none'">` : ''}
+                            <div class="cafe-info">
+                                <div class="cafe-name">${cafe.name}</div>
+                                ${cafe.address ? `<div class="cafe-address"><i class="fas fa-map-marker-alt"></i> ${cafe.address}</div>` : ''}
+                                ${cafe.opening_hours ? `<div class="cafe-hours"><i class="far fa-clock"></i> ${cafe.opening_hours}</div>` : ''}
+                            </div>
                         </div>
                         <a href="https://instagram.com/${cafe.instagram}" target="_blank" class="cafe-instagram" onclick="event.stopPropagation()">
                             <i class="fab fa-instagram"></i> @${cafe.instagram}
