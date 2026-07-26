@@ -557,7 +557,8 @@
         "jueves": "13:00-20:00",
         "viernes": "10:00-20:00",
         "sabado": "10:00-20:00"
-      }
+      },
+      "image": "img/cafes/cali__cafe.jpg"
     },
     {
       "name": "Carabele",
@@ -707,7 +708,8 @@
         "jueves": "08:30-20:00",
         "viernes": "08:30-20:00",
         "sabado": "08:30-20:00"
-      }
+      },
+      "image": "img/cafes/clubdelpan.uy.jpg"
     },
     {
       "name": "Contigo Sueño",
@@ -852,7 +854,8 @@
         "viernes": "09:00-23:00",
         "sabado": "09:00-23:00",
         "domingo": "09:00-23:00"
-      }
+      },
+      "image": "img/cafes/cultural_alfabeta.jpg"
     },
     {
       "name": "Desbocada",
@@ -1330,7 +1333,8 @@
         "viernes": "10:00-20:00",
         "sabado": "10:00-20:00",
         "domingo": "13:00-20:00"
-      }
+      },
+      "image": "img/cafes/kerop_uy.jpg"
     },
     {
       "name": "Koffee Skates",
@@ -1460,7 +1464,8 @@
         "viernes": "08:00-20:00",
         "sabado": "08:00-20:00",
         "domingo": "08:00-20:00"
-      }
+      },
+      "image": "img/cafes/cafelaisla.jpg"
     },
     {
       "name": "La Latina Café",
@@ -1493,7 +1498,8 @@
         "miercoles": "15:00-22:00",
         "jueves": "15:00-22:00",
         "viernes": "15:00-00:00"
-      }
+      },
+      "image": "img/cafes/lalunabajoagua.jpg"
     },
     {
       "name": "La Madriguera Café",
@@ -1683,7 +1689,8 @@
         "jueves": "09:00-19:00",
         "viernes": "09:00-19:00",
         "sabado": "09:00-19:00"
-      }
+      },
+      "image": "img/cafes/obradorsocialclub.jpg"
     },
     {
       "name": "Olegaria Café",
@@ -1978,7 +1985,8 @@
         "viernes": "08:00-00:00",
         "sabado": "08:00-00:00",
         "domingo": "08:00-16:00"
-      }
+      },
+      "image": "img/cafes/rio.cafe.restaurant.jpg"
     },
     {
       "name": "Saint Germain (Alianza Francesa)",
@@ -2088,7 +2096,8 @@
         "jueves": "08:00-20:00",
         "viernes": "08:00-20:00",
         "sabado": "16:00-20:00"
-      }
+      },
+      "image": "img/cafes/sauco_cafe.jpg"
     },
     {
       "name": "Seis Montes",
@@ -2102,7 +2111,8 @@
         "miercoles": "09:00-20:00",
         "jueves": "09:00-20:00",
         "viernes": "09:00-20:00"
-      }
+      },
+      "image": "img/cafes/seismontes.jpg"
     },
     {
       "name": "Selva Café",
@@ -2156,7 +2166,8 @@
         "viernes": "09:00-18:00",
         "sabado": "09:00-18:00",
         "domingo": "09:00-18:00"
-      }
+      },
+      "image": "img/cafes/sometimessundaycafe.jpg"
     },
     {
       "name": "Spazio Moka (Artigas)",
@@ -2173,7 +2184,8 @@
         "jueves": "08:00-20:00",
         "viernes": "08:00-20:00",
         "sabado": "09:00-20:00"
-      }
+      },
+      "image": "img/cafes/spazio_moka.jpg"
     },
     {
       "name": "Spazio Moka (Ellauri)",
@@ -2191,7 +2203,8 @@
         "jueves": "08:00-20:00",
         "viernes": "08:00-20:00",
         "domingo": "09:00-20:00"
-      }
+      },
+      "image": "img/cafes/spazio_moka.jpg"
     },
     {
       "name": "Talcafé GO",
@@ -2206,7 +2219,8 @@
         "jueves": "08:00-20:00",
         "viernes": "08:00-20:00",
         "sabado": "14:30-20:00"
-      }
+      },
+      "image": "img/cafes/talcafeuy.jpg"
     },
     {
       "name": "Talcafé SOHO",
@@ -2221,7 +2235,8 @@
         "jueves": "08:00-20:00",
         "viernes": "08:00-20:00",
         "sabado": "09:00-14:00"
-      }
+      },
+      "image": "img/cafes/talcafeuy.jpg"
     },
     {
       "name": "Templo Tostadores",
@@ -2238,7 +2253,8 @@
         "viernes": "09:00-20:00",
         "sabado": "09:00-20:00",
         "domingo": "14:00-19:00"
-      }
+      },
+      "image": "img/cafes/templotostadores.jpg"
     },
     {
       "name": "The Lab Coffee Roasters (MNAV)",
@@ -2255,7 +2271,8 @@
         "viernes": "08:30-20:00",
         "sabado": "08:30-20:00",
         "domingo": "08:30-20:00"
-      }
+      },
+      "image": "img/cafes/thelabcoffeeroasters.jpg"
     },
     {
       "name": "The Lab Coffee Roasters (Pocitos)",
@@ -2273,7 +2290,8 @@
         "viernes": "08:30-21:00",
         "sabado": "09:00-21:00",
         "domingo": "09:00-21:00"
-      }
+      },
+      "image": "img/cafes/thelabcoffeeroasters.jpg"
     },
     {
       "name": "The Lab Coffee Roasters (Punta Carretas)",
@@ -2291,7 +2309,8 @@
         "viernes": "08:30-21:00",
         "sabado": "08:30-21:00",
         "domingo": "08:30-21:00"
-      }
+      },
+      "image": "img/cafes/thelabcoffeeroasters.jpg"
     },
     {
       "name": "Uno Catorce (1:14)",
