@@ -1470,6 +1470,25 @@
       "image": "img/cafes/cafelaisla.jpg"
     },
     {
+      "name": "La Isla Café (MVD Shopping)",
+      "instagram": "cafelaisla",
+      "address": "Montevideo Shopping, Av. Luis Alberto de Herrera 1290, Buceo, Montevideo, Montevideo, Uruguay",
+      "opening_hours": "Lunes a Jueves y Domingo 10:00-21:00, Viernes y Sábado 10:00-22:00",
+      "tags": [
+        "domingos"
+      ],
+      "hours_data": {
+        "lunes": "10:00-21:00",
+        "martes": "10:00-21:00",
+        "miercoles": "10:00-21:00",
+        "jueves": "10:00-21:00",
+        "viernes": "10:00-22:00",
+        "sabado": "10:00-22:00",
+        "domingo": "10:00-21:00"
+      },
+      "image": "img/cafes/cafelaisla.jpg"
+    },
+    {
       "name": "La Latina Café",
       "instagram": "lalatina_cafe",
       "address": "Avenida Brasil 2858, Pocitos, Montevideo, Montevideo, Uruguay",
