@@ -584,7 +584,9 @@
       "instagram": "cardenalcafe",
       "address": "Bulevar España 2103, Cordón, Montevideo, Montevideo, Uruguay",
       "opening_hours": "12:00-20:00",
-      "tags": [],
+      "tags": [
+        "domingos"
+      ],
       "hours_data": {
         "lunes": "12:00-20:00",
         "martes": "12:00-20:00",
@@ -1457,7 +1459,9 @@
       "instagram": "cafelaisla",
       "address": "Arocena 1551, Carrasco, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Todos los días 08:00-20:00",
-      "tags": [],
+      "tags": [
+        "domingos"
+      ],
       "hours_data": {
         "lunes": "08:00-20:00",
         "martes": "08:00-20:00",
@@ -1737,7 +1741,8 @@
       "address": "Gabriel Otero 6590, Carrasco, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Todos los días 09:00-20:00",
       "tags": [
-        "descuento-santander"
+        "descuento-santander",
+        "domingos"
       ],
       "hours_data": {
         "lunes": "09:00-20:00",
@@ -1857,7 +1862,9 @@
       "instagram": "plaza_cafe_uy",
       "address": "La Española, Solymar, Ciudad de la Costa, Canelones, Uruguay",
       "opening_hours": "07:30-19:30",
-      "tags": [],
+      "tags": [
+        "domingos"
+      ],
       "hours_data": {
         "lunes": "07:30-19:30",
         "martes": "07:30-19:30",
