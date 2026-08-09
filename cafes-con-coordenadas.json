@@ -616,8 +616,8 @@
       "sabado": "10:00-20:00"
     },
     "image": "img/cafes/cali__cafe.jpg",
-    "lat": -34.8807598,
-    "lng": -56.2541762
+    "lat": -34.9168359,
+    "lng": -56.1586987
   },
   {
     "name": "Carabele",
@@ -808,8 +808,8 @@
       "domingo": "08:30-20:00"
     },
     "image": "img/cafes/contigodecocafe.jpg",
-    "lat": -34.8822481,
-    "lng": -56.0725868
+    "lat": -34.8824,
+    "lng": -56.0726
   },
   {
     "name": "Costa Café",
@@ -2409,8 +2409,8 @@
       "domingo": "09:00-18:00"
     },
     "image": "img/cafes/sometimessundaycafe.jpg",
-    "lat": -34.8559003,
-    "lng": -56.158732
+    "lat": -34.9064162,
+    "lng": -56.2109921
   },
   {
     "name": "Spazio Moka (Artigas)",
