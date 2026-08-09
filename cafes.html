@@ -916,11 +916,13 @@
         }
 
         function openCafe(instagram) {
-            const cafePages = {
-                'ritualcafe.uy': 'cafe-ritual.html'
+            // Links a mis reseñas en Instagram
+            const cafeReviews = {
+                'clubcafeprado': 'https://www.instagram.com/p/DQ7Vw39iTxo'
             };
-            if (cafePages[instagram]) {
-                window.location.href = cafePages[instagram];
+
+            if (cafeReviews[instagram]) {
+                window.open(cafeReviews[instagram], '_blank');
             } else {
                 window.open(`https://instagram.com/${instagram}`, '_blank');
             }
