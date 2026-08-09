@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Cafés | cafes.uy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #F5F0E8;
+            --bg-secondary: #FAF7F2;
+            --bg-card: #FFFDF9;
+            --bg-dark: #2B323B;
+            --text-primary: #3D4452;
+            --text-secondary: #5C6370;
+            --text-muted: #8B9099;
+            --text-light: #F0E6D8;
+            --border: #E5DED4;
+            --border-light: #F0EBE3;
+            --primary: #C04C4C;
+            --primary-hover: #A43E3E;
+            --secondary: #D4764A;
+            --secondary-hover: #BF6940;
+            --accent: #D4A84B;
+            --teal: #7BA8A8;
+            --cream: #F0E6D8;
+            --shadow-md: 0 4px 12px rgba(61, 68, 82, 0.08);
+            --shadow-lg: 0 8px 24px rgba(61, 68, 82, 0.12);
+            --radius-sm: 6px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --transition-base: 200ms ease;
+            --font-sans: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+            --tracking-tight: -0.02em;
+            --tracking-wide: 0.05em;
+            --tracking-wider: 0.1em;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Site Header */
+        .site-header {
+            background: #2B323B;
+            padding: 0.6rem 2rem;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .header-brand a {
+            text-decoration: none;
+        }
+
+        .header-logo img {
+            height: 100px;
+            width: auto;
+        }
+
+        .header-text h1 {
+            color: var(--cream);
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: var(--tracking-tight);
+            margin-bottom: 0.25rem;
+        }
+
+        .header-text p {
+            color: rgba(240, 230, 216, 0.65);
+            font-size: 0.85rem;
+            max-width: 320px;
+            line-height: 1.4;
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .header-nav a {
+            color: rgba(240, 230, 216, 0.7);
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: color var(--transition-base);
+            text-decoration: none;
+        }
+
+        .header-nav a:hover,
+        .header-nav a.active {
+            color: var(--cream);
+        }
+
+        .header-nav .nav-instagram {
+            color: var(--cream);
+            display: flex;
+            align-items: center;
+            gap: 0.375rem;
+        }
+
+        /* Map Container */
+        .map-container {
+            display: flex;
+            height: calc(100vh - 120px);
+        }
+
+        #map {
+            flex: 1;
+            min-height: 400px;
+        }
+
+        /* Sidebar */
+        .map-sidebar {
+            width: 380px;
+            background: var(--bg-card);
+            border-left: 1px solid var(--border);
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar-header {
+            padding: 1.25rem;
+            border-bottom: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+
+        .sidebar-header h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .sidebar-search {
+            position: relative;
+        }
+
+        .sidebar-search input {
+            width: 100%;
+            padding: 0.75rem 1rem 0.75rem 2.5rem;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            font-family: var(--font-sans);
+            font-size: 0.9rem;
+            background: var(--bg-card);
+            transition: all var(--transition-base);
+        }
+
+        .sidebar-search input:focus {
+            outline: none;
+            border-color: var(--secondary);
+            box-shadow: 0 0 0 3px rgba(212, 118, 74, 0.1);
+        }
+
+        .sidebar-search i {
+            position: absolute;
+            left: 0.875rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+        }
+
+        .cafe-count {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+        }
+
+        .cafe-list {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .cafe-item {
+            padding: 1rem 1.25rem;
+            border-bottom: 1px solid var(--border-light);
+            cursor: pointer;
+            transition: all var(--transition-base);
+            display: flex;
+            gap: 0.875rem;
+            align-items: flex-start;
+        }
+
+        .cafe-item:hover {
+            background: var(--bg-secondary);
+        }
+
+        .cafe-item.active {
+            background: var(--secondary-light);
+            border-left: 3px solid var(--secondary);
+        }
+
+        .cafe-item-image {
+            width: 50px;
+            height: 50px;
+            border-radius: var(--radius-sm);
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .cafe-item-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .cafe-item-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+        }
+
+        .cafe-item-address {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .cafe-item-instagram {
+            font-size: 0.75rem;
+            color: var(--secondary);
+            margin-top: 0.25rem;
+        }
+
+        /* Leaflet popup customization */
+        .leaflet-popup-content-wrapper {
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-lg);
+            padding: 0;
+        }
+
+        .leaflet-popup-content {
+            margin: 0;
+            min-width: 220px;
+        }
+
+        .cafe-popup {
+            padding: 0;
+        }
+
+        .cafe-popup-image {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: var(--radius-md) var(--radius-md) 0 0;
+        }
+
+        .cafe-popup-content {
+            padding: 1rem;
+        }
+
+        .cafe-popup-name {
+            font-weight: 600;
+            font-size: 1rem;
+            color: var(--text-primary);
+            margin-bottom: 0.375rem;
+        }
+
+        .cafe-popup-address {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .cafe-popup-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.375rem;
+            color: var(--secondary);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: color var(--transition-base);
+        }
+
+        .cafe-popup-link:hover {
+            color: var(--secondary-hover);
+        }
+
+        /* Custom marker */
+        .cafe-marker {
+            background: var(--secondary);
+            border: 3px solid white;
+            border-radius: 50%;
+            box-shadow: var(--shadow-md);
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .site-header {
+                padding: 0.5rem 1rem;
+            }
+
+            .header-logo img {
+                height: 60px;
+            }
+
+            .header-text h1 {
+                font-size: 1rem;
+            }
+
+            .header-text p {
+                display: none;
+            }
+
+            .header-nav {
+                display: none;
+            }
+
+            .map-container {
+                flex-direction: column-reverse;
+                height: calc(100vh - 80px);
+            }
+
+            .map-sidebar {
+                width: 100%;
+                height: 45%;
+                border-left: none;
+                border-top: 1px solid var(--border);
+            }
+
+            #map {
+                height: 55%;
+            }
+        }
+
+        /* Loading state */
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem;
+            color: var(--text-muted);
+        }
+
+        .loading i {
+            animation: spin 1s linear infinite;
+            margin-right: 0.5rem;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-top">
+            <div class="header-brand">
+                <a href="index.html" class="header-logo">
+                    <img src="logo-transparent.png" alt="cafes.uy">
+                </a>
+                <div class="header-text">
+                    <h1>Mapa de Cafés</h1>
+                    <p>Explorá los cafés de Montevideo en el mapa</p>
+                </div>
+            </div>
+            <nav class="header-nav">
+                <a href="index.html">Inicio</a>
+                <a href="cafes.html">Lista</a>
+                <a href="mapa.html" class="active">Mapa</a>
+                <a href="https://instagram.com/cafes.uy" target="_blank" class="nav-instagram">
+                    <i class="fab fa-instagram"></i> @cafes.uy
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="map-container">
+        <div id="map"></div>
+        <aside class="map-sidebar">
+            <div class="sidebar-header">
+                <h2>Cafés de Montevideo</h2>
+                <div class="sidebar-search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="search-input" placeholder="Buscar café...">
+                </div>
+                <p class="cafe-count" id="cafe-count">Cargando...</p>
+            </div>
+            <div class="cafe-list" id="cafe-list">
+                <div class="loading">
+                    <i class="fas fa-spinner"></i> Cargando cafés...
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <script>
+        // Initialize map centered on Montevideo
+        const map = L.map('map').setView([-34.9011, -56.1645], 13);
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+        // Custom marker icon
+        const cafeIcon = L.divIcon({
+            className: 'cafe-marker-container',
+            html: `<div style="
+                background: #D4764A;
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                border: 3px solid white;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            ">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="1">
+                    <path d="M17 8h1a4 4 0 1 1 0 8h-1"/>
+                    <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/>
+                </svg>
+            </div>`,
+            iconSize: [32, 32],
+            iconAnchor: [16, 16],
+            popupAnchor: [0, -16]
+        });
+
+        let cafes = [];
+        let markers = [];
+        let activeMarker = null;
+
+        // Load cafes data
+        async function loadCafes() {
+            try {
+                const response = await fetch('cafes-con-coordenadas.json');
+                cafes = await response.json();
+
+                // Filter cafes with coordinates
+                const cafesWithCoords = cafes.filter(c => c.lat && c.lng);
+
+                document.getElementById('cafe-count').textContent =
+                    `${cafesWithCoords.length} cafés en el mapa`;
+
+                renderCafeList(cafesWithCoords);
+                addMarkers(cafesWithCoords);
+            } catch (error) {
+                console.error('Error loading cafes:', error);
+                document.getElementById('cafe-list').innerHTML = `
+                    <div class="loading">
+                        <i class="fas fa-exclamation-circle"></i> Error al cargar los cafés
+                    </div>
+                `;
+            }
+        }
+
+        function renderCafeList(cafeList) {
+            const container = document.getElementById('cafe-list');
+
+            if (cafeList.length === 0) {
+                container.innerHTML = `
+                    <div class="loading">
+                        No se encontraron cafés
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = cafeList.map((cafe, index) => `
+                <div class="cafe-item" data-index="${index}" onclick="focusCafe(${index})">
+                    ${cafe.image ? `<img src="${cafe.image}" alt="${cafe.name}" class="cafe-item-image" onerror="this.style.display='none'">` : ''}
+                    <div class="cafe-item-info">
+                        <div class="cafe-item-name">${cafe.name}</div>
+                        <div class="cafe-item-address">${formatAddress(cafe.address)}</div>
+                        <div class="cafe-item-instagram">@${cafe.instagram}</div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function addMarkers(cafeList) {
+            markers = [];
+
+            cafeList.forEach((cafe, index) => {
+                if (!cafe.lat || !cafe.lng) return;
+
+                const marker = L.marker([cafe.lat, cafe.lng], { icon: cafeIcon })
+                    .addTo(map)
+                    .bindPopup(createPopup(cafe));
+
+                marker.on('click', () => {
+                    highlightCafeItem(index);
+                });
+
+                markers.push(marker);
+            });
+
+            // Fit map to show all markers
+            if (markers.length > 0) {
+                const group = L.featureGroup(markers);
+                map.fitBounds(group.getBounds().pad(0.1));
+            }
+        }
+
+        function createPopup(cafe) {
+            return `
+                <div class="cafe-popup">
+                    ${cafe.image ? `<img src="${cafe.image}" alt="${cafe.name}" class="cafe-popup-image" onerror="this.style.display='none'">` : ''}
+                    <div class="cafe-popup-content">
+                        <div class="cafe-popup-name">${cafe.name}</div>
+                        <div class="cafe-popup-address">${formatAddress(cafe.address)}</div>
+                        <a href="https://instagram.com/${cafe.instagram}" target="_blank" class="cafe-popup-link">
+                            <i class="fab fa-instagram"></i> @${cafe.instagram}
+                        </a>
+                    </div>
+                </div>
+            `;
+        }
+
+        function formatAddress(address) {
+            if (!address) return '';
+            const parts = address.split(',').map(p => p.trim());
+            return parts.slice(0, 2).join(', ');
+        }
+
+        function focusCafe(index) {
+            const cafesWithCoords = cafes.filter(c => c.lat && c.lng);
+            const cafe = cafesWithCoords[index];
+
+            if (cafe && markers[index]) {
+                map.setView([cafe.lat, cafe.lng], 16);
+                markers[index].openPopup();
+                highlightCafeItem(index);
+            }
+        }
+
+        function highlightCafeItem(index) {
+            // Remove previous highlight
+            document.querySelectorAll('.cafe-item').forEach(el => el.classList.remove('active'));
+
+            // Add highlight to current
+            const item = document.querySelector(`.cafe-item[data-index="${index}"]`);
+            if (item) {
+                item.classList.add('active');
+                item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        }
+
+        // Search functionality
+        document.getElementById('search-input').addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const cafesWithCoords = cafes.filter(c => c.lat && c.lng);
+
+            const filtered = cafesWithCoords.filter(cafe =>
+                cafe.name.toLowerCase().includes(query) ||
+                cafe.address?.toLowerCase().includes(query) ||
+                cafe.instagram?.toLowerCase().includes(query)
+            );
+
+            document.getElementById('cafe-count').textContent =
+                `${filtered.length} café${filtered.length !== 1 ? 's' : ''} encontrado${filtered.length !== 1 ? 's' : ''}`;
+
+            renderCafeList(filtered);
+
+            // Update markers visibility
+            markers.forEach((marker, i) => {
+                const cafe = cafesWithCoords[i];
+                const isVisible = filtered.includes(cafe);
+                if (isVisible) {
+                    marker.addTo(map);
+                } else {
+                    map.removeLayer(marker);
+                }
+            });
+        });
+
+        // Load cafes on page load
+        loadCafes();
+    </script>
+</body>
+</html>

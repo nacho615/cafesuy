@@ -1,0 +1,2740 @@
+[
+  {
+    "name": "Acento Café",
+    "instagram": "acento.cafe",
+    "address": "Dr. Bolivar Baliñas 2609, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:30-20:00, Sábados y Domingos 09:00-20:00",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "lunes": "08:30-20:00",
+      "martes": "08:30-20:00",
+      "miercoles": "08:30-20:00",
+      "jueves": "08:30-20:00",
+      "viernes": "08:30-20:00",
+      "sabado": "09:00-20:00",
+      "domingo": "09:00-20:00"
+    },
+    "image": "img/cafes/acento.cafe.jpg",
+    "lat": -34.9249417,
+    "lng": -56.1566555
+  },
+  {
+    "name": "Acevedo",
+    "instagram": "acevedopanycafe",
+    "address": "Durazno 1914, Palermo, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes 15:00-20:00, Miércoles a Sábado 10:00-20:30, Domingo 09:30-19:30",
+    "tags": [
+      "domingos",
+      "descuento-bbva"
+    ],
+    "hours_data": {
+      "martes": "15:00-20:00",
+      "miercoles": "10:00-20:30",
+      "jueves": "10:00-20:30",
+      "viernes": "10:00-20:30",
+      "sabado": "10:00-20:30",
+      "domingo": "09:30-19:30"
+    },
+    "image": "img/cafes/acevedopanycafe.jpg",
+    "lat": -34.909775,
+    "lng": -56.1737603
+  },
+  {
+    "name": "Adagio",
+    "instagram": "adagio_libreriacafe",
+    "address": "Gral. Gregorio Suárez 2741, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Jueves 14:00-20:00, Viernes a Domingos 10:00-20:30",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "martes": "14:00-20:00",
+      "miercoles": "14:00-20:00",
+      "jueves": "14:00-20:00",
+      "viernes": "10:00-20:30",
+      "sabado": "10:00-20:30",
+      "domingo": "10:00-20:30"
+    },
+    "image": "img/cafes/adagio_libreriacafe.jpg"
+  },
+  {
+    "name": "Alto Café",
+    "instagram": "alto_cafe_",
+    "address": "Pérez Castellano 1417 Bis, Ciudad Vieja, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes, Martes, Viernes, Sábado, Domingo 10:00-19:00 (Miércoles y Jueves cerrado)",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "10:00-19:00",
+      "martes": "10:00-19:00",
+      "viernes": "10:00-19:00",
+      "sabado": "10:00-19:00",
+      "domingo": "10:00-19:00"
+    },
+    "image": "img/cafes/alto_cafe_.jpg",
+    "lat": -34.9080079,
+    "lng": -56.2104173
+  },
+  {
+    "name": "Américo Café",
+    "instagram": "somosamerico",
+    "address": "Luis de la Torre 565, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Jueves 10:00-19:00, Viernes a Domingo 10:00-20:00 (Lunes cerrado)",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "martes": "10:00-19:00",
+      "miercoles": "10:00-19:00",
+      "jueves": "10:00-19:00",
+      "viernes": "10:00-20:00",
+      "sabado": "10:00-20:00",
+      "domingo": "10:00-20:00"
+    },
+    "image": "img/cafes/somosamerico.jpg",
+    "lat": -34.9185698,
+    "lng": -56.1590683
+  },
+  {
+    "name": "Atorrante Café",
+    "instagram": "atorrante_cafe",
+    "address": "San José 1300, Centro, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 09:00-20:00, Sábados 10:00-16:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "09:00-20:00",
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "10:00-16:00"
+    },
+    "image": "img/cafes/atorrante_cafe.jpg",
+    "lat": -34.9066926,
+    "lng": -56.1880305
+  },
+  {
+    "name": "Bar Paysandú",
+    "instagram": "paysandu_bar",
+    "address": "Rondeau 1549, Centro, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Jueves 10:30-01:30, Viernes 10:30-02:30, Sábado 11:00-02:30",
+    "tags": [],
+    "hours_data": {
+      "lunes": "10:30-01:30",
+      "martes": "10:30-01:30",
+      "miercoles": "10:30-01:30",
+      "jueves": "10:30-01:30",
+      "viernes": "10:30-02:30",
+      "sabado": "11:00-02:30"
+    },
+    "image": "img/cafes/paysandu_bar.jpg",
+    "lat": -34.9023044,
+    "lng": -56.191897
+  },
+  {
+    "name": "Basílico",
+    "instagram": "basilico_pane",
+    "address": "Carlos Quijano 1284, Centro, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00"
+    },
+    "image": "img/cafes/basilico_pane.jpg",
+    "lat": -34.907059,
+    "lng": -56.1888786
+  },
+  {
+    "name": "Bazar Café",
+    "instagram": "bazarcafeuy",
+    "address": "Juan D. Jackson 966, Parque Rodó, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:30-19:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:30-19:00",
+      "martes": "08:30-19:00",
+      "miercoles": "08:30-19:00",
+      "jueves": "08:30-19:00",
+      "viernes": "08:30-19:00"
+    },
+    "image": "img/cafes/bazarcafeuy.jpg",
+    "lat": -34.9115707,
+    "lng": -56.1726114
+  },
+  {
+    "name": "Bertha",
+    "instagram": "bertha_uy",
+    "address": "José Benito Lamas 2864, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados 09:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "09:00-20:00"
+    },
+    "image": "img/cafes/bertha_uy.jpg",
+    "lat": -34.9129783,
+    "lng": -56.1544148
+  },
+  {
+    "name": "Blanca Café",
+    "instagram": "blancacafe.uy",
+    "address": "Gabriel Pereira 3125, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Domingo a Jueves 09:00-20:00, Viernes 09:00-16:30 (Sábado cerrado)",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "domingo": "09:00-20:00",
+      "lunes": "09:00-20:00",
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-16:30"
+    },
+    "image": "img/cafes/blancacafe.uy.jpg",
+    "lat": -34.908631,
+    "lng": -56.1484623
+  },
+  {
+    "name": "Bonus Gluten Free",
+    "instagram": "bonusglutenfree",
+    "address": "Santiago de Chile 1015, Barrio Sur, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Miércoles a Domingo 16:00-20:00",
+    "tags": [
+      "domingos",
+      "descuento-bbva",
+      "sin-gluten"
+    ],
+    "hours_data": {
+      "miercoles": "16:00-20:00",
+      "jueves": "16:00-20:00",
+      "viernes": "16:00-20:00",
+      "sabado": "16:00-20:00",
+      "domingo": "16:00-20:00"
+    },
+    "image": "img/cafes/bonusglutenfree.jpg",
+    "lat": -34.9115323,
+    "lng": -56.1849445
+  },
+  {
+    "name": "Brava (Aeropuerto)",
+    "instagram": "brava.pan",
+    "address": "Ruta 101 km 19.950, Hall de Arribos, Aeropuerto Internacional de Carrasco, Canelones, Uruguay",
+    "opening_hours": "Lunes a Domingo 07:00-19:00",
+    "tags": [
+      "domingos",
+      "descuento-santander"
+    ],
+    "hours_data": {
+      "lunes": "07:00-19:00",
+      "martes": "07:00-19:00",
+      "miercoles": "07:00-19:00",
+      "jueves": "07:00-19:00",
+      "viernes": "07:00-19:00",
+      "sabado": "07:00-19:00",
+      "domingo": "07:00-19:00"
+    },
+    "image": "img/cafes/brava.pan.jpg"
+  },
+  {
+    "name": "Brava (Ellauri)",
+    "instagram": "brava.pan",
+    "address": "José Ellauri 532, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Domingo 07:30-20:00",
+    "tags": [
+      "domingos",
+      "descuento-santander"
+    ],
+    "hours_data": {
+      "martes": "07:30-20:00",
+      "miercoles": "07:30-20:00",
+      "jueves": "07:30-20:00",
+      "viernes": "07:30-20:00",
+      "sabado": "07:30-20:00",
+      "domingo": "07:30-20:00"
+    },
+    "image": "img/cafes/brava.pan.jpg",
+    "lat": -34.9209369,
+    "lng": -56.1571365
+  },
+  {
+    "name": "Brava (Pablo de María)",
+    "instagram": "brava.pan",
+    "address": "Pablo de María 1018, Parque Rodó, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Domingo 08:30-20:00",
+    "tags": [
+      "domingos",
+      "descuento-santander"
+    ],
+    "hours_data": {
+      "martes": "08:30-20:00",
+      "miercoles": "08:30-20:00",
+      "jueves": "08:30-20:00",
+      "viernes": "08:30-20:00",
+      "sabado": "08:30-20:00",
+      "domingo": "08:30-20:00"
+    },
+    "image": "img/cafes/brava.pan.jpg"
+  },
+  {
+    "name": "Brothaus (Punta Gorda)",
+    "instagram": "brothaus.uy",
+    "address": "Líbano 1428, Punta Gorda, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábado 08:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00"
+    },
+    "image": "img/cafes/brothaus.uy.jpg",
+    "lat": -34.8939323,
+    "lng": -56.0714154
+  },
+  {
+    "name": "Brothaus (Pocitos)",
+    "instagram": "brothaus.uy",
+    "address": "26 de Marzo 1399, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábado 08:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00"
+    },
+    "image": "img/cafes/brothaus.uy.jpg",
+    "lat": -34.9073491,
+    "lng": -56.1456802
+  },
+  {
+    "name": "Brownies Luis",
+    "instagram": "browniesluis",
+    "address": "Luis de la Torre 497, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Domingos 08:15-19:45",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "martes": "08:15-19:45",
+      "miercoles": "08:15-19:45",
+      "jueves": "08:15-19:45",
+      "viernes": "08:15-19:45",
+      "sabado": "08:15-19:45",
+      "domingo": "08:15-19:45"
+    },
+    "image": "img/cafes/browniesluis.jpg",
+    "lat": -34.919417,
+    "lng": -56.1603234
+  },
+  {
+    "name": "Bulka",
+    "instagram": "bulka.cafe",
+    "address": "Guipúzcoa 416, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-19:30, Sábado 10:00-19:30, Domingo 14:00-19:30",
+    "tags": [
+      "domingos",
+      "pet-friendly"
+    ],
+    "hours_data": {
+      "lunes": "08:00-19:30",
+      "martes": "08:00-19:30",
+      "miercoles": "08:00-19:30",
+      "jueves": "08:00-19:30",
+      "viernes": "08:00-19:30",
+      "sabado": "10:00-19:30",
+      "domingo": "14:00-19:30"
+    },
+    "image": "img/cafes/bulka.cafe.jpg",
+    "lat": -34.9239194,
+    "lng": -56.1561249
+  },
+  {
+    "name": "Cacao Seis Montes",
+    "instagram": "cacaoseismontes",
+    "address": "Joaquín de Salterain 1437, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Sábados 15:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "martes": "15:00-20:00",
+      "miercoles": "15:00-20:00",
+      "jueves": "15:00-20:00",
+      "viernes": "15:00-20:00",
+      "sabado": "15:00-20:00"
+    },
+    "image": "img/cafes/cacaoseismontes.jpg",
+    "lat": -34.9026143,
+    "lng": -56.1702981
+  },
+  {
+    "name": "Cafe Valderrama",
+    "instagram": "cafe_valderrama",
+    "address": "Dr. Gabriel Otero 6437, Carrasco, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes 08:15-20:00, Martes a Domingo 08:15-23:30",
+    "tags": [
+      "domingos",
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "lunes": "08:15-20:00",
+      "martes": "08:15-23:30",
+      "miercoles": "08:15-23:30",
+      "jueves": "08:15-23:30",
+      "viernes": "08:15-23:30",
+      "sabado": "08:15-23:30",
+      "domingo": "08:15-23:30"
+    },
+    "image": "img/cafes/cafe_valderrama.jpg",
+    "lat": -34.889124,
+    "lng": -56.0576588
+  },
+  {
+    "name": "Cafelino",
+    "instagram": "cafelino.uy",
+    "address": "Colonia 894, Centro, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 12:00-20:00, Sábados 15:00-20:00 (Domingo cerrado)",
+    "tags": [],
+    "hours_data": {
+      "lunes": "12:00-20:00",
+      "martes": "12:00-20:00",
+      "miercoles": "12:00-20:00",
+      "jueves": "12:00-20:00",
+      "viernes": "12:00-20:00",
+      "sabado": "15:00-20:00"
+    },
+    "image": "img/cafes/cafelino.uy.jpg",
+    "lat": -34.9054729,
+    "lng": -56.1972963
+  },
+  {
+    "name": "Cafetto Prado",
+    "instagram": "cafettoprado",
+    "address": "Av. Joaquín Suárez 3640, Prado, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Miércoles a Sábado 11:00-20:00",
+    "tags": [
+      "descuento-santander"
+    ],
+    "hours_data": {
+      "miercoles": "11:00-20:00",
+      "jueves": "11:00-20:00",
+      "viernes": "11:00-20:00",
+      "sabado": "11:00-20:00"
+    },
+    "image": "img/cafes/cafettoprado.jpg",
+    "lat": -34.8612377,
+    "lng": -56.1962754
+  },
+  {
+    "name": "Café Cinemateca",
+    "instagram": "cinematecacafe",
+    "address": "Bartolomé Mitre 1236, Centro, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 12:00-21:00, Sábado y Domingo 16:00-21:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "12:00-21:00",
+      "martes": "12:00-21:00",
+      "miercoles": "12:00-21:00",
+      "jueves": "12:00-21:00",
+      "viernes": "12:00-21:00",
+      "sabado": "16:00-21:00",
+      "domingo": "16:00-21:00"
+    },
+    "image": "img/cafes/cinematecacafe.jpg",
+    "lat": -34.908515,
+    "lng": -56.2008552
+  },
+  {
+    "name": "Café Cum Panis",
+    "instagram": "cafecumpanis",
+    "address": "Roque Graseras 829 Bis, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 10:00-19:00 (Sábado y Domingo cerrado)",
+    "tags": [],
+    "hours_data": {
+      "lunes": "10:00-19:00",
+      "martes": "10:00-19:00",
+      "miercoles": "10:00-19:00",
+      "jueves": "10:00-19:00",
+      "viernes": "10:00-19:00"
+    },
+    "image": "img/cafes/cafecumpanis.jpg",
+    "lat": -34.9160931,
+    "lng": -56.1510823
+  },
+  {
+    "name": "Café Doré",
+    "instagram": "cafe_dore",
+    "address": "Av. Rivera 2628, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Todos los días 08:00-20:00",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00",
+      "domingo": "08:00-20:00"
+    },
+    "image": "img/cafes/cafe_dore.jpg",
+    "lat": -34.9032175,
+    "lng": -56.1583526
+  },
+  {
+    "name": "Café Paraíso",
+    "instagram": "cafeparaisouy",
+    "address": "Constituyente 1866, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábados 09:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "09:00-20:00",
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00"
+    },
+    "image": "img/cafes/cafeparaisouy.jpg",
+    "lat": -34.9070442,
+    "lng": -56.1759509
+  },
+  {
+    "name": "Café Pura",
+    "instagram": "cafepura.uy",
+    "address": "Av. 18 de Julio 2100, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábados 08:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00"
+    },
+    "image": "img/cafes/cafepura.uy.jpg",
+    "lat": -34.8996882,
+    "lng": -56.1698561
+  },
+  {
+    "name": "Café Social Club",
+    "instagram": "cafe_socialclub",
+    "address": "Plaza Independencia 842, Ciudad Vieja, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-18:30, Sábados y Domingos 10:00-18:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:00-18:30",
+      "martes": "08:00-18:30",
+      "miercoles": "08:00-18:30",
+      "jueves": "08:00-18:30",
+      "viernes": "08:00-18:30",
+      "sabado": "10:00-18:00",
+      "domingo": "10:00-18:00"
+    },
+    "image": "img/cafes/cafe_socialclub.jpg",
+    "lat": -34.9067759,
+    "lng": -56.1985377
+  },
+  {
+    "name": "Café Suárez",
+    "instagram": "cafesuarez",
+    "address": "Av. Joaquín Suárez 3724, Prado, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Sábado 08:30-21:00",
+    "tags": [
+      "descuento-bbva"
+    ],
+    "hours_data": {
+      "martes": "08:30-21:00",
+      "miercoles": "08:30-21:00",
+      "jueves": "08:30-21:00",
+      "viernes": "08:30-21:00",
+      "sabado": "08:30-21:00"
+    },
+    "image": "img/cafes/cafesuarez.jpg",
+    "lat": -34.8600017,
+    "lng": -56.1962739
+  },
+  {
+    "name": "Café Tavoli",
+    "instagram": "cafe_tavoli.uy",
+    "address": "Santiago de Anca 1420, Malvín, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes 15:30-20:30, Miércoles a Viernes 10:00-20:30, Sábado 10:00-21:00, Domingo 15:30-21:00 (Lunes cerrado)",
+    "tags": [
+      "domingos",
+      "pet-friendly"
+    ],
+    "hours_data": {
+      "martes": "15:30-20:30",
+      "miercoles": "10:00-20:30",
+      "jueves": "10:00-20:30",
+      "viernes": "10:00-20:30",
+      "sabado": "10:00-21:00",
+      "domingo": "15:30-21:00"
+    },
+    "image": "img/cafes/cafe_tavoli.uy.jpg",
+    "lat": -34.8945715,
+    "lng": -56.1114783
+  },
+  {
+    "name": "Cali Café",
+    "instagram": "cali__cafe",
+    "address": "Claudio Williman 642, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Jueves 13:00-20:00, Viernes y Sábado 10:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "13:00-20:00",
+      "martes": "13:00-20:00",
+      "miercoles": "13:00-20:00",
+      "jueves": "13:00-20:00",
+      "viernes": "10:00-20:00",
+      "sabado": "10:00-20:00"
+    },
+    "image": "img/cafes/cali__cafe.jpg",
+    "lat": -34.8807598,
+    "lng": -56.2541762
+  },
+  {
+    "name": "Carabele",
+    "instagram": "carabele_",
+    "address": "Dr. Alejandro Schroeder 6558, Carrasco, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 09:00-18:00 (Sábado y Domingo cerrado)",
+    "tags": [
+      "sin-gluten"
+    ],
+    "hours_data": {
+      "lunes": "09:00-18:00",
+      "martes": "09:00-18:00",
+      "miercoles": "09:00-18:00",
+      "jueves": "09:00-18:00",
+      "viernes": "09:00-18:00"
+    },
+    "image": "img/cafes/carabele_.jpg",
+    "lat": -34.885593,
+    "lng": -56.0552301
+  },
+  {
+    "name": "Cardenal Coffee Roasters (Bv España)",
+    "instagram": "cardenalcafe",
+    "address": "Bulevar España 2103, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "12:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "12:00-20:00",
+      "martes": "12:00-20:00",
+      "miercoles": "12:00-20:00",
+      "jueves": "12:00-20:00",
+      "viernes": "12:00-20:00",
+      "sabado": "12:00-20:00",
+      "domingo": "12:00-20:00"
+    },
+    "image": "img/cafes/cardenalcafe.jpg",
+    "lat": -34.9083687,
+    "lng": -56.1705015
+  },
+  {
+    "name": "Cardenal Coffee Roasters (Centro)",
+    "instagram": "cardenalcafe",
+    "address": "Av. 18 de Julio 1813 Bis, Centro, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Sábado 09:00-14:00, Domingo 10:00-15:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "09:00-14:00",
+      "domingo": "10:00-15:00"
+    },
+    "image": "img/cafes/cardenalcafe.jpg",
+    "lat": -34.9064067,
+    "lng": -56.1984144
+  },
+  {
+    "name": "Casa Berracos",
+    "instagram": "casaberracos",
+    "address": "Estero Bellaco 2835, Parque Batlle, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 09:00-20:00, Sábados 12:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "09:00-20:00",
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "12:00-20:00"
+    },
+    "image": "img/cafes/casaberracos.jpg",
+    "lat": -34.888873,
+    "lng": -56.1573437
+  },
+  {
+    "name": "Casa de Abajo Café",
+    "instagram": "casa_de_abajo",
+    "address": "Encina 1663, Palermo, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Miércoles a Domingo 10:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "miercoles": "10:00-20:00",
+      "jueves": "10:00-20:00",
+      "viernes": "10:00-20:00",
+      "sabado": "10:00-20:00",
+      "domingo": "10:00-20:00"
+    },
+    "image": "img/cafes/casa_de_abajo.jpg",
+    "lat": -34.909427,
+    "lng": -56.1790761
+  },
+  {
+    "name": "Charlotte Bakery Café",
+    "instagram": "charlottecafemvd",
+    "address": "José Enrique Rodó 1850, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Domingo 10:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "martes": "10:00-20:00",
+      "miercoles": "10:00-20:00",
+      "jueves": "10:00-20:00",
+      "viernes": "10:00-20:00",
+      "sabado": "10:00-20:00",
+      "domingo": "10:00-20:00"
+    },
+    "image": "img/cafes/charlottecafemvd.jpg",
+    "lat": -34.9042817,
+    "lng": -56.1761488
+  },
+  {
+    "name": "Che.co.ffee",
+    "instagram": "che.co.ffee",
+    "address": "Zabala 1341, Ciudad Vieja, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 09:00-18:30, Sábados 10:00-18:30",
+    "tags": [],
+    "hours_data": {
+      "lunes": "09:00-18:30",
+      "martes": "09:00-18:30",
+      "miercoles": "09:00-18:30",
+      "jueves": "09:00-18:30",
+      "viernes": "09:00-18:30",
+      "sabado": "10:00-18:30"
+    },
+    "image": "img/cafes/che.co.ffee.jpg",
+    "lat": -34.9083182,
+    "lng": -56.2068343
+  },
+  {
+    "name": "Club Cafe",
+    "instagram": "clubcafeprado",
+    "address": "Hermanos Gil 1123, Prado, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados 09:00-12:00 y 16:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "09:00-12:00"
+    },
+    "image": "img/cafes/clubcafeprado.jpg",
+    "lat": -34.8708716,
+    "lng": -56.1989294
+  },
+  {
+    "name": "Club del Pan",
+    "instagram": "clubdelpan.uy",
+    "address": "Gonzalo Ramírez 1485, Palermo, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Sábados 08:30-20:00",
+    "tags": [],
+    "hours_data": {
+      "martes": "08:30-20:00",
+      "miercoles": "08:30-20:00",
+      "jueves": "08:30-20:00",
+      "viernes": "08:30-20:00",
+      "sabado": "08:30-20:00"
+    },
+    "image": "img/cafes/clubdelpan.uy.jpg",
+    "lat": -34.9124482,
+    "lng": -56.183028
+  },
+  {
+    "name": "Contigo Sueño",
+    "instagram": "contigodecocafe",
+    "address": "Alberdi 6046, Carrasco, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes 14:00-20:00, Miércoles a Domingo 08:30-20:00",
+    "tags": [
+      "domingos",
+      "descuento-bbva"
+    ],
+    "hours_data": {
+      "martes": "14:00-20:00",
+      "miercoles": "08:30-20:00",
+      "jueves": "08:30-20:00",
+      "viernes": "08:30-20:00",
+      "sabado": "08:30-20:00",
+      "domingo": "08:30-20:00"
+    },
+    "image": "img/cafes/contigodecocafe.jpg",
+    "lat": -34.8822481,
+    "lng": -56.0725868
+  },
+  {
+    "name": "Costa Café",
+    "instagram": "costacafe2023",
+    "address": "Tomás Diago 843, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Domingo 08:00-22:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:00-22:00",
+      "martes": "08:00-22:00",
+      "miercoles": "08:00-22:00",
+      "jueves": "08:00-22:00",
+      "viernes": "08:00-22:00",
+      "sabado": "08:00-22:00",
+      "domingo": "08:00-22:00"
+    },
+    "image": "img/cafes/costacafe2023.jpg",
+    "lat": -34.915658,
+    "lng": -56.152046
+  },
+  {
+    "name": "Craft Cafe",
+    "instagram": "craftcafemvd",
+    "address": "Av. 8 de Octubre 2771, La Blanqueada, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:30, Sábados 16:00-20:30",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:30",
+      "martes": "08:00-20:30",
+      "miercoles": "08:00-20:30",
+      "jueves": "08:00-20:30",
+      "viernes": "08:00-20:30",
+      "sabado": "16:00-20:30"
+    },
+    "image": "img/cafes/craftcafemvd.jpg",
+    "lat": -34.887603,
+    "lng": -56.1588525
+  },
+  {
+    "name": "Culto Café (Ciudad Vieja)",
+    "instagram": "cultocafeuy",
+    "address": "Sarandí 499, Ciudad Vieja, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-19:00, Sábado 10:00-17:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-19:00",
+      "martes": "08:00-19:00",
+      "miercoles": "08:00-19:00",
+      "jueves": "08:00-19:00",
+      "viernes": "08:00-19:00",
+      "sabado": "10:00-17:00"
+    },
+    "image": "img/cafes/cultocafeuy.jpg",
+    "lat": -34.9075176,
+    "lng": -56.2050585
+  },
+  {
+    "name": "Culto Café (EPA)",
+    "instagram": "cultocafeuy",
+    "address": "Ing. Carlos María Morales 851, Palermo, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Todos los días 08:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00",
+      "domingo": "08:00-20:00"
+    },
+    "image": "img/cafes/cultocafeuy.jpg"
+  },
+  {
+    "name": "Culto Café (Punta Carretas)",
+    "instagram": "cultocafeuy",
+    "address": "Joaquín Núñez 2858, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Todos los días 08:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00",
+      "domingo": "08:00-20:00"
+    },
+    "image": "img/cafes/cultocafeuy.jpg",
+    "lat": -34.921755,
+    "lng": -56.1593759
+  },
+  {
+    "name": "Culto Café (Tostaduria)",
+    "instagram": "cultocafeuy",
+    "address": "Canelones 2154, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Todos los días 08:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00",
+      "domingo": "08:00-20:00"
+    },
+    "image": "img/cafes/cultocafeuy.jpg",
+    "lat": -34.907689,
+    "lng": -56.1767793
+  },
+  {
+    "name": "Cultural Alfabeta",
+    "instagram": "cultural_alfabeta",
+    "address": "Miguel Barreiro 3231, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Domingos 09:00-23:00",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "martes": "09:00-23:00",
+      "miercoles": "09:00-23:00",
+      "jueves": "09:00-23:00",
+      "viernes": "09:00-23:00",
+      "sabado": "09:00-23:00",
+      "domingo": "09:00-23:00"
+    },
+    "image": "img/cafes/cultural_alfabeta.jpg",
+    "lat": -34.9090063,
+    "lng": -56.1466844
+  },
+  {
+    "name": "Desbocada",
+    "instagram": "desbocada.cafe",
+    "address": "Bulevar España 2734, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábado 09:00-19:30",
+    "tags": [],
+    "hours_data": {
+      "lunes": "09:00-19:30",
+      "martes": "09:00-19:30",
+      "miercoles": "09:00-19:30",
+      "jueves": "09:00-19:30",
+      "viernes": "09:00-19:30",
+      "sabado": "09:00-19:30"
+    },
+    "image": "img/cafes/desbocada.cafe.jpg",
+    "lat": -34.9138984,
+    "lng": -56.1544533
+  },
+  {
+    "name": "Desmadre (Centro)",
+    "instagram": "desmadrecafe",
+    "address": "Canelones 1363, Centro, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábado 08:00-20:00",
+    "tags": [
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00"
+    },
+    "image": "img/cafes/desmadrecafe.jpg",
+    "lat": -34.9082805,
+    "lng": -56.1861383
+  },
+  {
+    "name": "Desmadre (Ciudad de la Costa)",
+    "instagram": "desmadrecafe",
+    "address": "Av. Giannattasio km 21.800 esq. Becú, Lagomar, Ciudad de la Costa, Canelones, Uruguay",
+    "opening_hours": "Martes a Domingo 09:00-20:00 (Lunes cerrado)",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00",
+      "domingo": "09:00-20:00"
+    },
+    "image": "img/cafes/desmadrecafe.jpg"
+  },
+  {
+    "name": "Desmadre (Ciudad Vieja)",
+    "instagram": "desmadrecafe",
+    "address": "Pérez Castellanos 1515, Ciudad Vieja, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Domingo 09:00-20:00 (Lunes cerrado)",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00",
+      "domingo": "09:00-20:00"
+    },
+    "image": "img/cafes/desmadrecafe.jpg",
+    "lat": -34.8559003,
+    "lng": -56.158732
+  },
+  {
+    "name": "Desmadre (Cordón)",
+    "instagram": "desmadrecafe",
+    "address": "Dr. Joaquín Requena 1423, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábado 08:30-20:00, Domingo 10:00-18:00",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "lunes": "08:30-20:00",
+      "martes": "08:30-20:00",
+      "miercoles": "08:30-20:00",
+      "jueves": "08:30-20:00",
+      "viernes": "08:30-20:00",
+      "sabado": "08:30-20:00",
+      "domingo": "10:00-18:00"
+    },
+    "image": "img/cafes/desmadrecafe.jpg",
+    "lat": -34.901782,
+    "lng": -56.1692461
+  },
+  {
+    "name": "Desmadre (Jacinto)",
+    "instagram": "desmadrecafe",
+    "address": "Itapebí 2108, Jacinto Vera, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Domingo 09:00-20:00 (Lunes cerrado)",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00",
+      "domingo": "09:00-20:00"
+    },
+    "image": "img/cafes/desmadrecafe.jpg",
+    "lat": -34.8776514,
+    "lng": -56.1705059
+  },
+  {
+    "name": "Desmadre (Pocitos)",
+    "instagram": "desmadrecafe",
+    "address": "Juan Pablo Laguna 3492, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:30-19:30, Sábado 10:00-19:30",
+    "tags": [
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "lunes": "08:30-19:30",
+      "martes": "08:30-19:30",
+      "miercoles": "08:30-19:30",
+      "jueves": "08:30-19:30",
+      "viernes": "08:30-19:30",
+      "sabado": "10:00-19:30"
+    },
+    "image": "img/cafes/desmadrecafe.jpg",
+    "lat": -34.9026139,
+    "lng": -56.1384889
+  },
+  {
+    "name": "Desmadre (Punta Carretas)",
+    "instagram": "desmadrecafe",
+    "address": "21 de Setiembre 3133, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Jueves 08:30-20:00, Viernes y Sábado 08:30-21:00, Domingo 08:30-20:00",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "lunes": "08:30-20:00",
+      "martes": "08:30-20:00",
+      "miercoles": "08:30-20:00",
+      "jueves": "08:30-20:00",
+      "viernes": "08:30-21:00",
+      "sabado": "08:30-21:00",
+      "domingo": "08:30-20:00"
+    },
+    "image": "img/cafes/desmadrecafe.jpg",
+    "lat": -34.9201171,
+    "lng": -56.1498077
+  },
+  {
+    "name": "El Cafecito (Pocitos)",
+    "instagram": "elcafecito.uy",
+    "address": "Miguel Barreiro 3293, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábado 08:00-20:00, Domingos 10:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00",
+      "domingo": "10:00-20:00"
+    },
+    "image": "img/cafes/elcafecito.uy.jpg",
+    "lat": -34.9097225,
+    "lng": -56.1459811
+  },
+  {
+    "name": "El Cafecito (Punta Carretas)",
+    "instagram": "elcafecito.uy",
+    "address": "José Scoseria 2453, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábado 08:00-20:00, Domingos 10:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00",
+      "domingo": "10:00-20:00"
+    },
+    "image": "img/cafes/elcafecito.uy.jpg",
+    "lat": -34.9153979,
+    "lng": -56.1593935
+  },
+  {
+    "name": "Escaramuza",
+    "instagram": "_escaramuza",
+    "address": "Pablo de María 1185, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábados 09:00-21:00",
+    "tags": [
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "lunes": "09:00-21:00",
+      "martes": "09:00-21:00",
+      "miercoles": "09:00-21:00",
+      "jueves": "09:00-21:00",
+      "viernes": "09:00-21:00",
+      "sabado": "09:00-21:00"
+    },
+    "image": "img/cafes/_escaramuza.jpg"
+  },
+  {
+    "name": "Espacio Mirador",
+    "instagram": "miradoruy",
+    "address": "Eduardo Acevedo 899, Parque Rodó, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados 09:30-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "09:30-20:00"
+    },
+    "image": "img/cafes/miradoruy.jpg",
+    "lat": -34.912999,
+    "lng": -56.1738108
+  },
+  {
+    "name": "Estudio-Café",
+    "instagram": "estudio__cafe",
+    "address": "Bulevar General Artigas 1066, Parque Rodó, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados 10:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "10:00-20:00"
+    },
+    "image": "img/cafes/estudio__cafe.jpg",
+    "lat": -34.9095712,
+    "lng": -56.1630863
+  },
+  {
+    "name": "Federación",
+    "instagram": "federacion_uy",
+    "address": "Pérez Castellano 1370, Ciudad Vieja, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes, Martes, Jueves a Domingo 09:00-19:00 (Miércoles cerrado)",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "09:00-19:00",
+      "martes": "09:00-19:00",
+      "jueves": "09:00-19:00",
+      "viernes": "09:00-19:00",
+      "sabado": "09:00-19:00",
+      "domingo": "09:00-19:00"
+    },
+    "image": "img/cafes/federacion_uy.jpg",
+    "lat": -34.9087397,
+    "lng": -56.2099444
+  },
+  {
+    "name": "Flora (Café)",
+    "instagram": "flora.mvd",
+    "address": "Canelones 892, Barrio Sur, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Todos los días 09:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "09:00-20:00",
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00",
+      "domingo": "09:00-20:00"
+    },
+    "image": "img/cafes/flora.mvd.jpg",
+    "lat": -34.9092318,
+    "lng": -56.1969718
+  },
+  {
+    "name": "Flora (Mostrador)",
+    "instagram": "flora.mvd",
+    "address": "Solano García 2487, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Todos los días 09:30-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "09:30-20:00",
+      "martes": "09:30-20:00",
+      "miercoles": "09:30-20:00",
+      "jueves": "09:30-20:00",
+      "viernes": "09:30-20:00",
+      "sabado": "09:30-20:00",
+      "domingo": "09:30-20:00"
+    },
+    "image": "img/cafes/flora.mvd.jpg",
+    "lat": -34.922528,
+    "lng": -56.1594545
+  },
+  {
+    "name": "FRANCA",
+    "instagram": "franca_uy",
+    "address": "Plaza Cagancha 1124, Centro, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 07:30-19:30, Sábados 09:00-16:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "07:30-19:30",
+      "martes": "07:30-19:30",
+      "miercoles": "07:30-19:30",
+      "jueves": "07:30-19:30",
+      "viernes": "07:30-19:30",
+      "sabado": "09:00-16:00"
+    },
+    "image": "img/cafes/franca_uy.jpg",
+    "lat": -34.9065244,
+    "lng": -56.1918714
+  },
+  {
+    "name": "Gallardía Café",
+    "instagram": "gallardia.cafe",
+    "address": "Justicia 2167, Aguada, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábado 09:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "09:00-20:00",
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00"
+    },
+    "image": "img/cafes/gallardia.cafe.jpg",
+    "lat": -34.8952103,
+    "lng": -56.1783806
+  },
+  {
+    "name": "GARI",
+    "instagram": "garicafe.uy",
+    "address": "Humaitá 2708, Parque Batlle, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-19:00, Sábados 09:00-15:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-19:00",
+      "martes": "08:00-19:00",
+      "miercoles": "08:00-19:00",
+      "jueves": "08:00-19:00",
+      "viernes": "08:00-19:00",
+      "sabado": "09:00-15:00"
+    },
+    "image": "img/cafes/garicafe.uy.jpg",
+    "lat": -34.8900349,
+    "lng": -56.1577997
+  },
+  {
+    "name": "Gourmand",
+    "instagram": "cafegourmand.uy",
+    "address": "Constituyente 2026, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Sábados y Domingos 09:30-17:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "sabado": "09:30-17:00",
+      "domingo": "09:30-17:00"
+    },
+    "image": "img/cafes/cafegourmand.uy.jpg",
+    "lat": -34.9060599,
+    "lng": -56.1808071
+  },
+  {
+    "name": "Gutierrez Café",
+    "instagram": "gutierrezcafe_",
+    "address": "José Osorio 1188, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Sábado 08:00-20:00, Domingos 12:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00",
+      "domingo": "12:00-20:00"
+    },
+    "image": "img/cafes/gutierrezcafe_.jpg",
+    "lat": -34.9070979,
+    "lng": -56.1420268
+  },
+  {
+    "name": "HOLI",
+    "instagram": "holicafe_",
+    "address": "Montero 2806 Bis, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Domingo 09:30-19:30 (Lunes cerrado)",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "martes": "09:30-19:30",
+      "miercoles": "09:30-19:30",
+      "jueves": "09:30-19:30",
+      "viernes": "09:30-19:30",
+      "sabado": "09:30-19:30",
+      "domingo": "09:30-19:30"
+    },
+    "image": "img/cafes/holicafe_.jpg",
+    "lat": -34.9204822,
+    "lng": -56.1591884
+  },
+  {
+    "name": "Icónico Café",
+    "instagram": "iconico.cafe",
+    "address": "Dr. Joaquín Requena 1039, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes 16:30-20:00, Martes a Sábado 08:15-20:00, Domingo 12:00-19:00",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "lunes": "16:30-20:00",
+      "martes": "08:15-20:00",
+      "miercoles": "08:15-20:00",
+      "jueves": "08:15-20:00",
+      "viernes": "08:15-20:00",
+      "sabado": "08:15-20:00",
+      "domingo": "12:00-19:00"
+    },
+    "image": "img/cafes/iconico.cafe.jpg",
+    "lat": -34.8974368,
+    "lng": -56.1709989
+  },
+  {
+    "name": "Kaffa Café",
+    "instagram": "kaffacafe__",
+    "address": "Oscar Gestido 2690, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes 14:00-19:30, Martes a Sábado 09:00-19:30",
+    "tags": [],
+    "hours_data": {
+      "lunes": "14:00-19:30",
+      "martes": "09:00-19:30",
+      "miercoles": "09:00-19:30",
+      "jueves": "09:00-19:30",
+      "viernes": "09:00-19:30",
+      "sabado": "09:00-19:30"
+    },
+    "image": "img/cafes/kaffacafe__.jpg",
+    "lat": -34.9062036,
+    "lng": -56.1553025
+  },
+  {
+    "name": "Kaldi (Malvín)",
+    "instagram": "kaldi.uy",
+    "address": "Av. Rivera 4467, Malvín, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 15:00-19:00, Sábados 10:00-19:00, Domingos 10:00-14:30",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "15:00-19:00",
+      "martes": "15:00-19:00",
+      "miercoles": "15:00-19:00",
+      "jueves": "15:00-19:00",
+      "viernes": "15:00-19:00",
+      "sabado": "10:00-19:00",
+      "domingo": "10:00-14:30"
+    },
+    "image": "img/cafes/kaldi.uy.jpg",
+    "lat": -34.8935224,
+    "lng": -56.1168372
+  },
+  {
+    "name": "Kaldi (Punta Carretas)",
+    "instagram": "kaldi.uy",
+    "address": "Joaquín Núñez 2843, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábado 10:00-19:30",
+    "tags": [],
+    "hours_data": {
+      "lunes": "10:00-19:30",
+      "martes": "10:00-19:30",
+      "miercoles": "10:00-19:30",
+      "jueves": "10:00-19:30",
+      "viernes": "10:00-19:30",
+      "sabado": "10:00-19:30"
+    },
+    "image": "img/cafes/kaldi.uy.jpg",
+    "lat": -34.9213505,
+    "lng": -56.1595613
+  },
+  {
+    "name": "Kerop",
+    "instagram": "kerop_uy",
+    "address": "Pérez Castellanos 1495, Ciudad Vieja, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Miércoles a Sábados 10:00-20:00, Domingos 13:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "miercoles": "10:00-20:00",
+      "jueves": "10:00-20:00",
+      "viernes": "10:00-20:00",
+      "sabado": "10:00-20:00",
+      "domingo": "13:00-20:00"
+    },
+    "image": "img/cafes/kerop_uy.jpg",
+    "lat": -34.8559003,
+    "lng": -56.158732
+  },
+  {
+    "name": "Koffee Skates",
+    "instagram": "koffeeskates",
+    "address": "Coronel Mora 495, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 12:00-20:15, Sábado 10:00-20:15",
+    "tags": [
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "lunes": "12:00-20:15",
+      "martes": "12:00-20:15",
+      "miercoles": "12:00-20:15",
+      "jueves": "12:00-20:15",
+      "viernes": "12:00-20:15",
+      "sabado": "10:00-20:15"
+    },
+    "image": "img/cafes/koffeeskates.jpg",
+    "lat": -34.9200873,
+    "lng": -56.1589831
+  },
+  {
+    "name": "La Bicicleta Café",
+    "instagram": "labicicletacafeee",
+    "address": "Bulevar España 2643, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados y Domingos 10:00-20:00",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "10:00-20:00",
+      "domingo": "10:00-20:00"
+    },
+    "image": "img/cafes/labicicletacafeee.jpg",
+    "lat": -34.9129893,
+    "lng": -56.1566471
+  },
+  {
+    "name": "La Croissantería (Ellauri)",
+    "instagram": "lacroissanteria.uy",
+    "address": "José Ellauri 534, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Todos los días 08:00-19:30",
+    "tags": [
+      "domingos",
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "lunes": "08:00-19:30",
+      "martes": "08:00-19:30",
+      "miercoles": "08:00-19:30",
+      "jueves": "08:00-19:30",
+      "viernes": "08:00-19:30",
+      "sabado": "08:00-19:30",
+      "domingo": "08:00-19:30"
+    },
+    "image": "img/cafes/lacroissanteria.uy.jpg",
+    "lat": -34.9209101,
+    "lng": -56.1570322
+  },
+  {
+    "name": "La Croissantería (Pocitos)",
+    "instagram": "lacroissanteria.uy",
+    "address": "26 de Marzo 1267, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Todos los días 08:00-19:30",
+    "tags": [
+      "domingos",
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "lunes": "08:00-19:30",
+      "martes": "08:00-19:30",
+      "miercoles": "08:00-19:30",
+      "jueves": "08:00-19:30",
+      "viernes": "08:00-19:30",
+      "sabado": "08:00-19:30",
+      "domingo": "08:00-19:30"
+    },
+    "image": "img/cafes/lacroissanteria.uy.jpg",
+    "lat": -34.9088164,
+    "lng": -56.1478966
+  },
+  {
+    "name": "La Esquina Café",
+    "instagram": "la_esquina.cafe",
+    "address": "Arocena 1996, Carrasco, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábados 08:30-20:00, Domingos 16:00-20:00",
+    "tags": [
+      "domingos",
+      "descuento-santander"
+    ],
+    "hours_data": {
+      "lunes": "08:30-20:00",
+      "martes": "08:30-20:00",
+      "miercoles": "08:30-20:00",
+      "jueves": "08:30-20:00",
+      "viernes": "08:30-20:00",
+      "sabado": "08:30-20:00",
+      "domingo": "16:00-20:00"
+    },
+    "image": "img/cafes/la_esquina.cafe.jpg",
+    "lat": -34.880902,
+    "lng": -56.0613767
+  },
+  {
+    "name": "La Farmacia Café",
+    "instagram": "cafelafarmacia",
+    "address": "Cerrito 550, Ciudad Vieja, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-19:00, Sábado 09:00-19:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-19:00",
+      "martes": "08:00-19:00",
+      "miercoles": "08:00-19:00",
+      "jueves": "08:00-19:00",
+      "viernes": "08:00-19:00",
+      "sabado": "09:00-19:00"
+    },
+    "image": "img/cafes/cafelafarmacia.jpg",
+    "lat": -34.9047418,
+    "lng": -56.2050893
+  },
+  {
+    "name": "La Isla Café",
+    "instagram": "cafelaisla",
+    "address": "Arocena 1551, Carrasco, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Todos los días 08:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00",
+      "domingo": "08:00-20:00"
+    },
+    "image": "img/cafes/cafelaisla.jpg",
+    "lat": -34.8900371,
+    "lng": -56.0568003
+  },
+  {
+    "name": "La Isla Café (MVD Shopping)",
+    "instagram": "cafelaisla",
+    "address": "Montevideo Shopping, Av. Luis Alberto de Herrera 1290, Buceo, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Jueves y Domingo 10:00-21:00, Viernes y Sábado 10:00-22:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "10:00-21:00",
+      "martes": "10:00-21:00",
+      "miercoles": "10:00-21:00",
+      "jueves": "10:00-21:00",
+      "viernes": "10:00-22:00",
+      "sabado": "10:00-22:00",
+      "domingo": "10:00-21:00"
+    },
+    "image": "img/cafes/cafelaisla.jpg",
+    "lat": -34.9030628,
+    "lng": -56.1363655
+  },
+  {
+    "name": "La Latina Café",
+    "instagram": "lalatina_cafe",
+    "address": "Avenida Brasil 2858, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados y Domingos 11:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "11:00-20:00",
+      "domingo": "11:00-20:00"
+    },
+    "image": "img/cafes/lalatina_cafe.jpg",
+    "lat": -34.910221,
+    "lng": -56.1527457
+  },
+  {
+    "name": "La Luna Bajo Agua",
+    "instagram": "lalunabajoagua",
+    "address": "Canelones 1250, Barrio Sur, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Jueves 15:00-22:00, Viernes 15:00-00:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "15:00-22:00",
+      "martes": "15:00-22:00",
+      "miercoles": "15:00-22:00",
+      "jueves": "15:00-22:00",
+      "viernes": "15:00-00:00"
+    },
+    "image": "img/cafes/lalunabajoagua.jpg",
+    "lat": -34.9084582,
+    "lng": -56.188962
+  },
+  {
+    "name": "La Madriguera Café",
+    "instagram": "la_madriguera_cafe",
+    "address": "Divina Comedia 1666 Bis, Carrasco, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Sábado 08:30-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:30-20:00"
+    },
+    "image": "img/cafes/la_madriguera_cafe.jpg",
+    "lat": -34.8878906,
+    "lng": -56.05909
+  },
+  {
+    "name": "La Pantalla",
+    "instagram": "lapantallamalvin",
+    "address": "Michigan 1404, Malvín, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Viernes 12:00-21:00, Sábados y Domingos 10:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "martes": "12:00-21:00",
+      "miercoles": "12:00-21:00",
+      "jueves": "12:00-21:00",
+      "viernes": "12:00-21:00",
+      "sabado": "10:00-20:00",
+      "domingo": "10:00-20:00"
+    },
+    "image": "img/cafes/lapantallamalvin.jpg",
+    "lat": -34.8956367,
+    "lng": -56.0995895
+  },
+  {
+    "name": "La Resistance Boulangerie (Carrasco)",
+    "instagram": "laresistanceboulangerie",
+    "address": "Potosí 1695, Carrasco, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Domingo 08:30-19:30 (Lunes cerrado)",
+    "tags": [
+      "domingos",
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "martes": "08:30-19:30",
+      "miercoles": "08:30-19:30",
+      "jueves": "08:30-19:30",
+      "viernes": "08:30-19:30",
+      "sabado": "08:30-19:30",
+      "domingo": "08:30-19:30"
+    },
+    "image": "img/cafes/laresistanceboulangerie.jpg",
+    "lat": -34.8869293,
+    "lng": -56.0549257
+  },
+  {
+    "name": "La Resistance Boulangerie (Pocitos)",
+    "instagram": "laresistanceboulangerie",
+    "address": "Libertad 2500, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Domingo 08:30-19:30 (Lunes cerrado)",
+    "tags": [
+      "domingos",
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "martes": "08:30-19:30",
+      "miercoles": "08:30-19:30",
+      "jueves": "08:30-19:30",
+      "viernes": "08:30-19:30",
+      "sabado": "08:30-19:30",
+      "domingo": "08:30-19:30"
+    },
+    "image": "img/cafes/laresistanceboulangerie.jpg",
+    "lat": -34.9114406,
+    "lng": -56.1591242
+  },
+  {
+    "name": "La Resistance Boulangerie (Punta Carretas)",
+    "instagram": "laresistanceboulangerie",
+    "address": "Francisco Solano Antuña 2680, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Domingo 08:30-20:00 (Lunes cerrado)",
+    "tags": [
+      "domingos",
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "martes": "08:30-20:00",
+      "miercoles": "08:30-20:00",
+      "jueves": "08:30-20:00",
+      "viernes": "08:30-20:00",
+      "sabado": "08:30-20:00",
+      "domingo": "08:30-20:00"
+    },
+    "image": "img/cafes/laresistanceboulangerie.jpg",
+    "lat": -34.9176193,
+    "lng": -56.1559409
+  },
+  {
+    "name": "MACOCO Café",
+    "instagram": "macococafe",
+    "address": "Maldonado 1775, Palermo, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 09:00-20:00, Sábado 12:00-20:00 (Domingo cerrado)",
+    "tags": [],
+    "hours_data": {
+      "lunes": "09:00-20:00",
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "12:00-20:00"
+    },
+    "image": "img/cafes/macococafe.jpg",
+    "lat": -34.9085275,
+    "lng": -56.1767046
+  },
+  {
+    "name": "MASA",
+    "instagram": "masacafe_",
+    "address": "Francisco Muñoz 3150, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábado 08:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00"
+    },
+    "image": "img/cafes/masacafe_.jpg",
+    "lat": -34.9052955,
+    "lng": -56.1472886
+  },
+  {
+    "name": "Necio",
+    "instagram": "necio.cafe",
+    "address": "Constituyente 1757, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes y Miércoles 11:00-20:00, Martes, Jueves y Viernes 09:00-20:00, Sábado 09:00-14:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "11:00-20:00",
+      "miercoles": "11:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-14:00"
+    },
+    "image": "img/cafes/necio.cafe.jpg",
+    "lat": -34.9063285,
+    "lng": -56.1782752
+  },
+  {
+    "name": "NONA",
+    "instagram": "nona.uy",
+    "address": "Costa Rica 1555, Carrasco, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Viernes 08:00-20:00, Sábados y Domingos 10:00-20:00",
+    "tags": [
+      "domingos",
+      "descuento-santander",
+      "sin-gluten"
+    ],
+    "hours_data": {
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "10:00-20:00",
+      "domingo": "10:00-20:00"
+    },
+    "image": "img/cafes/nona.uy.jpg",
+    "lat": -34.8897315,
+    "lng": -56.0551862
+  },
+  {
+    "name": "Nueva Malvín",
+    "instagram": "nuevamalvin",
+    "address": "Orinoco 5023, Malvín, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes, Miércoles a Domingo 07:30-20:30 (Martes cerrado)",
+    "tags": [
+      "domingos",
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "miercoles": "07:30-20:30",
+      "jueves": "07:30-20:30",
+      "viernes": "07:30-20:30",
+      "sabado": "07:30-20:30",
+      "domingo": "07:30-20:30"
+    },
+    "image": "img/cafes/nuevamalvin.jpg",
+    "lat": -34.8958906,
+    "lng": -56.0979762
+  },
+  {
+    "name": "Obrador",
+    "instagram": "obradorsocialclub",
+    "address": "Pablo de María 899, Parque Rodó, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábados 09:00-19:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "09:00-19:00",
+      "martes": "09:00-19:00",
+      "miercoles": "09:00-19:00",
+      "jueves": "09:00-19:00",
+      "viernes": "09:00-19:00",
+      "sabado": "09:00-19:00"
+    },
+    "image": "img/cafes/obradorsocialclub.jpg",
+    "lat": -34.9127048,
+    "lng": -56.1703341
+  },
+  {
+    "name": "Olegaria Café",
+    "instagram": "olegariacafe",
+    "address": "Ibiray 2309, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes, Miércoles a Viernes 09:00-19:30, Sábados y Domingos 10:00-20:00 (Martes cerrado)",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "miercoles": "09:00-19:30",
+      "jueves": "09:00-19:30",
+      "viernes": "09:00-19:30",
+      "sabado": "10:00-20:00",
+      "domingo": "10:00-20:00"
+    },
+    "image": "img/cafes/olegariacafe.jpg",
+    "lat": -34.9166028,
+    "lng": -56.1634624
+  },
+  {
+    "name": "Otero",
+    "instagram": "oteroxrotunda",
+    "address": "Gabriel Otero 6590, Carrasco, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Todos los días 09:00-20:00",
+    "tags": [
+      "descuento-santander",
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "09:00-20:00",
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00",
+      "domingo": "09:00-20:00"
+    },
+    "image": "img/cafes/oteroxrotunda.jpg",
+    "lat": -34.8889844,
+    "lng": -56.0530334
+  },
+  {
+    "name": "Panadería Intuitiva",
+    "instagram": "panaderia.intuitiva",
+    "address": "San Salvador 2015, Palermo, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Viernes 07:00-21:00, Sábados y Domingos 15:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "martes": "07:00-21:00",
+      "miercoles": "07:00-21:00",
+      "jueves": "07:00-21:00",
+      "viernes": "07:00-21:00",
+      "sabado": "15:00-20:00",
+      "domingo": "15:00-20:00"
+    },
+    "image": "img/cafes/panaderia.intuitiva.jpg",
+    "lat": -34.9114828,
+    "lng": -56.1782761
+  },
+  {
+    "name": "Patrimonio Café",
+    "instagram": "patrimoniocafe",
+    "address": "Juan Paullier 1294, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 09:00-21:00, Sábados y Domingos 11:00-21:00",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "lunes": "09:00-21:00",
+      "martes": "09:00-21:00",
+      "miercoles": "09:00-21:00",
+      "jueves": "09:00-21:00",
+      "viernes": "09:00-21:00",
+      "sabado": "11:00-21:00",
+      "domingo": "11:00-21:00"
+    },
+    "image": "img/cafes/patrimoniocafe.jpg",
+    "lat": -34.8991064,
+    "lng": -56.1687689
+  },
+  {
+    "name": "PAUSAT",
+    "instagram": "pausatcafe",
+    "address": "Ciudadela 1282, Ciudad Vieja, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:30-20:00, Sábados",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:30-20:00",
+      "martes": "08:30-20:00",
+      "miercoles": "08:30-20:00",
+      "jueves": "08:30-20:00",
+      "viernes": "08:30-20:00"
+    },
+    "image": "img/cafes/pausatcafe.jpg",
+    "lat": -34.9088954,
+    "lng": -56.2000148
+  },
+  {
+    "name": "Peperoncino",
+    "instagram": "peperoncino.uy",
+    "address": "Luis de la Torre 960, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 09:00-19:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "09:00-19:00",
+      "martes": "09:00-19:00",
+      "miercoles": "09:00-19:00",
+      "jueves": "09:00-19:00",
+      "viernes": "09:00-19:00"
+    },
+    "image": "img/cafes/peperoncino.uy.jpg",
+    "lat": -34.9129864,
+    "lng": -56.1562298
+  },
+  {
+    "name": "Pistacho",
+    "instagram": "pistacho_patisserie",
+    "address": "Brito Foresti 2951, Parque Batlle, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes 14:00-18:00, Martes a Viernes 11:00-19:00, Sábados 10:00-18:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "14:00-18:00",
+      "martes": "11:00-19:00",
+      "miercoles": "11:00-19:00",
+      "jueves": "11:00-19:00",
+      "viernes": "11:00-19:00",
+      "sabado": "10:00-18:00"
+    },
+    "image": "img/cafes/pistacho_patisserie.jpg",
+    "lat": -34.8904288,
+    "lng": -56.1518931
+  },
+  {
+    "name": "Plaza Café (Parque Rodó)",
+    "instagram": "plaza_cafe_uy",
+    "address": "Juan D. Jackson 885, Parque Rodó, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Domingo 09:00-21:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "martes": "09:00-21:00",
+      "miercoles": "09:00-21:00",
+      "jueves": "09:00-21:00",
+      "viernes": "09:00-21:00",
+      "sabado": "09:00-21:00",
+      "domingo": "09:00-21:00"
+    },
+    "image": "img/cafes/plaza_cafe_uy.jpg",
+    "lat": -34.9130364,
+    "lng": -56.1726495
+  },
+  {
+    "name": "Plaza Café (Solymar)",
+    "instagram": "plaza_cafe_uy",
+    "address": "La Española, Solymar, Ciudad de la Costa, Canelones, Uruguay",
+    "opening_hours": "07:30-19:30",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "07:30-19:30",
+      "martes": "07:30-19:30",
+      "miercoles": "07:30-19:30",
+      "jueves": "07:30-19:30",
+      "viernes": "07:30-19:30",
+      "sabado": "07:30-19:30",
+      "domingo": "07:30-19:30"
+    },
+    "image": "img/cafes/plaza_cafe_uy.jpg",
+    "lat": -34.9011267,
+    "lng": -56.1658112
+  },
+  {
+    "name": "Polo Bamba",
+    "instagram": "polo_bamba",
+    "address": "26 de Marzo 958, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábado 07:00-00:00, Domingos hasta 19:00",
+    "tags": [
+      "domingos",
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "lunes": "07:00-00:00",
+      "martes": "07:00-00:00",
+      "miercoles": "07:00-00:00",
+      "jueves": "07:00-00:00",
+      "viernes": "07:00-00:00",
+      "sabado": "07:00-00:00"
+    },
+    "image": "img/cafes/polo_bamba.jpg",
+    "lat": -34.912903,
+    "lng": -56.1533086
+  },
+  {
+    "name": "Qahwa Coffee House",
+    "instagram": "qahwacoffeehouse",
+    "address": "Paraguay 1266, Centro, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:30-20:30, Sábados y Domingos 10:00-20:30",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:30-20:30",
+      "martes": "08:30-20:30",
+      "miercoles": "08:30-20:30",
+      "jueves": "08:30-20:30",
+      "viernes": "08:30-20:30",
+      "sabado": "10:00-20:30",
+      "domingo": "10:00-20:30"
+    },
+    "image": "img/cafes/qahwacoffeehouse.jpg",
+    "lat": -34.9076178,
+    "lng": -56.1922199
+  },
+  {
+    "name": "República Rotisería",
+    "instagram": "republica_rotiseria",
+    "address": "Acevedo Díaz 1269, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Sábados 09:00-20:00, Domingos 12:00-16:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00",
+      "domingo": "12:00-16:00"
+    },
+    "image": "img/cafes/republica_rotiseria.jpg",
+    "lat": -34.9043596,
+    "lng": -56.1664119
+  },
+  {
+    "name": "Rioplatense",
+    "instagram": "rioplatense_mvd",
+    "address": "Williman 504, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Miércoles a Lunes 09:00-01:00 (Martes cerrado)",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "miercoles": "09:00-01:00",
+      "jueves": "09:00-01:00",
+      "viernes": "09:00-01:00",
+      "sabado": "09:00-01:00",
+      "domingo": "09:00-01:00",
+      "lunes": "09:00-01:00"
+    },
+    "image": "img/cafes/rioplatense_mvd.jpg",
+    "lat": -34.9183968,
+    "lng": -56.1609778
+  },
+  {
+    "name": "Ritual Cafe",
+    "instagram": "ritualcafe.uy",
+    "address": "Río Negro 1254, Centro, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Domingos 09:00-20:00 (Miércoles cerrado)",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "09:00-20:00",
+      "martes": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00",
+      "domingo": "09:00-20:00"
+    },
+    "image": "img/cafes/ritualcafe.uy.jpg",
+    "lat": -34.9018534,
+    "lng": -56.1940483
+  },
+  {
+    "name": "Ronda",
+    "instagram": "rondaespaciocreativo",
+    "address": "Bulevar España 2141, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes, Miércoles a Sábado 09:00-20:00, Domingos 16:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00",
+      "domingo": "16:00-20:00"
+    },
+    "image": "img/cafes/rondaespaciocreativo.jpg",
+    "lat": -34.9114139,
+    "lng": -56.1617374
+  },
+  {
+    "name": "Río Café & Restaurant",
+    "instagram": "rio.cafe.restaurant",
+    "address": "Carlos Federico Sáez 6430, Carrasco, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Miércoles a Lunes, Desayuno 08:00, Almuerzo 12:00-16:00, Cena 19:00-00:00, Domingo Brunch hasta 16:00",
+    "tags": [
+      "domingos",
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "lunes": "08:00-00:00",
+      "miercoles": "08:00-00:00",
+      "jueves": "08:00-00:00",
+      "viernes": "08:00-00:00",
+      "sabado": "08:00-00:00",
+      "domingo": "08:00-16:00"
+    },
+    "image": "img/cafes/rio.cafe.restaurant.jpg"
+  },
+  {
+    "name": "Saint Germain (Alianza Francesa)",
+    "instagram": "saintgermain.uy",
+    "address": "Bulevar General Artigas 1271, Parque Rodó, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 12:00-20:00, Sábado y Domingo 11:00-20:00",
+    "tags": [
+      "domingos",
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "lunes": "12:00-20:00",
+      "martes": "12:00-20:00",
+      "miercoles": "12:00-20:00",
+      "jueves": "12:00-20:00",
+      "viernes": "12:00-20:00",
+      "sabado": "11:00-20:00",
+      "domingo": "11:00-20:00"
+    },
+    "image": "img/cafes/saintgermain.uy.jpg",
+    "lat": -34.905128,
+    "lng": -56.1640639
+  },
+  {
+    "name": "Saint Germain (Divino)",
+    "instagram": "saintgermain.uy",
+    "address": "Irlanda 2014, Malvín, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes, Miércoles a Domingo 11:30-20:30 (Martes cerrado)",
+    "tags": [
+      "domingos",
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "miercoles": "11:30-20:30",
+      "jueves": "11:30-20:30",
+      "viernes": "11:30-20:30",
+      "sabado": "11:30-20:30",
+      "domingo": "11:30-20:30"
+    },
+    "image": "img/cafes/saintgermain.uy.jpg",
+    "lat": -34.8861181,
+    "lng": -56.1354883
+  },
+  {
+    "name": "Saint Germain (Pocitos)",
+    "instagram": "saintgermain.uy",
+    "address": "Pte. Gral. Oscar Gestido 2805, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Todos los días 08:00-20:00",
+    "tags": [
+      "domingos",
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00",
+      "domingo": "08:00-20:00"
+    },
+    "image": "img/cafes/saintgermain.uy.jpg"
+  },
+  {
+    "name": "Saint Germain (Punta Carretas Shopping)",
+    "instagram": "saintgermain.uy",
+    "address": "Punta Carretas Shopping, José Ellauri 350, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Todos los días 10:00-22:00",
+    "tags": [
+      "domingos",
+      "descuento-itau"
+    ],
+    "hours_data": {
+      "lunes": "10:00-22:00",
+      "martes": "10:00-22:00",
+      "miercoles": "10:00-22:00",
+      "jueves": "10:00-22:00",
+      "viernes": "10:00-22:00",
+      "sabado": "10:00-22:00",
+      "domingo": "10:00-22:00"
+    },
+    "image": "img/cafes/saintgermain.uy.jpg",
+    "lat": -34.9238107,
+    "lng": -56.1587422
+  },
+  {
+    "name": "Santé",
+    "instagram": "santepostresyafines",
+    "address": "El Viejo Pancho 2457, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes, Miércoles a Sábado 09:00-20:00, Domingo 09:00-18:00 (Martes cerrado)",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00",
+      "domingo": "09:00-18:00"
+    },
+    "image": "img/cafes/santepostresyafines.jpg",
+    "lat": -34.9101,
+    "lng": -56.1603718
+  },
+  {
+    "name": "SAUCO",
+    "instagram": "sauco_cafe",
+    "address": "Canelones 1985, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Sábados 16:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "16:00-20:00"
+    },
+    "image": "img/cafes/sauco_cafe.jpg",
+    "lat": -34.907689,
+    "lng": -56.1767793
+  },
+  {
+    "name": "Seis Montes",
+    "instagram": "seismontes",
+    "address": "Av. Rivera 2208, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 09:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "09:00-20:00",
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00"
+    },
+    "image": "img/cafes/seismontes.jpg",
+    "lat": -34.9021912,
+    "lng": -56.1677706
+  },
+  {
+    "name": "Selva Café",
+    "instagram": "selvacafe.uy",
+    "address": "Ruta 101 km 19.300, Canelones, Canelones, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Sábado y Domingo 09:00-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "09:00-20:00",
+      "domingo": "09:00-20:00"
+    },
+    "image": "img/cafes/selvacafe.uy.jpg"
+  },
+  {
+    "name": "Seven Express & Coffee",
+    "instagram": "seven24.uy",
+    "address": "26 de Marzo 3330, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Abierto 24 horas",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "00:00-23:59",
+      "martes": "00:00-23:59",
+      "miercoles": "00:00-23:59",
+      "jueves": "00:00-23:59",
+      "viernes": "00:00-23:59",
+      "sabado": "00:00-23:59",
+      "domingo": "00:00-23:59"
+    },
+    "image": "img/cafes/seven24.uy.jpg",
+    "lat": -34.9067562,
+    "lng": -56.1415194
+  },
+  {
+    "name": "Sometimes Sunday",
+    "instagram": "sometimessundaycafe",
+    "address": "Pérez Castellanos 1518, Ciudad Vieja, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Miércoles a Domingo 09:00-18:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "miercoles": "09:00-18:00",
+      "jueves": "09:00-18:00",
+      "viernes": "09:00-18:00",
+      "sabado": "09:00-18:00",
+      "domingo": "09:00-18:00"
+    },
+    "image": "img/cafes/sometimessundaycafe.jpg",
+    "lat": -34.8559003,
+    "lng": -56.158732
+  },
+  {
+    "name": "Spazio Moka (Artigas)",
+    "instagram": "spazio_moka",
+    "address": "Edificio Joy, Bulevar General Artigas 1296, Parque Rodó, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Sábado 09:00-20:00",
+    "tags": [
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "09:00-20:00"
+    },
+    "image": "img/cafes/spazio_moka.jpg"
+  },
+  {
+    "name": "Spazio Moka (Ellauri)",
+    "instagram": "spazio_moka",
+    "address": "José Ellauri 982, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Domingo 09:00-20:00 (Sábado cerrado)",
+    "tags": [
+      "domingos",
+      "descuento-scotiabank"
+    ],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "domingo": "09:00-20:00"
+    },
+    "image": "img/cafes/spazio_moka.jpg",
+    "lat": -34.9234777,
+    "lng": -56.1597507
+  },
+  {
+    "name": "Talcafé (GO)",
+    "instagram": "talcafeuy",
+    "address": "Acevedo Díaz 1642, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Sábado 14:30-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "14:30-20:00"
+    },
+    "image": "img/cafes/talcafeuy.jpg",
+    "lat": -34.8884974,
+    "lng": -56.1681286
+  },
+  {
+    "name": "Talcafé (SOHO)",
+    "instagram": "talcafeuy",
+    "address": "Maldonado 1827, Palermo, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:00-20:00, Sábado 09:00-14:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "08:00-20:00",
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "09:00-14:00"
+    },
+    "image": "img/cafes/talcafeuy.jpg",
+    "lat": -34.9084622,
+    "lng": -56.1756357
+  },
+  {
+    "name": "Templo Tostadores",
+    "instagram": "templotostadores",
+    "address": "Charrúa 2825, Parque Batlle, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Sábado 09:00-20:00, Domingo 14:00-19:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00",
+      "domingo": "14:00-19:00"
+    },
+    "image": "img/cafes/templotostadores.jpg",
+    "lat": -34.9045353,
+    "lng": -56.1539931
+  },
+  {
+    "name": "The Lab Coffee Roasters (MNAV)",
+    "instagram": "thelabcoffeeroasters",
+    "address": "Museo Nacional de Artes Visuales - Av. Tomás Giribaldi 2283, Parque Rodó, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Domingo 08:30-20:00 (Lunes cerrado)",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "martes": "08:30-20:00",
+      "miercoles": "08:30-20:00",
+      "jueves": "08:30-20:00",
+      "viernes": "08:30-20:00",
+      "sabado": "08:30-20:00",
+      "domingo": "08:30-20:00"
+    },
+    "image": "img/cafes/thelabcoffeeroasters.jpg",
+    "lat": -34.9138391,
+    "lng": -56.1649722
+  },
+  {
+    "name": "The Lab Coffee Roasters (Pocitos)",
+    "instagram": "thelabcoffeeroasters",
+    "address": "Av. Luis Alberto de Herrera 1109, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 08:30-21:00, Sábados y Domingos 09:00-21:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:30-21:00",
+      "martes": "08:30-21:00",
+      "miercoles": "08:30-21:00",
+      "jueves": "08:30-21:00",
+      "viernes": "08:30-21:00",
+      "sabado": "09:00-21:00",
+      "domingo": "09:00-21:00"
+    },
+    "image": "img/cafes/thelabcoffeeroasters.jpg",
+    "lat": -34.9075626,
+    "lng": -56.1364042
+  },
+  {
+    "name": "The Lab Coffee Roasters (Punta Carretas)",
+    "instagram": "thelabcoffeeroasters",
+    "address": "José Luis Zorrilla de San Martín 146, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Todos los días 08:30-21:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "08:30-21:00",
+      "martes": "08:30-21:00",
+      "miercoles": "08:30-21:00",
+      "jueves": "08:30-21:00",
+      "viernes": "08:30-21:00",
+      "sabado": "08:30-21:00",
+      "domingo": "08:30-21:00"
+    },
+    "image": "img/cafes/thelabcoffeeroasters.jpg",
+    "lat": -34.9271281,
+    "lng": -56.1598678
+  },
+  {
+    "name": "Uno Catorce (1:14)",
+    "instagram": "unocatorcecafe",
+    "address": "Joaquín de Salterain 1252, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Sábado 09:00-20:00",
+    "tags": [],
+    "hours_data": {
+      "lunes": "09:00-20:00",
+      "martes": "09:00-20:00",
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00"
+    },
+    "image": "img/cafes/unocatorcecafe.jpg",
+    "lat": -34.9058973,
+    "lng": -56.169752
+  },
+  {
+    "name": "Ventanín",
+    "instagram": "al_ventanin",
+    "address": "Eduardo Víctor Haedo 2053, Cordón, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Miércoles a Sábado 08:30-20:00",
+    "tags": [],
+    "hours_data": {
+      "miercoles": "08:30-20:00",
+      "jueves": "08:30-20:00",
+      "viernes": "08:30-20:00",
+      "sabado": "08:30-20:00"
+    },
+    "image": "img/cafes/al_ventanin.jpg",
+    "lat": -34.8982424,
+    "lng": -56.1731672
+  },
+  {
+    "name": "Vera (Carrasco)",
+    "instagram": "vera.mvd",
+    "address": "Agr. Francisco Ros 2758, Punta Carretas, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Miércoles a Lunes 09:00-20:00 (Martes cerrado)",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "miercoles": "09:00-20:00",
+      "jueves": "09:00-20:00",
+      "viernes": "09:00-20:00",
+      "sabado": "09:00-20:00",
+      "domingo": "09:00-20:00",
+      "lunes": "09:00-20:00"
+    },
+    "image": "img/cafes/vera.mvd.jpg"
+  },
+  {
+    "name": "Vera (WTC)",
+    "instagram": "vera.mvd",
+    "address": "World Trade Center Montevideo, Luis Bonavita 1294, Pocitos Nuevo, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 07:30-17:30",
+    "tags": [],
+    "hours_data": {
+      "lunes": "07:30-17:30",
+      "martes": "07:30-17:30",
+      "miercoles": "07:30-17:30",
+      "jueves": "07:30-17:30",
+      "viernes": "07:30-17:30"
+    },
+    "image": "img/cafes/vera.mvd.jpg",
+    "lat": -34.9048458,
+    "lng": -56.1364283
+  },
+  {
+    "name": "Vicio Café",
+    "instagram": "vicio.cafeok",
+    "address": "Plaza Italia Shopping, Av. Italia 4250, Malvín, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Viernes 09:30-20:00, Sábado y Domingo 09:30-20:30",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "lunes": "09:30-20:00",
+      "martes": "09:30-20:00",
+      "miercoles": "09:30-20:00",
+      "jueves": "09:30-20:00",
+      "viernes": "09:30-20:00",
+      "sabado": "09:30-20:30",
+      "domingo": "09:30-20:30"
+    },
+    "image": "img/cafes/vicio.cafeok.jpg",
+    "lat": -34.8880522,
+    "lng": -56.1178276
+  },
+  {
+    "name": "Villa Dora Café",
+    "instagram": "villadoracafe",
+    "address": "Nueva York 1146, Centro, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Lunes a Jueves 10:00-19:00, Sábado 11:00-18:00 (Viernes y Domingo cerrado)",
+    "tags": [],
+    "hours_data": {
+      "lunes": "10:00-19:00",
+      "martes": "10:00-19:00",
+      "miercoles": "10:00-19:00",
+      "jueves": "10:00-19:00",
+      "sabado": "11:00-18:00"
+    },
+    "image": "img/cafes/villadoracafe.jpg",
+    "lat": -34.8970501,
+    "lng": -56.192993
+  },
+  {
+    "name": "Wild Bakery",
+    "instagram": "wild.bakery",
+    "address": "Bulevar España 2758, Pocitos, Montevideo, Montevideo, Uruguay",
+    "opening_hours": "Martes a Sábado 08:00-20:00, Domingo 08:30-20:00",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "martes": "08:00-20:00",
+      "miercoles": "08:00-20:00",
+      "jueves": "08:00-20:00",
+      "viernes": "08:00-20:00",
+      "sabado": "08:00-20:00",
+      "domingo": "08:30-20:00"
+    },
+    "image": "img/cafes/wild.bakery.jpg",
+    "lat": -34.9142415,
+    "lng": -56.1532244
+  },
+  {
+    "name": "Café L'Atelier Casciani",
+    "instagram": "cafe_atelier_casciani",
+    "address": "Sarandí 294 esquina Colón, Ciudad Vieja, Montevideo, Uruguay",
+    "opening_hours": "L-V 9-18hs, S-D 10-20hs",
+    "tags": [
+      "domingos"
+    ],
+    "image": "img/cafes/cafe_atelier_casciani.jpg"
+  },
+  {
+    "name": "Harta Café",
+    "instagram": "hartacafe",
+    "address": "Plácido Ellauri 3252 esq Buxareo, Pocitos, Montevideo, Uruguay",
+    "opening_hours": "M-V 15-20:30hs, S-D 10-12:30 y 15-20:30hs",
+    "tags": [
+      "domingos"
+    ],
+    "image": "img/cafes/hartacafe.jpg"
+  },
+  {
+    "name": "Café Bertin",
+    "instagram": "cafebertin",
+    "address": "Av. Dr. Juan Bautista Alberdi 6047, Carrasco, Montevideo, Uruguay",
+    "opening_hours": "M-J 10-20:30hs, V-S 10-00hs, D 10-20:30hs",
+    "tags": [
+      "domingos"
+    ],
+    "hours_data": {
+      "domingo": "10:00-20:30",
+      "lunes": null,
+      "martes": "10:00-20:30",
+      "miercoles": "10:00-20:30",
+      "jueves": "10:00-20:30",
+      "viernes": "10:00-00:00",
+      "sabado": "10:00-00:00"
+    },
+    "image": "img/cafes/cafebertin.jpg",
+    "lat": -34.8822481,
+    "lng": -56.0725868
+  }
+]
