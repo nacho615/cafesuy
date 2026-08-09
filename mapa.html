@@ -413,8 +413,8 @@
     </div>
 
     <script>
-        // Initialize map centered on Montevideo
-        const map = L.map('map').setView([-34.9011, -56.1645], 13);
+        // Initialize map centered on Montevideo (Pocitos/Punta Carretas area)
+        const map = L.map('map').setView([-34.9100, -56.1580], 14);
 
         // Add OpenStreetMap tiles
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -514,11 +514,8 @@
                 markers.push(marker);
             });
 
-            // Fit map to show all markers
-            if (markers.length > 0) {
-                const group = L.featureGroup(markers);
-                map.fitBounds(group.getBounds().pad(0.1));
-            }
+            // Keep the initial centered view instead of fitting all markers
+            // This focuses on the main cafe area (Pocitos/Punta Carretas/Centro)
         }
 
         function createPopup(cafe) {
