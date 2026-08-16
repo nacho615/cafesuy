@@ -1550,8 +1550,7 @@
       "address": "Michigan 1404, Malvín, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Martes a Viernes 12:00-21:00, Sábados y Domingos 10:00-20:00",
       "tags": [
-        "domingos",
-        "descuento-itau"
+        "domingos"
       ],
       "hours_data": {
         "martes": "12:00-21:00",
