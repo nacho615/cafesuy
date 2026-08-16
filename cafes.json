@@ -740,7 +740,8 @@
       "address": "Tomás Diago 843, Pocitos, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Lunes a Domingo 08:00-22:00",
       "tags": [
-        "domingos"
+        "domingos",
+        "descuento-scotiabank"
       ],
       "hours_data": {
         "lunes": "08:00-22:00",
@@ -1479,7 +1480,8 @@
       "address": "Montevideo Shopping, Av. Luis Alberto de Herrera 1290, Buceo, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Lunes a Jueves y Domingo 10:00-21:00, Viernes y Sábado 10:00-22:00",
       "tags": [
-        "domingos"
+        "domingos",
+        "descuento-santander"
       ],
       "hours_data": {
         "lunes": "10:00-21:00",
@@ -1548,7 +1550,8 @@
       "address": "Michigan 1404, Malvín, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Martes a Viernes 12:00-21:00, Sábados y Domingos 10:00-20:00",
       "tags": [
-        "domingos"
+        "domingos",
+        "descuento-itau"
       ],
       "hours_data": {
         "martes": "12:00-21:00",
