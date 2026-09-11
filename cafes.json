@@ -230,6 +230,26 @@
       "image": "img/cafes/brava.pan.jpg"
     },
     {
+      "name": "Brava (Otero)",
+      "instagram": "brava.pan",
+      "address": "Dr. Gabriel Otero 6433, Montevideo, Montevideo, Uruguay",
+      "opening_hours": "Lunes a Domingo 07:30-20:00",
+      "tags": [
+        "domingos",
+        "descuento-santander"
+      ],
+      "hours_data": {
+        "lunes": "07:30-20:00",
+        "martes": "07:30-20:00",
+        "miercoles": "07:30-20:00",
+        "jueves": "07:30-20:00",
+        "viernes": "07:30-20:00",
+        "sabado": "07:30-20:00",
+        "domingo": "07:30-20:00"
+      },
+      "image": "img/cafes/brava.pan.jpg"
+    },
+    {
       "name": "Brava (Ellauri)",
       "instagram": "brava.pan",
       "address": "José Ellauri 532, Punta Carretas, Montevideo, Montevideo, Uruguay",
