@@ -604,7 +604,7 @@
       "address": "Bulevar España 2103, Cordón, Montevideo, Montevideo, Uruguay",
       "opening_hours": "12:00-20:00",
       "tags": [
-        "domingos"
+        "domingos", "descuento-scotiabank"
       ],
       "hours_data": {
         "lunes": "12:00-20:00",
@@ -623,7 +623,7 @@
       "address": "Av. 18 de Julio 1813 Bis, Centro, Montevideo, Montevideo, Uruguay",
       "opening_hours": "Lunes a Viernes 08:00-20:00, Sábado 09:00-14:00, Domingo 10:00-15:00",
       "tags": [
-        "domingos"
+        "domingos", "descuento-scotiabank"
       ],
       "hours_data": {
         "lunes": "08:00-20:00",
