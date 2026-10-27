@@ -2416,39 +2416,6 @@
       "image": "img/cafes/al_ventanin.jpg"
     },
     {
-      "name": "Vera (Carrasco)",
-      "instagram": "vera.mvd",
-      "address": "Agr. Francisco Ros 2758, Punta Carretas, Montevideo, Montevideo, Uruguay",
-      "opening_hours": "Miércoles a Lunes 09:00-20:00 (Martes cerrado)",
-      "tags": [
-        "domingos"
-      ],
-      "hours_data": {
-        "miercoles": "09:00-20:00",
-        "jueves": "09:00-20:00",
-        "viernes": "09:00-20:00",
-        "sabado": "09:00-20:00",
-        "domingo": "09:00-20:00",
-        "lunes": "09:00-20:00"
-      },
-      "image": "img/cafes/vera.mvd.jpg"
-    },
-    {
-      "name": "Vera (WTC)",
-      "instagram": "vera.mvd",
-      "address": "World Trade Center Montevideo, Luis Bonavita 1294, Pocitos Nuevo, Montevideo, Montevideo, Uruguay",
-      "opening_hours": "Lunes a Viernes 07:30-17:30",
-      "tags": [],
-      "hours_data": {
-        "lunes": "07:30-17:30",
-        "martes": "07:30-17:30",
-        "miercoles": "07:30-17:30",
-        "jueves": "07:30-17:30",
-        "viernes": "07:30-17:30"
-      },
-      "image": "img/cafes/vera.mvd.jpg"
-    },
-    {
       "name": "Vicio Café",
       "instagram": "vicio.cafeok",
       "address": "Plaza Italia Shopping, Av. Italia 4250, Malvín, Montevideo, Montevideo, Uruguay",
