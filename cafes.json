@@ -653,6 +653,24 @@
       "image": "img/cafes/casaberracos.jpg"
     },
     {
+      "name": "Casa Ombú",
+      "instagram": "casa_ombu",
+      "address": "Luis de la Torre 918, Pocitos, Montevideo, Montevideo, Uruguay",
+      "opening_hours": "Martes a Viernes 09:00-20:00, Sábado y Domingo 10:00-20:00",
+      "tags": [
+        "domingos"
+      ],
+      "hours_data": {
+        "martes": "09:00-20:00",
+        "miercoles": "09:00-20:00",
+        "jueves": "09:00-20:00",
+        "viernes": "09:00-20:00",
+        "sabado": "10:00-20:00",
+        "domingo": "10:00-20:00"
+      },
+      "image": "img/cafes/casa_ombu.jpg"
+    },
+    {
       "name": "Casa de Abajo Café",
       "instagram": "casa_de_abajo",
       "address": "Encina 1663, Palermo, Montevideo, Montevideo, Uruguay",
@@ -2274,6 +2292,24 @@
         "sabado": "09:00-14:00"
       },
       "image": "img/cafes/talcafeuy.jpg"
+    },
+    {
+      "name": "Talcafé (Rambla)",
+      "instagram": "talcaferambla",
+      "address": "Dr Luis Piera 1969, Parque Rodó, Montevideo, Montevideo, Uruguay",
+      "opening_hours": "Martes a Domingo 09:00-20:00, Viernes y Sábado 09:00-21:00",
+      "tags": [
+        "domingos"
+      ],
+      "hours_data": {
+        "martes": "09:00-20:00",
+        "miercoles": "09:00-20:00",
+        "jueves": "09:00-20:00",
+        "viernes": "09:00-21:00",
+        "sabado": "09:00-21:00",
+        "domingo": "09:00-20:00"
+      },
+      "image": "img/cafes/talcaferambla.jpg"
     },
     {
       "name": "Templo Tostadores",
