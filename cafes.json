@@ -653,6 +653,45 @@
       "image": "img/cafes/casaberracos.jpg"
     },
     {
+      "name": "Casa Café (Bulevar España)",
+      "instagram": "casacafeuy",
+      "address": "Bv. España 2680, Pocitos, Montevideo, Montevideo, Uruguay",
+      "opening_hours": "Lunes a Domingo 07:00-23:00",
+      "tags": [
+        "domingos"
+      ],
+      "hours_data": {
+        "lunes": "07:00-23:00",
+        "martes": "07:00-23:00",
+        "miercoles": "07:00-23:00",
+        "jueves": "07:00-23:00",
+        "viernes": "07:00-23:00",
+        "sabado": "07:00-23:00",
+        "domingo": "07:00-23:00"
+      },
+      "image": "img/cafes/casacafeuy.jpg",
+      "review_url": "https://www.instagram.com/p/DfnmmrsmzUV/"
+    },
+    {
+      "name": "Casa Café (El Pinar)",
+      "instagram": "casacafeuy",
+      "address": "Av. Pérez Butler Parada 14, El Pinar, Ciudad de la Costa, Canelones, Uruguay",
+      "opening_hours": "Lunes a Domingo 07:00-23:00",
+      "tags": [
+        "domingos"
+      ],
+      "hours_data": {
+        "lunes": "07:00-23:00",
+        "martes": "07:00-23:00",
+        "miercoles": "07:00-23:00",
+        "jueves": "07:00-23:00",
+        "viernes": "07:00-23:00",
+        "sabado": "07:00-23:00",
+        "domingo": "07:00-23:00"
+      },
+      "image": "img/cafes/casacafeuy.jpg"
+    },
+    {
       "name": "Casa Ombú",
       "instagram": "casa_ombu",
       "address": "Luis de la Torre 918, Pocitos, Montevideo, Montevideo, Uruguay",
